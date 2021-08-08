@@ -1,0 +1,2130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi, initial-scale=1, user-scalable=no">
+<title><#756#> - <#564#></title>
+<link rel="stylesheet" href="./mobile/css/jquery.mobile.css"></link>
+<link rel="stylesheet" href="./mobile/css/qis.css"></link>
+<link rel="stylesheet" href="./mobile/css/icon.css"></link>
+<link rel="stylesheet" href="./mobile.customize/customize.css"></link>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./mobile/js/verge.min.js"></script>
+<script type="text/javascript" src="./mobile/js/jquery.mobile.js"></script>
+<script type="text/javascript" src="./require/require.min.js"></script>
+<script type="text/javascript" src="./validator.js"></script>
+<script type="text/javascript" src="./js/httpApi.js"></script>
+<script type="text/javascript" src="./mobile/js/plugins.js"></script>
+<script type="text/javascript" src="./mobile/js/qisData.js"></script>
+<script type="text/javascript" src="./mobile/js/handler.js"></script>
+<script>
+$(document).ready(function(){
+document.querySelector("meta[name=viewport]").setAttribute(
+'content', 'width=' + verge.viewportW() + ', target-densitydpi=device-dpi, initial-scale=' + (0.5*verge.viewportW())/375 + ', maximum-scale=1, user-scalable=no'
+);
+$("#welcomeTitle").html("<#773#>".replace("Lyra", "<#757#>").replace("BLUE_CAVE", "BLUE CAVE"));
+$("#welcome_button").html("<#774#>".replace(" Lyra ", ""));
+$(".secureInput").click(checkPasswd);
+$("div[data-role='page']").append("<div class='footerPadding'></div>");
+$(".headerBar").html(Get_Component_Header());
+handleModelIcon();
+setTimeout(function(){
+var initNvram = httpApi.nvramGet(["wan0_proto", "wan0_pppoe_username", "wan0_pppoe_passwd", "wan0_dnsenable_x", "sw_mode", "wlc_psta", "wl_ifnames", "wl_version", "productid", "rc_support", "x_Setting", "preferred_lang", "territory_code", "reboot_time", "lan_ipaddr", "wlc_dpsta"]);
+systemVariable.historyPage = [];
+systemVariable.originWanType = initNvram.wan0_proto;
+if(systemVariable.originWanType == "pppoe" || systemVariable.originWanType == "pptp" || systemVariable.originWanType == "l2tp"){
+systemVariable.originPppAccount.username = initNvram.wan0_pppoe_username;
+systemVariable.originPppAccount.password = initNvram.wan0_pppoe_passwd;
+}
+systemVariable.wanDnsenable = initNvram.wan0_dnsenable_x;
+systemVariable.originOpMode = (function(){
+if(initNvram.sw_mode == "2" && (initNvram.wlc_psta == "0" || initNvram.wlc_psta == "") && (initNvram.wlc_dpsta == "0" || initNvram.wlc_dpsta == "")) return "RP";
+else if(initNvram.sw_mode == "3" && initNvram.wlc_psta == "2" && (initNvram.wlc_dpsta == "0" || initNvram.wlc_dpsta == "")) return "RP";
+else if(initNvram.sw_mode == "3" && initNvram.wlc_psta == "2" && initNvram.wlc_dpsta == "1") return "RP";
+else if(initNvram.sw_mode == "3" && (initNvram.wlc_psta == "0" || initNvram.wlc_psta == "") && (initNvram.wlc_dpsta == "0" || initNvram.wlc_dpsta == "")) return "AP";
+else if(initNvram.sw_mode == "2" && initNvram.wlc_psta == "1" && (initNvram.wlc_dpsta == "0" || initNvram.wlc_dpsta == "")) return "MB";
+else if(initNvram.sw_mode == "3" && initNvram.wlc_psta == "1" && (initNvram.wlc_dpsta == "0" || initNvram.wlc_dpsta == "")) return "MB";
+else return "RT";
+})();
+systemVariable.opMode = systemVariable.originOpMode;
+systemVariable.wirelessBand = initNvram.wl_ifnames.split(" ").length;
+systemVariable.sdkVersion = initNvram.wl_version.split(".")[0];
+systemVariable.productid = initNvram.productid;
+systemVariable.rcSupport = initNvram.rc_support;
+systemVariable.isDefault = (function(){return (initNvram.x_Setting == '0' || initNvram.x_Setting == '') ? true : false;})();
+systemVariable.uiLanguage = initNvram.preferred_lang;
+systemVariable.territoryCode = initNvram.territory_code;
+systemVariable.rebootTime = initNvram.reboot_time;
+systemVariable.lanIpaddr = initNvram.lan_ipaddr;
+systemVariable.forceChangePw = (httpApi.hookGet("check_pw") == '1') ? true : false;
+systemVariable.linkLnternet = httpApi.isConnected();
+if(isSupport("2p5G_LWAN"))
+systemVariable.originWansExtwan = httpApi.nvramGet(["wans_extwan"]).wans_extwan;
+if(isSupport("10G_LWAN") || isSupport("10GS_LWAN"))
+systemVariable.originWansDualwan = httpApi.nvramGet(["wans_dualwan"]).wans_dualwan;
+$("#switchWanTagContainer").append(Get_Component_ISPSelect);
+$("#switch_wantag").attr("class", "optionInput");
+var allWlArray = getAllWlArray();
+for(var i = 0; i < allWlArray.length; i += 1){
+systemVariable.multiPAP.wlcStatus["wlc" + allWlArray[i].ifname + "_checked"] = false;
+systemVariable.multiPAP.wlcStatus["wlc" + allWlArray[i].ifname + "_manual"] = false;
+systemVariable.multiPAP.wlcStatus["wlc" + allWlArray[i].ifname + "_skip"] = false;
+}
+handleSysDep();
+var getJsonFromUrl = (function(){
+var query = location.search.substr(1);
+var result = {};
+query.split("&").forEach(function(part) {
+var item = part.split("=");
+result[item[0]] = decodeURIComponent(item[1]);
+});
+return result;
+})();
+switch(getJsonFromUrl["flag"] || ""){
+case "sitesurvey_rep":
+goTo.rpMode();
+break;
+case "lanip":
+goTo.apMode();
+break;
+case "sitesurvey_mb":
+goTo.mbMode();
+break;
+case "manual":
+goTo.opMode();
+break;
+case "pppoe":
+goTo.PPPoE();
+break;
+case "wireless":
+goTo.Wireless();
+break;
+case "amasrole_page":
+goTo.chooseRole();
+break;
+case "amasnode_page":
+goTo.asNode();
+break;
+default:
+goTo.Welcome();
+break;
+}
+if(initNvram.isError) setTimeout(arguments.callee, 1000);
+}, 500);
+});
+</script>
+</head>
+<body>
+<div id="welcome" data-role="page" class="qisBackgroundIndex">
+<div class="headerBarIndex">
+<table style="width:100%">
+<tr>
+<td style="width:17px;">
+<div style="margin-right:20px;">
+<a onclick="goTo.Finish()">
+<div class="icon_menu"></div>
+</a>
+</div>
+</td>
+<td style="width:130px;">
+<div>
+<div class="icon_logo"></div>
+</div>
+</td>
+<td>
+<div class="model_welcome"></div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tableContainerIndex">
+<div id="welcomeTitle"></div>
+<div class="pageDesc" style="display:none"></div>
+<div class="productIconContainer nonROG">
+<div><div id="ModelPid_img"></div></div>
+</div>
+<div class="productIconContainer ROG" style="display:none">
+<div><div id="ROGLOGO"></div></div>
+</div>
+<div style="text-align:center;margin:50px 0">
+<div id="welcome_button" onclick="apply.welcome();"></div>
+</div>
+<div style="margin:auto;width:600px;text-align:center;">
+<a href="#" class="advSetting" onclick="goTo.advSetting()"><#314#></a>
+</div>
+<div class="tos tosSupport">
+<input id="tosCheckbox" type="checkbox" />
+<span id="tosTitle">By using ASUS AiProtection, you agree to the</span>
+<a href="#" onclick="goTo.AsusPP()">ASUS Privacy Policy</a>,
+<a href="#" onclick="goTo.AsusToS()">ASUS Terms of Use</a> and
+<a href="#" onclick="goTo.TMToS()">Trend Micro End User License Agreement</a>.
+</div>
+</div>
+</div>
+<div id="advanced_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#344#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="amasSupport amasNoWAN">
+<div class="pageDesc"><#26#></div>
+<div>
+<div class="selectorTopContainer">
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.asNode()"><#34#></div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="height: 50px" class="amasNoWAN"></div>
+<div class="pageDesc"><#372#></div>
+<div>
+<div class="selectorTopContainer">
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="apply.changeOpMode()"><#371#></div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="height: 50px"></div>
+<div class="pageDesc"><#2645#></div>
+<div>
+<div class="selectorTopContainer" id="settingProfileBar">
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div class="selectBar">
+<label for="setting_profile"><#1443#></label>
+<div style="display:none">
+<input id="setting_profile" type="file" name="file" class="input" style="display:none" onchange="apply.upload();" />
+</div>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.advSetting()'><#192#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:100%;" onclick='abort.advSetting()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="login_name" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1431#></div>
+<div class="titleSub"><#2990#> / <#411#></div>
+<div class="titleSub"><#2648#></div>
+</div>
+</div>
+<div class="table_td">
+<div id="login_desc" class="pageDesc"><#520#></div>
+<div id="login_field">
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#641#></div>
+</div>
+<div class="inputContainer">
+<input id="http_username" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="20" class="textInput" data-role="none" value="" data-clear-btn="true" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#400#></div>
+<div class="secureInput icon_eye_close" for="http_passwd http_passwd_confirm"></div>
+</div>
+<div class="inputContainer">
+<input id="http_passwd" type="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="17" class="textInput" data-role="none" value="" data-clear-btn="true" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#401#></div>
+</div>
+<div class="inputContainer">
+<input id="http_passwd_confirm" type="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="17" class="textInput" data-role="none" value="" data-clear-btn="true" />
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn btn_login_abort" onclick='abort.login()'><#192#></div>
+<div class="desktop_applyBtn btn_login_apply" onclick="apply.login();"><#191#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort btn_login_abort" style="width:50%" onclick='abort.login()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+<td class="mobileApply btn_login_apply" onclick="apply.login();">
+<div class="mobile_applyBtn btn_login_apply"><#191#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="resetModem_page" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#561#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc">
+<div><#3575#></div>
+<div><#497#></div>
+</div>
+<div id="resetModemContainer">
+<div class="unplug" id="resetModem"></div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.resetModem()'><#604#></div>
+<div class="desktop_applyBtn" onclick="apply.manual();"><#308#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.resetModem()'>
+<div class="mobile_abortBtn"><#604#></div>
+</td>
+<td class="mobileApply" onclick="apply.manual();">
+<div class="mobile_applyBtn"><#308#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="waiting_page" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#605#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc">
+<div><#606#></div>
+</div>
+<div class="cssload-bellContainer">
+<div class="cssload-bell">
+<div class="cssload-circle">
+<div class="cssload-inner"></div>
+</div>
+<div class="cssload-circle">
+<div class="cssload-inner"></div>
+</div>
+<div class="cssload-circle">
+<div class="cssload-inner"></div>
+</div>
+<div class="cssload-circle">
+<div class="cssload-inner"></div>
+</div>
+<div class="cssload-circle">
+<div class="cssload-inner"></div>
+</div>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_applyBtn" onclick="apply.manual()"><#308#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileApply" onclick="apply.manual()">
+<div class="mobile_applyBtn"><#308#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="opMode_page" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#344#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#372#></div>
+<div>
+<div class="selectorTopContainer">
+<div class="selectorContainer routerSupport">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.rtMode()">
+<#375#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer repeaterSupport">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.rpMode()">
+<#390#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.apMode()">
+<#369#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer pstaSupport">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.mbMode()">
+<#377#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer amasSupport">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.amasIntro()">
+AiMesh
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.opMode()'><#192#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:100%;" onclick='abort.opMode()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="noWan_page" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#561#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc">
+<#440#>
+</div>
+<div>
+<div id="noWanContainer">
+<div><img id="noWanPic" width="504" src="/images/WANunplug.png"></div>
+<div><img id="noWanEth" width="504" src="/images/WANunplug_eth.png"></div>
+<div><img id="noWanUsb" width="504" src="/images/WANunplug_usb.png"></div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick="abort.nowan()"><#192#></div>
+<div class="desktop_applyBtn" onclick="apply.manual()"><#308#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.nowan()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+<td class="mobileApply" onclick="apply.manual()">
+<div class="mobile_applyBtn"><#308#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="accountPrompt_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#181#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#553#></div>
+<div>
+<div class="selectorTopContainer" id="test">
+<div class="selectorContainer">
+<div class="selectorContainerDiv" onclick="goTo.dailIP()">
+<div class="selectBar">
+<#176#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="selectorTopContainer">
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.autoIP()">
+<#175#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.wanType()'><#192#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:100%;" onclick='abort.wanType()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wanTypePrompt_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#181#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#553#></div>
+<div>
+<div class="selectorTopContainer" id="test">
+<div class="selectorContainer">
+<div class="selectorContainerDiv" onclick="goTo.PPPoE()">
+<div class="selectBar">
+<#176#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="selectorTopContainer">
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.DHCP()">
+<#175#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.wanType()'><#192#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:100%;" onclick='abort.wanType()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wan_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#181#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc" id="connTypeDesc"><#571#></div>
+<div>
+<div class="selectorTopContainer">
+<div class="selectorContainer autoIP">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.DHCP()">
+<#161#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer dailIP">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.PPPoE()">
+PPPoE
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer autoIP">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.Static()">
+<#162#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer dailIP vpnClient">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.PPTP()">
+PPTP
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer dailIP vpnClient">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.L2TP()">
+L2TP
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer autoIP amasSupport amasNoWAN">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.asNode()"><#34#></div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div id= "wan_iptv_checkbox">
+<div id="iptv_check_container" class="labelContainer iptv">
+<label for="iptv_checkbox" class="labelInput"><#415#></label>
+<input type="checkbox" id="iptv_checkbox" value="1" data-mini="true" />
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.wan()'><#192#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:100%;" onclick='abort.wan()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wanOption_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#181#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc" id="connTypeDesc"><#294#></div>
+<div>
+<div class="selectorTopContainer">
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="apply.WAN1G();">
+<#3159#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer LWAN_2p5G">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="apply.WAN2p5G();">
+2.5G <#3145#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer LWAN_10G">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="apply.WAN10G();">
+10G base-T
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer LWAN_10GS">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="apply.WAN10GS();">
+10G SFP+
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer modem">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="apply.WANModem();">
+<#336#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.wanType()'><#192#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:100%;" onclick='abort.wanType()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="getIp_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#2243#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#291#></div>
+<div>
+<div class="selectorTopContainer">
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.vpnDHCP()">
+<#161#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.vpnStatic()">
+<#2216#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.getIp()'><#192#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:100%;" onclick='abort.getIp()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="pppoe_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#600#></div>
+</div>
+</div>
+<div class="table_td">
+<div id="pppoe_desc" class="pageDesc"><#548#></div>
+<div id="pppoe_field">
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#2990#></div>
+</div>
+<div class="inputContainer">
+<input id="wan_pppoe_username" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="64" class="textInput pppInput" data-role="none" value="" data-clear-btn="true" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#411#></div>
+<div class="secureInput icon_eye_close" for="wan_pppoe_passwd"></div>
+</div>
+<div class="inputContainer">
+<input id="wan_pppoe_passwd" type="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="64" class="textInput pppInput" data-role="none" value="" data-clear-btn="true" />
+</div>
+</div>
+<div id="vpnServerContainer" style="display:none">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#164#></div>
+</div>
+<div class="inputContainer">
+<input id="wan_heartbeat_x" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="64" class="textInput pppInput" data-role="none" value="" data-clear-btn="true" />
+</div>
+</div>
+<div id="pppoe_iptv_checkbox"></div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.pppoe()'><#192#></div>
+<div class="desktop_applyBtn" onclick="apply.pppoe();"><#191#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.pppoe()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+<td class="mobileApply" onclick="apply.pppoe();">
+<div class="mobile_applyBtn"><#191#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="static_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#162#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#552#></div>
+<div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#241#></div>
+</div>
+<div class="inputContainer">
+<input id="static_ipaddr" class="textInput staticInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#252#></div>
+</div>
+<div class="inputContainer">
+<input id="static_subnet" class="textInput staticInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#250#></div>
+</div>
+<div class="inputContainer">
+<input id="static_gateway" class="textInput staticInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#244#></div>
+</div>
+<div class="inputContainer">
+<input id="static_dns1" class="textInput staticInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#246#></div>
+</div>
+<div class="inputContainer">
+<input id="static_dns2" class="textInput staticInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.static()'><#192#></div>
+<div class="desktop_applyBtn" onclick="apply.static();"><#191#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.static()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+<td class="mobileApply" onclick="apply.static();">
+<div class="mobile_applyBtn"><#191#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="iptv_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#627#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#415#></div>
+<div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#645#></div>
+</div>
+<div class="inputContainer" id="switchWanTagContainer">
+</div>
+</div>
+<div id="iptv_voip">
+<div class="inputTitleContainer">
+<div class="inputTitle" id="iptv_voip_title">VoIP Port</div>
+</div>
+<div class="inputContainer">
+<input class="textInput" id="iptv_voip_port" data-role="none" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" value="LAN3" disabled />
+</div>
+</div>
+<div id="iptv_stb">
+<div class="inputTitleContainer">
+<div class="inputTitle" id="iptv_stb_title">IPTV STB Port</div>
+</div>
+<div class="inputContainer">
+<input class="textInput" id="iptv_stb_port" data-role="none" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" value="LAN4" disabled />
+</div>
+</div>
+<div id="iptv_manual">
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#1989#></div>
+</div>
+<div class="inputContainer">
+<div class="ui-grid-a">
+<div class="ui-block ui-block-a">
+VID: <input class="textInput textInputIptv" id="internet_vid" data-role="none" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+<div class="ui-block ui-block-b">
+PRIO: <input class="textInput textInputIptv" id="internet_prio" data-role="none" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+</div>
+</div>
+<div id="manual_iptv_settings">
+<div class="inputTitleContainer">
+<div class="inputTitle" id="manual_iptv_port">IPTV (LAN port 4)</div>
+</div>
+<div class="inputContainer">
+<div class="ui-grid-a">
+<div class="ui-block ui-block-a">
+VID: <input class="textInput textInputIptv" id="stb_vid" data-role="none" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+<div class="ui-block ui-block-b">
+PRIO: <input class="textInput textInputIptv" id="stb_prio" data-role="none" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+</div>
+</div>
+<div id="manual_voip_settings">
+<div class="inputTitleContainer">
+<div class="inputTitle" id="manual_voip_port">VoIP (LAN port 3):</div>
+</div>
+<div class="inputContainer">
+<div class="ui-grid-a">
+<div class="ui-block ui-block-a">
+VID: <input class="textInput textInputIptv" id="voip_vid" data-role="none" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+<div class="ui-block ui-block-b">
+PRIO: <input class="textInput textInputIptv" id="voip_prio" data-role="none" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="iptv_wanSetup">
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#241#></div>
+</div>
+<div class="inputContainer">
+<input id="iptv_ipaddr" class="textInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#252#></div>
+</div>
+<div class="inputContainer">
+<input id="iptv_netmask" class="textInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#250#></div>
+</div>
+<div class="inputContainer">
+<input id="iptv_gateway" class="textInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#244#></div>
+</div>
+<div class="inputContainer">
+<input id="iptv_dns1" class="textInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#246#></div>
+</div>
+<div class="inputContainer">
+<input id="iptv_dns2" class="textInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#2475#></div>
+</div>
+<div class="inputContainer">
+<select id="iptv_auth_mode" class="optionInput">
+<option value=""><#761#></option>
+<option value="8021x-md5">802.1x MD5</option>
+</select>
+</div>
+</div>
+<div class="iptv_pppoe_setting">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#2990#></div>
+</div>
+<div class="inputContainer">
+<input id="iptv_pppoe_username" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="64" class="textInput" data-role="none" value="" data-clear-btn="true" />
+</div>
+</div>
+<div class="iptv_pppoe_setting">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#411#></div>
+<div class="secureInput icon_eye_close" for="iptv_pppoe_passwd"></div>
+</div>
+<div class="inputContainer">
+<input id="iptv_pppoe_passwd" type="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="64" class="textInput" data-role="none" value="" data-clear-btn="true" />
+</div>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.iptv()'><#192#></div>
+<div class="desktop_applyBtn" onclick="apply.iptv();"><#191#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.iptv()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+<td class="mobileApply" onclick="apply.iptv();">
+<div class="mobile_applyBtn"><#191#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="simpin_setting" data-role="page" class="qisBackground" >
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#2308#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc" id="sim_desc"><#2277#></div>
+<div>
+<div id="pin_setting" class="dongle">
+<div class="inputTitleContainer">
+<div class="inputTitle"><span id="sim_input_title"><#2439#></span>&nbsp;&nbsp;<span style="font-size: 0.75em;">(<#2285#>: <span id="remaing_num"></span>)</span></div>
+<div class="secureInput icon_eye_close" for="sim_pincode"></div>
+</div>
+<div class="inputContainer">
+<input id="sim_pincode" class="textInput" data-role="none" type="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-clear-btn="true" />
+<span id="verify_pincode_status" class="inputTitle hint_yellow" style="display:none;"></span>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.simpin()'><#192#></div>
+<div id="pin_apply" class="desktop_applyBtn sim_pin_apply" onclick="apply.simpin();"><#184#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.simpin()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+<td class="mobileApply" onclick="apply.simpin();">
+<div id="pin_mobileApply" class="mobile_applyBtn sim_pin_apply"><#184#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="simunlock_selection" data-role="page" class="qisBackground" >
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#2308#></div>
+</div>
+</div>
+<div id="lock_selection" class="table_td">
+<div class="pageDesc" id="connTypeDesc"><#2297#></div>
+<div>
+<div class="selectorTopContainer">
+<div class="selectorContainer autoIP">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.PUK()">
+<#2311#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer dailIP">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.Wireless()">
+<#196#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.simunblock()'><#192#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:100%;" onclick='abort.simunblock()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="simpuk_setting" data-role="page" class="qisBackground" >
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#2308#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#2282#></div>
+<div>
+<div class="dongle">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#2281#></span>&nbsp;&nbsp;<span style="font-size: 0.75em;">(<#2285#>: <span id="puk_remaing_num"></span>)</span></div>
+<div class="secureInput icon_eye_close" for="sim_puk"></div>
+</div>
+<div class="inputContainer">
+<input id="sim_puk" class="textInput" data-role="none" type="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-clear-btn="true" />
+<span id="verify_puk_status" class="inputTitle hint_yellow" style="display:none;"></span>
+</div>
+</div>
+<div id="new_pin_div" class="dongle">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#2271#></div>
+<div class="secureInput icon_eye_close" for="new_pincode"></div>
+</div>
+<div class="inputContainer">
+<input id="new_pincode" class="textInput" data-role="none" type="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-clear-btn="true" />
+<span id="new_pincode_status" class="inputTitle hint_yellow" style="display:none;"></span>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.simpuk()'><#192#></div>
+<div class="desktop_applyBtn sim_puk_apply" onclick="apply.simpuk();"><#191#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.simpuk()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+<td class="mobileApply" onclick="apply.simpuk();">
+<div class="mobile_applyBtn sim_puk_apply"><#191#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="modem_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#336#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#1951#></div>
+<div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#2621#></div>
+</div>
+<div class="inputContainer">
+<select id="modem_android" class="optionInput">
+<option value="0"><#336#></option>
+<option value="1"><#1234#></option>
+</select>
+</div>
+</div>
+<div class="dongle">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#1239#></div>
+</div>
+<div class="inputContainer">
+<select id="modem_autoapn" class="optionInput">
+<option value="1">Automatic</option>
+<option value="0"><#308#></option>
+</select>
+</div>
+</div>
+<div style="display:none" class="dongle modem_manual">
+<div id="modem_country_container">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#1946#></div>
+</div>
+<div class="inputContainer">
+<select id="modem_country" class="optionInput"></select>
+</div>
+</div>
+<div id="modem_isp_container">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#1957#></div>
+</div>
+<div class="inputContainer">
+<select id="modem_isp" class="optionInput"></select>
+</div>
+</div>
+<div id="modem_enable_container">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#336#></div>
+</div>
+<div class="inputContainer">
+<select id="modem_enable" class="optionInput">
+<option value="1" selected>WCDMA (UMTS)</option>
+<option value="2">CDMA2000 (EVDO)</option>
+<option value="3">TD-SCDMA</option>
+<option value="4">WiMAX</option>
+</select>
+</div>
+</div>
+<div id="modem_apn_container">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#1962#></div>
+</div>
+<div class="inputContainer">
+<input id="modem_apn" class="textInput" data-role="none" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div id="modem_dialnum_container">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#1949#></div>
+</div>
+<div class="inputContainer">
+<input id="modem_dialnum" class="textInput" data-role="none" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#2990#></div>
+</div>
+<div class="inputContainer">
+<input id="modem_user" class="textInput" data-role="none" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#411#></div>
+</div>
+<div class="inputContainer">
+<input id="modem_pass" class="textInput" data-role="none" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+</div>
+<div class="dongle">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#2475#></div>
+</div>
+<div class="inputContainer">
+<select id="modem_authmode" class="optionInput">
+<option value="0"><#761#></option>
+<option value="1">PAP</option>
+<option value="2">CHAP</option>
+<option value="3">PAP / CHAP</option>
+</select>
+</div>
+</div>
+<div class="dongle">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#2439#></div>
+<div class="secureInput icon_eye_close" for="modem_pincode"></div>
+</div>
+<div class="inputContainer">
+<input id="modem_pincode" class="textInput" data-role="none" type="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-clear-btn="true" />
+</div>
+</div>
+<div id="modem_ttlsid_container">
+<div class="inputTitleContainer">
+<div class="inputTitle">E-mail</div>
+</div>
+<div class="inputContainer">
+<input id="modem_ttlsid" class="textInput" data-role="none" data-clear-btn="true" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle">USB MTU</div>
+</div>
+<div class="inputContainer">
+<input id="modem_mtu" class="textInput" data-role="none" data-clear-btn="true" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="5" />
+</div>
+</div>
+<div class="dongle">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#1963#></div>
+</div>
+<div class="inputContainer">
+<select id="Dev3G" class="optionInput"></select>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.modem()'><#192#></div>
+<div class="desktop_applyBtn" onclick="apply.modem();"><#191#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.modem()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+<td class="mobileApply" onclick="apply.modem();">
+<div class="mobile_applyBtn"><#191#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="getLanIp_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#286#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#291#></div>
+<div>
+<div class="selectorTopContainer">
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.lanDHCP()">
+<#161#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="goTo.lanStatic()">
+<#2216#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.getLanIp()'><#192#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:100%;" onclick='abort.getLanIp()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="lanStatic_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#162#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#552#></div>
+<div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#241#></div>
+</div>
+<div class="inputContainer">
+<input id="static_lan_ipaddr" class="textInput lanStaticInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#252#></div>
+</div>
+<div class="inputContainer">
+<input id="static_lan_subnet" class="textInput lanStaticInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#250#></div>
+</div>
+<div class="inputContainer">
+<input id="static_lan_gateway" class="textInput lanStaticInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#244#></div>
+</div>
+<div class="inputContainer">
+<input id="static_lan_dns1" class="textInput lanStaticInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#246#></div>
+</div>
+<div class="inputContainer">
+<input id="static_lan_dns2" class="textInput lanStaticInput" data-role="none" onkeypress="return validator.isIPAddr(this, event);" maxlength="15" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.lanStatic()'><#192#></div>
+<div class="desktop_applyBtn" onclick="apply.lanStatic();"><#191#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.lanStatic()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+<td class="mobileApply" onclick="apply.lanStatic();">
+<div class="mobile_applyBtn"><#191#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="siteSurvey_page" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#3258#></div>
+</div>
+<div class="table_td">
+<div id="siteSurvey_search">
+<div class="pageDesc"><#3585#></div>
+<div id="siteSurveyLoading" class="selectorTopContainer"></div>
+</div>
+<div id="siteSurvey_fail">
+<div class="pageDesc"><#102#></div>
+<div class="selectorTopContainer ">
+<div class="cssload-bellContainer">
+<div class="siteSurveyRescan icon_rescan" onclick="goTo.siteSurvey();" title="<#531#>"></div>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.siteSurvey()'><#192#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%;" onclick='abort.siteSurvey()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="papList_page" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#3258#></div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#470#></div>
+<div>
+<div class="ap_title_container">
+<div class="icon_rescan ap_title_icon" onclick='goTo.siteSurvey();'></div>
+<div class="icon_sorting ap_title_icon" onclick='handleSortField();'></div>
+<div style="clear:both;"></div>
+</div>
+<div id="apList" class="selectorTopContainer"></div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.papList()'><#192#></div>
+<div class="desktop_applyBtn" onclick="goTo.wlcManual();"><#308#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%;" onclick='abort.papList()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+<td class="mobileApply" onclick="goTo.wlcManual();">
+<div class="mobile_applyBtn"><#308#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="sort_background" class="sort_background" onclick="handleSortField();"></div>
+<div id="sort_field" class="sort_field">
+<table>
+<tr>
+<td>
+<div class="ap_sort_text"><#538#></div></div>
+</td>
+<td>
+<div class="ap_sort_icon_background" onclick="sortAP('alpha', 'down')">
+<div class="icon_sort_alphabet_A ap_sort_icon_container"></div>
+</div>
+</td>
+<td>
+<div class="ap_sort_icon_background" onclick="sortAP('alpha', 'top')">
+<div class="icon_sort_alphabet_Z ap_sort_icon_container"></div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<div class="ap_sort_line"></div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="ap_sort_text"><#539#></div></div>
+</td>
+<td>
+<div class="ap_sort_icon_background" onclick="sortAP('signal', 'top')">
+<div class="icon_sort_signal_high ap_sort_icon_container"></div>
+</div>
+</td>
+<td>
+<div class="ap_sort_icon_background" onclick="sortAP('signal', 'down')">
+<div class="icon_sort_signal_low ap_sort_icon_container"></div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<div class="ap_sort_line"></div>
+</td>
+</tr>
+<tr id="sortByBand">
+<td>
+<div class="ap_sort_text"><#540#></div>
+</td>
+<td>
+<div class="ap_sort_icon_background" onclick="sortAP('band', 'down')">
+<div class="icon_sort_band_2g ap_sort_icon_container"></div>
+</div>
+</td>
+<td>
+<div class="ap_sort_icon_background" onclick="sortAP('band', 'top')">
+<div class="icon_sort_band_5g ap_sort_icon_container"></div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="wlcKey_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#360#></div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#3210#></div>
+<div id="wlc_field">
+<div class="manual_pap_setup" id="manual_pap_setup-band">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#1987#></div>
+</div>
+<div class="inputContainer">
+<select id="wlc_band_manual" class="optionInput"></select>
+</div>
+</div>
+<div class="manual_pap_setup" id="manual_pap_setup-ssid">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#491#></div>
+</div>
+<div class="inputContainer">
+<input id="wlc_ssid_manual" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="32" class="textInput" data-role="none" value="" data-clear-btn="true" />
+</div>
+</div>
+<div class="manual_pap_setup" id="manual_pap_setup-authmode">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#3220#></div>
+</div>
+<div class="inputContainer">
+<select id="wlc_auth_mode_manual" class="optionInput">
+<option value="open">Open System</option>
+<option value="shared">Shared Key</option>
+<option value="psk">WPA-Personal</option>
+<option value="psk2" selected>WPA2-Personal</option>
+</select>
+<div class="inputTitle hint_yellow" id="manual_pap_setup-nmode_hint">
+<#3385#>
+</div>
+</div>
+</div>
+<div class="manual_pap_setup" id="manual_pap_setup-crypto">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#767#></div>
+</div>
+<div class="inputContainer">
+<select id="wlc_crypto_manual" class="optionInput">
+<option value="aes">AES</option>
+<option value="tkip">TKIP</option>
+</select>
+</div>
+</div>
+<div class="manual_pap_setup" id="manual_pap_setup-wep">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#3274#></div>
+</div>
+<div class="inputContainer">
+<select id="wlc_wep_manual" class="optionInput">
+<option value="0"><#761#></option>
+<option value="1">WEP-64bits</option>
+<option value="2">WEP-128bits</option>
+</select>
+</div>
+</div>
+<div class="manual_pap_setup" id="manual_pap_setup-key-index">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#763#></div>
+</div>
+<div class="inputContainer">
+<select id="wlc_key_index_manual" class="optionInput">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select>
+</div>
+</div>
+<div id="manual_pap_setup-key">
+<div class="inputTitleContainer">
+<div class="inputTitle"><#492#></div>
+<div class="secureInput icon_eye_close" for="wlc_wifiKey"></div>
+</div>
+<div class="inputContainer">
+<input id="wlc_wifiKey" type="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="64" class="textInput wlcInput" data-role="none" value="" data-clear-btn="true" />
+</div>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.wlcKey();'><#192#></div>
+<div class="desktop_applyBtn" onclick="apply.wlcKey();"><#191#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.wlcKey();'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+<td class="mobileApply" onclick="apply.wlcKey();">
+<div class="mobile_applyBtn"><#191#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="wireless_setting" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div class="titleMain"><#315#></div>
+<div class="titleSub"><#2648#></div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#594#></div>
+<div id="wlInputField"></div>
+<div class="labelContainer dualbandSupport bandStreeringSupport">
+<label for="wireless_checkbox" class="labelInput"><#597#></label>
+<input type="checkbox" id="wireless_checkbox" data-mini="true"/>
+</div>
+<div class="labelContainer" id="syncSSID" style="display:none;">
+<label for="wireless_sync_checkbox" class="labelInput"><#558#></label>
+<input type="checkbox" id="wireless_sync_checkbox" data-mini="true"/>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.wireless();'><#192#></div>
+<div class="desktop_applyBtn btn_wireless_apply" onclick="apply.wireless();"><#184#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.wireless();'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+<td class="mobileApply" onclick="apply.wireless();">
+<div class="mobile_applyBtn btn_wireless_apply"><#184#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="update_page" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#347#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#214#></div>
+<!--div class="pageDesc forceUpgrade"><#3574#></div-->
+<div>
+<div>
+<div class="inputTitleContainer">
+<div class="inputTitle"><#93#></div>
+</div>
+<div class="inputContainer">
+<input id="newVersion" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="textInput" data-role="none" disabled />
+</div>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" id="desktop_abortBtn_update" onclick='abort.update();'><#186#></div>
+<div class="desktop_applyBtn" id="desktop_applyBtn_update" onclick="apply.update();"><#1442#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.update();'>
+<div class="mobile_abortBtn" id="mobile_abortBtn_update"><#186#></div>
+</td>
+<td class="mobileApply" onclick="apply.update();">
+<div class="mobile_applyBtn" id="mobile_applyBtn_update"><#1442#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="upgrading_page" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#347#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc">
+<div><#306#></div>
+</div>
+<div>
+<div>
+<div class="inputContainer">
+<div id="liveUpdateStatus" class="descInput"></div>
+</div>
+</div>
+<div class="cssload-bellContainer">
+<div class="cssload-bell detectIcon">
+<div class="cssload-circle">
+<div class="cssload-inner"></div>
+</div>
+<div class="cssload-circle">
+<div class="cssload-inner"></div>
+</div>
+<div class="cssload-circle">
+<div class="cssload-inner"></div>
+</div>
+<div class="cssload-circle">
+<div class="cssload-inner"></div>
+</div>
+<div class="cssload-circle">
+<div class="cssload-inner"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="upgradeBtn" style="display:none">
+<div class="footer_desktop" class="display:none">
+<div class="desktop_applyBtn" onclick="goTo.Finish()"><#191#></div>
+</div>
+<div class="footer_mobile" class="display:none">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileApply" onclick="goTo.Finish()">
+<div class="mobile_applyBtn"><#191#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="uploading_page" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#1443#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc">
+<div><#2630#></div>
+</div>
+<div class="loadingBarContainer">
+<div class="loadingBar" id="profileLoadingBar"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="summary_page" data-role="page" class="qisBackground">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#487#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#608#></div> <!-- #Congratulations# &nbsp; -->
+<div class="pageDesc">
+<div class="descSteps">Step 1</div>
+<div id="stepText1"><#204#></div>
+</div>
+<div>
+<div id="wirelessFinishFiled"></div>
+</div>
+<div class="pageDesc">
+<div class="descSteps">Step 2</div>
+<div id="stepText2"><#3576#></div>
+</div>
+<div id="finishButton" style="display:none">
+<div class="footer_desktop">
+<div class="desktop_applyBtn" onclick="goTo.leaveQIS();"><#615#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileApply" onclick="goTo.leaveQIS();">
+<div class="mobile_applyBtn"><#615#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="amasintro_page" data-role="page" class="qisBackground aimeshPages"></div>
+<div id="amasrole_page" data-role="page" class="qisBackground aimeshPages"></div>
+<div id="amasconncap_page" data-role="page" class="qisBackground aimeshPages"></div>
+<div id="amasnode_page" data-role="page" class="qisBackground aimeshPages"></div>
+<div id="amasrestore_page" data-role="page" class="qisBackground aimeshPages"></div>
+<div id="amasbundle_page" data-role="page" class="qisBackground aimeshPages">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div>
+<div class="titleMain"><#487#></div>
+</div>
+</div>
+<div class="table_td">
+<div class="pageDesc">
+<#26#>
+<br/>
+<#51#>
+<div class="amasIconContainer">
+<div><img src="images\New_ui\amesh\Amesh_button_light.png"></div>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.amasbundle();'><#1425#></div>
+<div class="desktop_applyBtn" onclick="apply.amasbundle();"><#52#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%" onclick='abort.amasbundle();'>
+<div class="mobile_abortBtn"><#1425#></div>
+</td>
+<td class="mobileApply" onclick="apply.amasbundle();">
+<div class="mobile_applyBtn"><#52#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="amaserr_connrouter_page" data-role="page" class="qisBackground aimeshPages"></div>
+<div id="amaserr_manual_page" data-role="page" class="qisBackground aimeshPages"></div>
+<div id="tmtos_page" data-role="page" class="qisBackground"></div>
+<div id="asuspp_page" data-role="page" class="qisBackground"></div>
+<div id="asustos_page" data-role="page" class="qisBackground"></div>
+<div id="boostKey_page" data-role="page" class="qisBackground"></div>
+<div id="axMode_page" data-role="page" class="qisBackground"></div>
+<div id="amas_option_page" data-role="page" class="qisBackground aimeshPages">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#3584#></div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#54#> :</div>
+<div class="selectorTopContainer">
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div id="connectAiMesh" class="selectBar">
+<#55#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer">
+<div class="selectorContainerDiv">
+<div id="connectOther" class="selectBar">
+<#56#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer_desktop">
+<div class="desktop_abortBtn" onclick='abort.siteSurvey()'><#192#></div>
+</div>
+<div class="footer_mobile">
+<table style="width:100%;" cellpadding="0" cellspacing="0">
+<tr>
+<td class="mobileAbort" style="width:50%;" onclick='abort.siteSurvey()'>
+<div class="mobile_abortBtn"><#192#></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="yadns_page" data-role="page" class="qisBackground yadnsSupport">
+<div class="headerBar"></div>
+<div class="tableContainer">
+<div class="desktop_left_field">
+<div class="titleMain"><#1989#></div>
+<div class="titleSub"><#3411#></div>
+</div>
+<div class="table_td">
+<div class="pageDesc"><#3412#></div>
+<div class="pageDesc"><#3425#></div>
+<div class="selectorTopContainer">
+<div class="selectorContainer routerSupport">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="apply.yadnsEnable();">
+<#176#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer routerSupport">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="apply.yadnsSafe();">
+<#176#>. <#3424#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+<div class="selectorContainer repeaterSupport">
+<div class="selectorContainerDiv">
+<div class="selectBar" onclick="apply.yadnsDisable();">
+<#175#>
+</div>
+<div class="narrowContainer">
+<div class="icon_arrow_right" style="width:20px;height:32px;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+

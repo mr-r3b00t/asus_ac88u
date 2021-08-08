@@ -1,0 +1,3638 @@
+﻿English
+繁體中文
+简体中文
+Česky
+Polski
+Pусский
+Deutsch
+Español
+Français
+Türkçe
+ไทย
+Malay
+Norsk
+Suomi
+Dansk
+Svensk
+Português(Brazil)
+日本語
+Italiano
+Український
+Hungarian
+Romanian
+한국어
+Nederlands
+Slovenščina
+BOM
+AiMesh 는 2 개이상의ASUS라우터를결합하여중앙에서집안전체를관리할수있는 AiMesh 시스템을구성합니다.
+네트워크맵에서\"검색\"버튼을클릭하여 AiMesh 노드를찾을수있습니다. <br>주변에 AiMesh 시스템에추가하는데사용할수있는 AiMesh 노드가있는경우해당노드가사용가능한 AiMesh 노드목록에표시됩니다.
+주변에서사용가능한AiMesh노드를찾을수없는경우:
+1. AiMesh 노드를리셋하고다시시도합니다.
+2. AiMesh 노드가최신상태인지확인합니다. (펌웨어버전이AiMesh를지원해야함)
+지원되는펌웨어찾기
+AiMesh 시스템은 ASUS 라우터로 구성됩니다. 하나의 라우터가 AiMesh 라우터가 되고 추가적인 AiMesh 노드를 추가하여 네트워크를 확장할 수 있습니다.
+이더넷 케이블을 사용하여 모델을 라우터의 WAN 포트에 연결하십시오.
+이 장치를 AiMesh 노드로 설정하려고 합니다.
+[Next(다음)] 버튼을 눌러 이 AiMesh 노드를 초기화한 후 AiMesh 노드를 AiMesh 라우터 근처에 배치하십시오.
+AiMesh 라우터를 사용자의 모바일/NB/PC에 다시 연결하십시오.
+이 장치를 AiMesh 라우터로 설정하려고 합니다.
+모바일/NB/PC를 AiMesh 라우터에 연결하십시오.
+Congratulations! RT-AC88U can be added to your AiMesh system.
+Your AiMesh node is going to be reset to default, please re-direct your mobile/NB/PC to your AiMesh router.
+AiMesh 노드가 기본 설정으로 초기화된 후 다음 프로세스로 넘어갑니다. 계속하시겠습니까?
+근처의 AiMesh 라우터를 발견할 수 없는 경우. 현재의 모바일/NB/PC가 이더넷 케이블 또는 Wi-Fi에 의해 이미 AiMesh 라우터에 연결되었는지 확인하십시오.
+유선을 사용하는 경우 이더넷 케이블을 사용하여 AiMesh 라우터의 LAN 포트를 현재의 NB/PC에 연결하십시오.
+Wi-Fi를 사용하는 경우 모바일/NB/PC로 AiMesh 라우터의 네트워크 이름(SSID)을 검색하고 이를 연결하십시오.
+Please log in AiMesh router and then add this AiMesh node to your AiMesh system.
+AiMesh 노드를 추가하여 AiMesh WiFi 시스템을 구성하면 WiFi 통신 범위를 확장할 수 있습니다.
+AiMesh 라우터 WiFi 통신 범위를 확장하기 위해 이 라우터를 AiMesh 노드로 설정할 수 있습니다.
+이 라우터를 공장 기본값으로 초기화하면 기존의 AiMesh 네트워크에 조인할 수 있습니다.
+기존 라우터의 AiMesh 설정 페이지로 이동하여 AiMesh 노드를 1개 추가하십시오.
+무선 설정의 변경 내용이 메시 네트워크에 적용됩니다!
+또 다른 노드를 추가하시겠습니까?
+또 다른 노드 추가
+또 다른 노드 선택
+근처에 몇 개의 라우터가 있음을 발견했습니다.
+AiMesh Wi-Fi 네트워크에 연결
+또 다른 Wi-Fi 네트워크에 연결
+이 대역은 전용 백홀로 사용되며, 장치 연결을 허용하기 위해 SSID 숨기기를 비활성화할 수 있습니다.
+노드와 업링크 AiMesh 장치 간의 연결이 약합니다. 서로 가까워지도록 노드와 업링크 AiMesh 장치를 이동하십시오.
+AiMesh 노드가 업링크 AiMesh 장치에 연결되지 않습니다. 두 개의 장치가 전원이 켜졌는지 확인하십시오. 계속해서 노드가 연결되지 않으면, 장치를 껐다가 켠 후 서로 가까워지도록 두 개의 장치를 이동하십시오.
+노드와 업링크 AiMesh 장치 간의 연결 강도를 높일 수 있습니다. 연결 품질을 높이려면 FAQ를 참조하십시오.
+연결된 장치가 없습니다.
+정보를 이용할 수 없습니다. 라우터의 펌웨어를 최신 버전으로 업데이트하십시오.
+라우터를 재부팅하면 연결된 모든 장치에서 인터넷 연결이 끊깁니다. 재부팅 과정이 완료되면 모든 장치에서 인터넷이 다시 연결됩니다. 계속하시겠습니까?
+강함
+약함
+확인
+보통
+연결 품질
+AiMesh 노드 추가
+ASUS AiMesh Wi-Fi 시스템
+WAN 정보
+WAN 상태
+프론트홀 정보
+업링크 정보
+업링크 유형
+백홀 정보
+관리
+노드 재부팅
+노드 제거
+전송 속도
+수신 속도
+PHY 속도
+데이터 속도
+토폴로지
+시스템 설정
+통계
+신호 품질이 강한 무선 연결
+신호 품질이 약한 무선 연결
+신호 품질이 강한 유선 연결
+신호 품질이 보통인 유선 연결
+새 AiMesh GUI에 대한 자세한 내용은 이 FAQ를 참조하십시오.
+현재 버전
+최신 버전
+상위 AP가 꺼져 있어야 합니다. 다시 확인하십시오.
+연결 실패. 암호가 올바르지 않습니다. [재탐색] 을 클릭하여 다른 네트워크를 선택하십시오.
+무선 연결이 성공적으로 이루어짐.
+브라우저를 재시작하고, 주소 창에 "http://router.asus.com/" 을 입력하여 리피터 연결 상태를 확인하십시오.
+IP 설정 업데이트 성공. RT-AC88U\ 의 Web GUI 로 이동합니다.
+다른 네트워크를 선택하십시오.
+RT-AC88U 가 연결할 네트워크를 바꾸십시오.
+사용 가능한 네트워크를 찾는 중…
+사용 가능한 네트워크 탐지 실패
+네트워크를 선택한 후 [연결]을 클릭하십시오.
+보안 설정이 되지 않은 네트워크에 연결하려고 합니다. 네트워크 상에서 전송되는 정보가 암호화되지 않습니다.
+이 AP 에 이미 연결됨.
+인증방법이지원되지않습니다.
+기다리십시오. RT-AC88U 가 연결 중...
+ASUS 회원 가입 및 최신 제품 정보 수신. <a style='color:#FC0' target='_blank' href='https://account.asus.com'>지금 가입</a>
+ASUS 고지 사항
+사용자는 DDNS, 원격 연결(ASUS 라우터 앱, Lyra 앱, AiCloud, AiDisk), AiProtection, 트래픽 분석기, 앱 분석기, 적응형 QoS, 게임 부스트 및 웹 기록을 사용하기 전에 자신의 정보를 공유하는 데 동의해야 합니다. 사용자는 언제라도 이 페이지에서 조건의 내용을 검색하거나 <a style="font-weight: bolder;">철회</a> 를 선택하여 자신의 정보를 다른 당사자와 공유하는 것을 중단할 수 있습니다.
+DDNS/ 원격 연결  (ASUS 라우터 앱/Lyra 앱/AiCloud/AiDisk). 다음 정보를 주의해서 읽으십시오.:
+ASUS는 귀하의 사용량에 근거해서 ASUS 제품 및 안정성을 평가하고 개선하기 위해서 상기 기능을 통해 귀하의 정보를 수집할 수 있습니다.:
+귀하가 상기 기능을 사용하기 시작할 때 ASUS는 귀하를 특정하거나 식별하지 못하는 익명 정보를 수집할 수 있습니다:
+로그 정보: 모델 이름, 펌웨어 버전, 인터넷 상태 및 자동 생성된 활성화 코드를 포함한 제품 관련 로그 정보(Alexa™/IFTTT™ 기능에만 해당됨)
+로그 정보: 모델 이름, 펌웨어 버전, 인터넷 상태 및 자동 생성된 활성화 코드를 포함한 제품 관련 로그 정보(Alexa™ 기능에만 해당됨)
+로그 정보: 모델 이름, 펌웨어 버전 및 인터넷 상태를 포함한 제품 관련 로그 정보
+아래의 [동의함]를 클릭하면 귀하가 다음 정보를 ASUS와 공유하는 데 동의하는 것으로 간주됩니다.
+어린의 개인정보를 보호하기 위해서 당사는 어린이에 대한 다음 정보를 수집하지 않습니다.
+제품 정보: 제품 번호, IP 주소, MAC 주소 및 DDNS 이름을 포함한 제품 관련 정보.
+또한 ASUS는 귀하의 제품에서 Alexa™의 리모컨 기능을 활성화하기 위해서 상기 목적을 위해 자동 생성된 활성화 코드를 Amazon과 공유할 수 있습니다.
+또한 ASUS는 귀하의 제품에서 IFTTT™의 리모컨 기능을 활성화하기 위해서 상기 목적을 위해 자동 생성된 활성화 코드를 IFTTT™와 공유할 수 있습니다.
+ASUS 는 귀하의 개인정보를 보호하고 존중할 것을 약속합니다. Advanced Settings(고급 설정) > Administration(관리) > Privacy(개인정보 보호정책)로 들어와서 언제라도 ASUS와의 제품 정보 공유를 사용/사용 안 함으로 설정할 수 있습니다. ASUS가 귀하의 개인정보를 보호하는 방법에 대한 자세한 내용은<a id="eula_url" style="font-weight: bolder;text-decoration:underline;cursor:pointer;" target="_blank">ASUS 개인정보 보호정책</a>을 참조하십시오.
+제 나이는 16세 이상입니다.
+귀하의 나이가 16세 이상인지 확인하십시오.
+DDNS, Alexa™, IFTTT™ 및 원격 연결(ASUS 라우터 앱/Lyra 앱/AiCloud/AiDisk)의 경우:
+DDNS, Alexa™ 및 원격 연결(ASUS 라우터 앱/Lyra 앱/AiCloud/AiDisk)의 경우:
+DDNS 및 원격 연결(ASUS 라우터 앱/Lyra 앱/AiCloud/AiDisk)의 경우:
+귀하의 제품 모델 이름, 펌웨어 버전, 인터넷 상태, IP 주소, MAC 주소 및 DDNS 이름이 ASUS에 의해 상기 기능을 통해 수집된다는 점에 유의하십시오.
+상기 기능을 통한 ASUS와의 정보 공유를 사용 안 함으로 설정하고 싶을 경우, 아래의 <span style="font-weight: bold;">[철회]</span> 를 클릭하십시오. 그러나 귀하가 ASUS와의 정보 공유를 중단할 경우 이같은 특장점/기능이 작동하지 않을 수 있다는 점에 유의하십시오.
+<span style="font-weight: bold;">[철회]</span>를 클릭하면 아래 열거된 내용과 같이 몇 가지가 변경될 것입니다:
+현재 사용 중인 DDNS 이름이 귀하의 라우터에 보관되지 않습니다.
+ASUS 라우터 앱, Lyra 앱, AiCloud, AiDisk를 LAN 연결로 사용할 수 있지만 원격 연결 모드에서는 사용할 수 없습니다.
+나중에 Alexa™ 기능을 활성화하려면, Alexa™ 웹 페이지에 새로운 활성화 코드를 제공해야 합니다.
+나중에 Alexa™나 IFTTT™ 기능을 활성화하려면, Alexa™나 IFTTT™의 웹 페이지에 새로운 활성화 코드를 제공해야 합니다.
+인터넷 연결 없이는 철회 절차를 완료할 수 없습니다. 인터넷에 연결한 다음 철회하십시오.
+인터넷 상태가 불안정해서 철회 절차를 완료할 수 없습니다. 나중에 다시 철회하십시오.
+ASUS AiProtection 를 사용하면, 이는
+귀하는 AiProtection, 트래픽 분석기, 앱 분석기, 적응형 QoS/게임 부스트, 웹 기록을 이용함에 있어서,<a id="eula_url" style="text-decoration:underline;" target="_blank">Trend Micro  최종 사용자 사용권 계약</a>에 동의합니다.
+귀하의 정보가 Trend Micro에 의해 AiProtection, 트래픽 분석기, 앱 분석기, 적응형 QoS 및 웹 기록을 통해 수집된다는 점에 유의하십시오. 또한 귀하는 ASUS는 귀하의 Trend Micro 간 계약이나 Trend Micro가 제공하는 서비스 내용에 대해서 책임지지 않음을 인정하고 이에 동의합니다. Trend Micro가 귀하의 상기 정보를 수집, 처리 및 사용하는 방법에 대해 궁금한 사항이 있을 경우, 자세한 내용은 Trend Micro가 발행한 개인정보 보호와 관련된 고지사항을 참조하거나 Trend Micro에 문의하십시오.
+상기 기능을 통한 Trend Micro와의 정보 공유를 사용 안 함으로 설정하고 싶을 경우,다음으로 이동하십시오.  라우터 웹 GUI > 고급 설정 > 관리 > Privacy(개인정보 보호정책).
+<a id="tm_eula_url" style="text-decoration:underline;" target="_blank">TrendMicro Privacy Policy</a>
+<a id="tm_disclosure_url" style="text-decoration:underline;" target="_blank">Privacy and Personal Data Collection Disclosure</a>
+AiProtection, 트래픽 분석기, 앱 분석기, 적응형 QoS/게임 부스트, 웹 기록의 경우:
+귀하의 정보가 Trend Micro에 의해 상기 기능을 통해 수집된다는 점에 유의하십시오.
+다음 기능을 통한 Trend Micro와의 정보 공유를 사용 안 함으로 설정하고 싶을 경우, 아래의 <span style="font-weight: bold;">[철회]</span>를 클릭하십시오. 그러나 귀하가 Trend Micro와의 정보 공유를 중단할 경우 이같은 특장점/기능이 작동하지 않을 수 있다는 점에 유의하십시오.
+철회하시겠습니까?
+철회
+이름 란을 입력하십시오.
+자동
+Automatic Setting
+대역폭리미터
+대역폭리미터에서는클라이언트장치의최대다운로드및업로드속도를제어할수있습니다.
+은 정확하지 않은 IP 주소입니다.
+다음 사이의 값을 입력
+부터
+당신의 PC 가 자동으로 IP 주소를 가져오도록 합니다. 이 연결 방법은 보통 케이블 모뎀 서비스 제공자가 사용합니다.
+ADSL 혹은 사용자 이름과 암호를 요구하는 다른 연결 방법. PPPoE 의 경우.
+PPTP VPN 연결은 사용자 이름과 암호가 필요합니다. 일부 ISP는 고정 IP 주소를 필요로합니다.
+L2TP VPN 연결은 사용자 이름과 암호가 필요합니다. 일부 ISP는 고정 IP 주소를 필요로합니다.
+정적 IP 는 당신의 PC 에 ISP가 제공하는 고정된 IP 주소를 부여합니다.
+자동 할당 IP
+정적 IP
+PPTP 혹은 L2TP 타입의 WAN 연결의 경우, VPN 서버의 서버 이름 또는 서버 IP 를 입력하십시오.
+VPN 서버
+호스트 이름(옵션):
+MAC 주소(옵션)
+MAC 복제
+VPN 서버 목록
+즐겨찾기에 추가
+RT-AC88U 의 변경된 IP 주소
+이 URL 을 즐겨찾기 목록에 추가하여 RT-AC88U 의 Web GUI 에 빠르게 접속할 수 있습니다.
+당신의 브라우저가 이 기능을 지원하지 않습니다.
+재시작
+ASUS Router App을 사용하여 이 라우터를 관리하는 경우, 먼저 이 라우터와의 링크를 해제한 후 라우터에 다시 연결하십시오. 라우터에 다시 연결되면 로그인 페이지에서 \"Advanced Setting(고급 설정)\”을 활성화하고 현재 사용 중인 HTTPS LAN 포트를 설정하십시오.
+아니오
+예
+축하합니다!
+연결됨
+연결
+연결 실패
+연결 형식
+알 수 없는 연결 형식
+연결
+적용
+모두 적용
+취소
+탐지
+재탐지
+기본 설정 사용
+수정
+다음
+이전
+권한 저장
+메인 페이지로
+로그인
+건너뛰기
+알 수 없는 장치
+야간 업그레이드
+Upgrade Now
+보다 자세한 내용은 <a style="font-weight: bolder;text-decoration: underline;color:#00000;" href="https://www.asus.com/support/" target="_blank">https://www.asus.com/support/</a> 을 방문하십시오.
+* 최소 ping 패킷은간격당약128바이트를사용합니다.따라서 ping 검출기는매월
+MB 를사용합니다
+연결 끊김
+SSID 또는 보안 설정이 변경되었습니다. 무선 클라이언트의 연결이 끊기게 됩니다. 다시 연결하려면 클라이언트의 설정을 조정하십시오.
+연결이 복구되었습니다.
+RT-AC88U 의 설정 페이지를 입력하지 않은 경우 AP 모드로 전환 후에 DHCP 기능이 동작하지 않게 됩니다. <p> ASUS 유틸리티 / 장치 탐색 을 사용하여 AP 의 IP 주소를 찾은 후에 설정 페이지를 다시 입력하는 것을 권장합니다.</p>
+듀얼 WAN
+듀얼 WAN 설정
+Dual Ethernet WAN Connection Status
+사용자정의대상활성화
+$INPUT_INTERVAL 초마다
+IP 주소를 갱신하고 있습니다. 이 과정이 2분 이상 걸리는 경우, 다음 3단계를 진행하여 IP 주소를 수동 설정하십시오: (1) 네트워크 케이블을 뽑습니다. (2) 10 초간 기다립니다. (3) 다시 케이블을 꼽아 새 IP 주소를 받습니다.
+에러 메시지
+최신 펌웨어를 사용할 수 있습니다. 최고의 경험을 얻으려면 최신 펌웨어 버전으로 라우터를 업데이트하십시오. 지금 펌웨어를 업데이트하시겠습니까?
+Your router will be automatically upgraded to the latest firmware at night. Or you can check your firmware version by visiting <b>Administration</b> > <b>Firmware Upgrade</b> page and decide if updating the latest firmware version to your router.
+WAN IP 는외부 IP 가아닙니다.외부 IP 기반서비스는작동하지않습니다.
+사용자 이름은 공백일 수 없습니다.
+사용자 이름이 두 글자 이하이면 안됩니다.
+사용자 이름이 20자를 초과하면 안됩니다.
+이미 사용 중인 계정입니다.\n다른 이름을 입력하십시오.
+암호는 공백일 수 없습니다.
+암호가 일치하지 않습니다.
+펌웨어 업그레이드에 실패. 올바른 이미지가 아니거나 전송 오류일 수 있습니다. 펌웨어 버전을 확인하고 다시 시도하십시오.
+펌웨어 업그레이드 중. 약 3분간 기다려주십시오.
+펌웨어 업데이트가 완료되었습니다. 이 창을 닫고 AiMesh 라우터에 다시 액세스하십시오.
+펌웨어 업그레이드 완료. RT-AC88U 를 재시작하여 주십시오.
+To comply with regulatory amendments, we have modified our certification rule to ensure better firmware quality. This version is not compatible with all previously released ASUS firmware and uncertified third party firmware. Please check our official websites for the certified firmware.
+2020 아수스 텍 컴퓨터 주식 회사 모든 권리 보유
+구성 매개변수는 펌웨어 업데이트가 진행되는 동안 매개변수의 설정을 유지합니다.
+펌웨어 버전:
+* 일광 시간 절약제는 이 표준 시간대에서 활성화합니다.
+시스템 시각
+* 미리 알림: 시스템 시간이 NTP 서버와 동기화되지 않았습니다.
+게스트 네트워크
+1025~65535 범위의 포트를 사용하십시오.
+Because of security and compatibility concerns,  IE8 / IE9 / IE10 are no longer supported.
+Things might be bound to broken and perhaps unusable.
+We recommend an upgrade to latest version of Internet Explorer.
+Please refer to <a style="font-weight: bolder;text-decoration: underline;" href="https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support" target="_blank">Microsoft® announce</a> for more detail.
+WAN 연결 시 정적 IP 주소를 필요하는 경우, 이 필드에 IP 주소를 입력하여 주십시오.
+IP 주소
+RT-AC88U 의 게이트웨이로 WAN IP 를 설정하게 되면 RT-AC88U 가 인터넷에 접속하지 못할 수 있습니다.  올바른 게이트웨이 값을 설정하십시오.
+이 필드는 RT-AC88U 가 접촉하는 DNS 의 IP 주소를 가리킵니다.
+DNS 서버1
+이 필드는 RT-AC88U 가 접촉하는 DNS 의 IP 주소를 가리킵니다.
+DNS 서버2
+DNS의 IP 주소를 ISP로부터 자동으로 가져오도록 합니다.
+자동으로 DNS 서버에 접속합니다.
+WAN 연결 시 정적 IP 주소를 필요하는 경우, 이 필드에  게이트웨이 IP 주소를 입력하여 주십시오.
+기본 게이트웨이
+WAN 연결 시 정적 IP 주소를 필요하는 경우, 이 필드에  서브넷 마스크를 입력하여 주십시오.
+서브넷 마스크
+유효한 MAC 어드레스가 아닙니다.
+라우터의 현재 펌웨어가 최신입니다.
+You must press add icon to add a new rule first.
+We suggest you to try a mix of letters, numbers, and symbols. Do you want to continue?
+올바른 서브넷 마스크를 입력합니다.
+은 로컬 호스트 주소로 지정되는 1에서 233 사이의 값을 입력하십시오.
+1에서 233 사이의 값을 입력하십시오.
+필드를 공란으로 할 수 없습니다.
+브리지용 고정 채널을 선택하십시오.
+정말 로그아웃 하시겠습니까?
+비밀번호가 너무 깁니다. 비밀번호의 길이는 5 ~ 16자여야 합니다.
+비밀번호의 길이는 5 ~ 16자여야 합니다.
+사전 공유키(Pre-shared key)는 8에서 63자리의 문자 또는 64 진수이어야 합니다. 공백으로 두는 경우, 자동으로 [00000000] 을 암호화키로 할당합니다.
+사전 공유키(Pre-shared key)는 8에서 63자리의 문자 또는 64 진수이어야 합니다!
+사전 공유키(Pre-shared key)는 8에서 63자리의 문자!
+이 필드는 공란으로 둘 수 없습니다!
+비밀번호가 너무 짧습니다.
+로그인 이름이 너무 짧습니다.
+유효하지 않은 문자!
+은 올바른 IP 주소가 아닙니다!
+은 올바른 포트 번호가 아닙니다!
+한국 정부의 방침에 따라서, 비밀번호는 반드시 영문, 특수문자, 숫자를 각 1 개 이상씩 포함하여 총 8 자 이상으로 하여야 합니다.
+다음 사이의 값을 입력
+부터
+SSID는 \ 문자를 포함할 수 없습니다.
+\".
+다음과 함께 문자열을 시작할 수 없음
+다음을 포함하는 문자열을 사용할 수 없음
+올바른 WEP 키를 입력하십시오.
+사전 공유키(Pre-shared key)는 64 자 이내여야 합니다!
+RT-AC88U 의 LAN IP 는
+다시 설정 페이지로 돌아오지 못할 경우, PC의 IP 구성을 갱신하십시오.
+라우터의 IP 주소가 변경되었습니다. 장치 탐색 유틸리티를 사용하여 라우터의 새로운 IP 주소를 검색하십시오.
+LAN IP 설정
+RT-AC88U 의 LAN IP 주소. 기본값은 192.168.1.1 IP 기반의 네트워크에서, 데이터 패킷은 네트워크 장비의 특정 IP 주소로 보내집니다.
+MAC 어드레스의 형식은 두 개의 16진수 숫자로 된 6개의 그룹이 콜론(:)으로 전송되는 순서대로 구분됩니다. (예, 12:34:56:aa:bc:ef)
+RT-AC88U 의 LAN 서브넷 마스크. 기본값은 255.255.255.0
+유효하지 않은 IP 주소!
+LAN IP 주소를 자동으로 받아올까요?
+암호는 16자를 넘어서는 안됩니다.
+안전한 암호는 최소 8자 이상이며 대문자와 소문자, 숫자 그리고 기호의 조합을 포함해야 합니다.
+WAN 연결 형식
+다음의 IP 주소를 사용:
+또한 [ASUS Lyra]를 다운로드하여 추가적인 Lyra 장치를 첫 번째 Lyra 에 연결할 수 있습니다.
+이제 첫 번째와 두 번째 Lyra 의 &quot;Pair button&quot;(페어링 버튼)을 눌러 또 다른 Lyra 를 설정할 수 있습니다.
+페어링하는 동안 Lyra 장치가 녹색으로 깜박이는데, 이는 장치들이 서로 통신하는 중이라는 것을 의미합니다.
+시스템이 준비되면 Lyra 장치의 LED 가 파란색으로 켜집니다.
+이와 같은 단계를 반복하여 또 다른 장치를 추가할 수 있으나, 페어링은 첫 번째 Lyra 와만 이루어집니다.
+MAC 어드레스
+처리중
+이는 사용자의 인터넷 연결을 방해할 수 있습니다.
+완료
+기다려주십시오
+펌웨어가 업데이트되는 동안 RT-AC88U 를 끄지 마십시오.
+Rebooting the router will cause all connected devices to lose the Internet connectivity and may take a few minutes. All devices will be reconnected again while the reboot completed. Are you sure you want to reboot ?
+수동 설정
+ADSL로그
+DSL설정
+트래픽 매니저
+USB 애플리케이션
+네트워크 맵
+고급 설정
+무선
+일반
+WPS
+브리지
+무선 MAC 필터
+RADIUS 설정
+고급사용자용
+LAN
+LAN IP
+DHCP 서버
+라우트 (Route)
+WAN
+인터넷 연결
+포트 트리거
+가상 서버 / 포트 포워딩
+DMZ
+DDNS
+USB 애플리케이션
+네트워크 장소(Samba) 공유
+FTP 공유
+기타 설정
+USB 모뎀
+방화벽
+URL 필터
+MAC 필터
+네트워크 서비스 필터
+키워드 필터
+IPv6 방화벽
+관리
+동작 모드
+동작 모드
+시스템
+펌웨어 업그레이드
+복원/저장/설정 업로드
+일반 로그
+DHCP 리스
+무선 로그
+포트 포워딩
+라우팅 테이블
+3 분 정도 기다려주십시오.
+1 분 정도 기다려주십시오.
+서브넷을구성합니다.
+서브넷구성
+VLAN에서서브넷을사용중이기때문에삭제할수없습니다!
+NAT 패스쓰루
+네트워크 키
+새로운 펌웨어가 자동으로 설치되지 않습니다. <b>시스템 관리</b> > <b>펌웨어 업데이트</b> 입력하고 최신 펌웨어 업데이트를 다운로드하십시오.
+당신의 브라우저가 자바스크립트를 지원하지 않습니다.  다기능 라우터인 ASUS RT-AC88U 을 사용하려면 자바스크립트가 지원되는 브라우저를 선택하거나 자바스크립트 지원을 활성화시키십시오.
+설정이 업데이트되었습니다. 웹페이지를 새로 고칩니다.
+IP 주소 또는 포트 번호가 변경되어 RT-AC88U 과 연결이 끊깁니다.
+RT-AC88U 의 설정 페이지에 접속하려면, 무선 네트워크에 재접속한 후 업데이트된 IP 주소와 포트 번호를 사용하십시오.
+AP(Access Point) 모드에서는 RT-AC88U 가이더넷케이블을통해무선라우터에연결되어다른네트워크클라이언트들에게무선신호커버력을확장합니다.이모드에서는방화벽, IP 공유,그리고 NAT 기능이디폴트로비활성화됩니다.
+AP 모드에서 AiMesh 라우터는 이더넷 케이블을 통해 무선 라우터에 연결되면서 무선 신호를 다른 네트워크 클라이언트까지 확장합니다. 이 모드의 경우, 기본으로 방화벽, IP 공유 및 NAT 기능이 비활성화됩니다.
+또한 <a href=\"http://findasus.local\" style=\"font-family:Lucida Console;text-decoration:underline;color:#FC0;\">http://findasus.local</a> 에서 장치 구성 페이지를 검색하여 들어갈 수 있습니다.
+AP(Access Point) 모드
+액세스 지점(AP) 모드 / AP 모드 내의 AiMesh 라우터
+Choose operation mode
+RT-AC88U 는 경우에 따라 다른 요구사항을 만족시키기 위해 몇가지 다른 동작 모드를 지원합니다. 당신에게 맞는 모드를 선택하십시오.
+무선 라우터/IP 공유 모드에서, RT-AC88U 은 PPPoE, DHCP, PPTP, L2TP 또는 정적 IP를 통해 인터넷에 연결하고 무선 네트워크를 LAN 클라이언트나 장치들과 공유합니다. 이 모드에선 NAT, 방화벽 및 DHCP 서버 기능이 기본적으로 활성화됩니다. UPnP 와 동적 DNS 와 같은 기능들이 SOHO 및 홈 사용자들을 위해 제공됩니다. 처음 사용자이거나 현재 유무선 라우터를 사용하지 않는 경우 이 모드를 선택하십시오.
+AiMesh 라우터 모드는 AiMesh 기능이 있는 기존 모드로서 PPPoE, DHCP, PPTP, L2TP 또는 고정 IP를 통해 인터넷에 연결됩니다. 그러고서 라우터가 무선 네트워크를 LAN 클라이언트 또는 장치와 공유합니다. 이 모드의 경우, 기본으로 NAT, 방화벽 및 DHCP 서버가 활성화됩니다. SOHO 및 가정 사용자를 위해 UPnP와 동적 DNS 가 지원됩니다. 처음 사용하거나 현재 유선/무선 라우터를 사용하지 않는 경우, 이 모드를 선택합니다.
+무선 라우터 모드(기본값)
+무선 라우터 모드 / AiMesh 라우터 모드(기본값)
+Media Bridge
+RT-AC88U은 미디어 브리지 모드로 구성 가능합니다.
+미디어 브리지 모드는 여러 개의 미디어 기기들에 가장 빠른 Wi-Fi 연결을 동시에 제공합니다.
+미디어 브리지 모드를 구성하려면 두 개의 RT-AC88U 가 필요하며, 하나는 미디어 스테이션, 다른 하나는 라우터로 구성됩니다.
+하나의 RT-AC88U 을 라우터로, 다른 하나는미디어 브리지로 구성하게 되면 PC, 스마트 TV, 게임 콘솔, DVR 혹은 미디어 플레이어와 같은 미디어 장치들에 Wi-Fi 연결을 이더넷 케이블을 통해 제공할 수 있습니다.
+여러 미디어 장치들이 동시에 Wi-Fi 를 사용하게 하려면 미디어 브리지 모드로 전환하십시오.
+미디어 브리지 모드에서는 무선 장치만 P-AP 에 연결합니다. 클라이언트 장치는 네트워크 케이블로 미디어 브리지에 연결해야 합니다.
+미디어 브리지 모드의 RT-AC88U. IP 주소가 변경되었습니다.
+<a href='http://dlcdnet.asus.com/pub/ASUS/LiveUpdate/Release/Wireless/Discovery.zip' target='_blank' style='font-family:Lucida Console;text-decoration:underline;color:#FC0;'>장치 복구 유틸리티</a>를 다운로드 받아 미디어 브리지 IP 주소를 확인하십시오.
+WAN 포트에서 네트워크 케이블을 분리했는지 확인하십시오.
+리피터 모드에서는 RT-AC88U 가무선으로기존무선네트워크에연결하여무선버력을확장합니다.이모드에서는방화벽, IP 공유,그리고 NAT 기능이비활성화됩니다.
+RT-AC88U의 LAN IP 주소가 변경될 수 있습니다.
+이 창을 닫고 http://router.asus.com 에 다시 접속하십시오.
+리피터 모드
+Express Way 2.4GHz 모드의 경우, RT-AC88U 무선이 기존의 2.4GHz WiFi 채널에 연결되고 5GHz WiFi 채널에 의해서만 무선 통신 범위를 확장합니다.
+Express Way 2.4GHz
+Express Way 5GHz 모드의 경우, RT-AC88U 무선이 기존의 5GHz WiFi 채널에 연결되고 2.4GHz WiFi 채널에 의해서만 무선 통신 범위를 확장합니다. (사용 중인 라우터가 5GHz WiFi 채널을 지원해야 합니다.)
+Express Way 5GHz
+WISP모드
+RT-AC88U 는 메인 라우터, AP 또는 공용 핫스팟에 무선을 연결하고, 인터넷을 사용자의 유선/무선 클라이언트와 공유합니다. 이 모드에서는 NAT, 방화벽 및 DHCP 서버가 기본으로 활성화됩니다.
+Wi-Fi 핫스팟을 연결할 때, 인터넷에 액세스할 권한이 있는지 확인하십시오.
+이 기능은 사용불가입니다.
+부모 통제
+새 암호
+암호를 다시 입력하십시오
+매우 약함
+약한
+좋은
+강한
+매우 강
+PIN 코드가 틀립니다. 올바른 PIN 코드를 입력한 후 USB 어댑터를 다시 연결하십시오. 그래도 문제가 해결되지 않으면 PIN 코드 기능을 끄고 다시 켠 후 다시 시도하십시오.
+Access Number
+Co-user Number
+ID Connection
+암호
+PPP 사용자명
+계정 설정
+이 필드는 RT-AC88U 이 사용하는 호스트 이름입니다. 일반적으로 ISP가 요구합니다.
+ISP 의특수요건입니다
+MAC (Media Access Control) 어드레스는 네트워크 상에서 당신의 PC나 장치를 구분하게 해주는 유일한 식별자입니다. ISP는 서비스에 접속하는 MAC 어드레스를 관찰하다가 새로운 MAC 어드레스의 인터넷 접속을 막습니다. 이 문제를 해결하려면, 다음의 둘 중 하나를 해야합니다: <p>* ISP에 연락하여 ISP 가입 시에 등록한 MAC 어드레스를 업데이트 <p>* 새로운 기기의 MAC 어드레스를 복제 또는 변경하여 원래 기기의 MAC 어드레스와 일치하도록 한다. <p>
+DNS 서버
+연결 상태
+ISP 에서사용자가선택한레벨보다높은 MPPE 암호화레벨을지원할경우,더높은암호화레벨을사용함으로써보안을강화할수있습니다.
+VPN 서버에서사용자가선택한레벨보다높은 MPPE 암호화레벨을지원할경우,더높은암호화레벨을사용함으로써보안을강화할수있습니다.
+빠른 인터넷 설정
+새 비밀번호가 시스템의 기본 비밀번호와 동일합니다. 당사는 더 복잡한 비밀번호를 설정할 것을 권장합니다.
+기본 비밀번호 (admin) 를 변경하지 않으면, 라우터가 보안 위협에 취약하며 다른 사람들이 로그인 비밀번호를 쉽게 추측할 수 있습니다. 안전하지 않은 이 비밀번호를 계속 사용하시겠습니까?
+기본 설정 사용(확장하고자 하는 네트워크 설정과 동일)
+자동 IP 연결 설정
+PC의 MAC 어드레스를 라우터에 복제 시작
+기다려주십시오…
+WAN IP 주소 확인
+WAN IP 주소를 성공적으로 획득하였습니다.
+MAC 복제 후에 새로운 WAN IP 주소를 얻습니다.
+준비됨
+이제 신 802.11ax Wi-Fi 기술이 준비되었습니다!
+802.11ax 라우터가 Wi-Fi 용량과 효율을 높이고 초고속 처리량을 제공합니다.
+DFS 채널 및 160MHz 대역폭 설정을 하려면 빠른 인터넷 설정 마법사를 마친 후 무선 설정 페이지로 이동하십시오.
+일부 무선 어댑터에 802.11ax Wi-Fi AP 에 연결하는 데 문제가 있을 수 있습니다.<br>이러한 문제가 발생할 경우 최신 드라이버를 사용하고 있는지 확인하십시오.<br>제조업체의 공식 지원 사이트에서 소프트웨어 드라이버, 업데이트 및 기타 관련 정보를 얻으십시오.
+선택하는 부속서 모드 당신의 DSL 서비스를 사용합니다. 잘못된 설정은 DSL 서비스에 대한 연결을 방지 할 수 있습니다.
+당신이 사용하는 부속서 모드 확실하지 않은 경우, ISP에 문의하여 도움을 받으세요.
+ANNEX 모드를 선택하지 않았습니다.
+무선 보안 설정을 설정하는 것을 권장합니다. 계속하시겠습니까?
+Please plug in the cable to WAN port. System will detect your network setting automatically.
+Expert mode, offline settings
+PPPoE / DSL 연결이 감지되었습니다.
+설치 마법사가 인터넷 연결 형식이 PPPoE / DSL 임을 감지하였습니다.
+다음을 클릭한 후, 인터넷 서비스 제공자 (ISP) 가 제공하는 계정 이름과 암호를 입력하십시오.
+연결 형식이 PPPeE / DSL이 아닌 경우, "연결 형식"을 클릭하십시오.
+RT-AC88U 가 링크 상태를 확인 중입니다. 기다리십시오…
+RT-AC88U 이 연결 형식을 감지합니다. 기다리십시오…
+RT-AC88U 이 연결 형식을 찾지 못합니다. [수동 설정]을 클릭하십시오.
+인터넷 연결 형식 감지 시도 시간이 초과되었습니다. 다시 시도하시겠습니까?
+모뎀이 수동으로 초기화 됩니다.
+WAN 연결 형식을 확인하여 주십시오.
+확인 중이니 기다려주십시오…
+다음의 DNS 서버 어드레스를 사용하십시오.
+성공적으로 이더넷 WAN 네트워크에 연결되었습니다.
+이더넷 WAN 네트워크에 연결하지 못했습니다.
+성공적으로 모바일 광대역 네트워크에 연결되었습니다.
+SIM 카드가 올바르게 삽입되지 않았습니다.
+Successfully connected to the Primary Ethernet WAN network.
+Successfully connected to the Secondary Ethernet WAN network.
+참고: \"Mobile Broadband Network\"(광대역)를 통해 인터넷 서비스에 연결하려면, <a onclick=\"redirect_page('unplug_sim');\">\"Configure Another WAN\"(다른 WAN 구성)</a>을 클릭하십시오.
+다음 과정은 모바일 광대역 인터넷 설정의 완료를 안내합니다.
+참고: \"이더넷 WAN\"을 통해 인터넷 서비스에 연결하려면, <a onclick=\"redirect_page('unplug_ewan');\">\"Configure Another WAN\"</a>을 클릭하십시오.
+다음 과정은 이더넷 WAN 설정을 완성하도록 안내합니다.
+Note: If you want to connect to the internet service via &quot;Secondary Ethernet WAN&quot;, check the connection of secondary ethernet wan and click &quot;Detect Again&quot;.
+Note: If you want to connect to the internet service via &quot;Primary Ethernet WAN&quot;, check the connection of primary ethernet wan and click &quot;Detect Again&quot;.
+이더넷 WAN 및 모바일 광대역 연결 상태
+현재 WAN 설정을 편집하려면 <a href="" onclick="gotoWANSetting();">여기</a>를 클릭하십시오.
+새 WAN 설정을 추가하려면 <a href="QIS_manual_setting.htm">여기</a>를 클릭하십시오.
+이미 WAN 설정을 구성하였습니다.
+Select the Wi-Fi network you would like to extend.
+기본 무선 보안 설정을 사용하시겠습니까?
+RT-AC88U 이 연결 형식을 찾지 못합니다. 당신의 ADSL설정은 다음 중 하나의 모드에 속합니다: MER Static IP, IPoA 또는 브리지. 수동 설정을 클릭하여 WAN 설정을 수동으로 구성하십시오.
+인증 실패
+계정 이름과 암호가 맞지 않습니다.
+라우터오프라인을설정하려면 <b>무선 설정</b>을 클릭하여 인터넷 연결 검색을 건너 뛰고 다음 단계로 가서 무선 이름 및 비밀번호를 설정합니다.
+<b>인터넷 종류 선택</b> ISP 가제공한아이디와비밀번호를재입력하세요.
+인터넷에 연결할 수 없습니다. ISP에 계정 정보를 재확인하거나 ASUS 고객 지원 핫라인을 통해 기술 문의와 지원을 요청하십시오.
+계정 이름과 암호는 인증되었으나 ISP로부터 IP 주소를 가져오는데 실패하였습니다. ISP 에 도움을 요청하십시오.
+인터넷에 연결할 수 없습니다.
+인터넷 설정에 오류가 있습니다!
+PPPoE/DSL연결에 실패하였습니다.
+모바일 광대역 네트워크에 연결하지 못했습니다.
+감지 실패
+라우터 어드민 계정
+라우터 어드민 암호
+RT-AC88U은 이와 같은 인터넷과 무선 설정으로 설치되었습니다.
+요약
+Tips
+완료된 네트워크 구성 요약
+Congratulations! RT-AC88U is creating new WiFi network for you, please use the following settings to connect your WiFi network.
+네트워크 이름(SSID)
+무선 보안
+VPN 서버에 연결할까요?
+네트워크에 프록시 서버가 있을 수 있습니다. ISP 또는 네트워크 관리자에게 문의하십시오.
+ISP의 도메인 네임 서버에 오류가 있는 것 같습니다. ISP 또는 네트워크 관리자에게 문의하거나 고급 설정 페이지에서 공용 DNS 를 설정하십시오.
+ISP 또는 네트워크 관리자에게 문의하십시오.
+모뎀의 전원 플러그를 빼고 약 2분간 기다린 후 다시 연결하십시오. 그 다음 <b>연결 감지 재시도</b> 클릭하십시오.
+IP 주소 받음
+ISP DNS 서버에 연결됨
+ISP DNS 서버에 연결 실패
+공용 DNS 서버에 연결됨
+공용 DNS 서버에 연결 실패
+URL 또는 VPN 서버의 IP를 미리 입력하지 마십시오!
+연결 형식이 PPTP/L2TP 인 경우, [예]를 클릭하여 [VPN 서버에 연결] 하십시오.\n 아니라면, [아니오]를 클릭하여 정보를 확인하고 설정을 적용하십시오.
+VPN 항목
+VPN 형식
+MAC (Media Access Control) 어드레스는 네트워크 상에서 당신의 PC 나 장치를 구분하게 해주는 유일한 식별자입니다. ISP 는 서비스에 접속하는 MAC 어드레스를 관찰하다가 새로운 MAC 어드레스의 인터넷 접속을 막습니다. 이 문제를 해결하려면, 다음의 둘 중 하나를 해야합니다:
+ISP 에 연락하여 ISP 가입 시 등록된 MAC 어드레스를 업데이트 합니다. 그 다음 라우터의 설치 마법사를 다시 실행합니다.
+새로운 장치의 MAC 어드레스를 복제 또는 변경하여 원래 장치의 MAC 어드레스와 일치하도록 합니다. 단순히 기존 라우터를 교체하였다면, 기존 라우터의 MAC 어드레스를 제품 라벨에서 찾을 수 있을 겁니다. 이전에 PC 를 모뎀에 연결하였다면, PC 의 MAC 어드레스를 입력하거나 "MAC 복제" 를 클릭하여 PC 의 MAC 어드레스를 복제할 수 있습니다.
+2단계 중 1단계. 케이블/DSL모델 끄기
+케이블 TV 단자나 전화 잭에 연결된 ISP가 제공한 모뎀의 전원 플러그를 뽑으십시오.
+전원 플러그를 뽑은 후에도 모뎀이 계속 동작 중이라면 배터리 백업 기능을 가지고 있을 수 있습니다. 모뎀의 리셋 버튼을 5초 이상 눌러 초기화 시키십시오.
+모뎀의 전원 코드를 뽑고 "다음"을 클릭하십시오.
+모뎀을 사용하는 경우가 아니라면, "인터넷 종류 선택"을 클릭하십시오.
+2단계 중 2단계. 케이블/DSL모뎀의 전원을 끄십시오.
+약 2분간 기다린 후 모뎀의 전원 플러그를 전원 콘센트에 연결하십시오.
+모뎀의 LED가 깜빡이기 시작하면, "재감지"를 클릭하여 연결 형식을 자동 감지 하도록 합니다.
+전화선이 DSL 포트에 연결되었는지 확인하십시오.
+전화선이 연결되지 않았습니다.
+라우터 비밀번호를 변경하여 비승인 접속으로부터 ASUS 무선 라우터를 보호하십시오.
+사용자 이름과 비밀번호는 대소문자를 구분합니다.
+라우터 로그인 정보는 라우터 관리 설정 액세스에 사용됩니다.
+기본 사용자 이름 및 비밀번호:
+로그인 정보 설정
+아래에 필요한 정보를 입력하십시오.
+ISP 로부터 계정 이름과 암호를 받으십시오.
+PPPoE, PPTP 또는 L2TP 연결 형식에 가입했다면, ISP 가 카드 또는 문서를 통해 계정 이름과 암호를 제공할 것입니다. ISP 가 제공한 계정 이름과 암호로 인터넷에 접속합니다. 이것은 라우터 관리에 사용되는 사용자 이름과 암호와 다릅니다.
+PPTP 또는 L2TP 클라이언트활성화(옵션)
+기존무선보안설정을사용하시겠습니까?
+무선 보안 설정을 설정하는 것을 권장합니다.
+다시 검색
+You can now follow information below and connect to extended Wi-Fi network
+You have already selected the 2.4 GHz wireless network. Do you want to select the 5 GHz wireless network? If no, click [건너뛰기]
+You have already selected the 5 GHz wireless network. Do you want to select the 2.4 GHz wireless network? If no, click [건너뛰기]
+Extend Wi-Fi network will follow the same settings of Wi-Fi network you just selected.
+Same with parent AP SSID/Password
+You can turn on/off LED by touching ASUS logo.
+Sort by ALPHABET
+Sort by SIGNAL
+Sort by FREQUENCY
+Try to connect to Internet...
+Router to repeater use 5GHz only, repeater to client use 2.4GHz only
+Router to repeater use 2.4GHz only, repeater to client use 5GHz only
+서비스
+비밀번호보기
+(권장)
+당신의 인터넷 제공회사는 사용자 이름과 암호가 있는 카드나 서류를 제공해야 합니다.* 이 샘플문서는 예시를 위한 것입니다.
+인터넷 연결 정보를 위해 사용자 이름과 암호를 입력 하십시오. 인터넷서비스제공자(ISP)가제공하는세팅입니다.
+HiNet user's client number is <span style="color:#FC0;">xxxxxxxx@hinet.net</span>
+연결 시나리오 1
+연결 시나리오 2
+당신의 인터넷 제공회사는 IP, 서브넷 마스크, 게이트웨이, DNS 주소를 제공해야 합니다. 만약 그렇지 않다면 인터넷 제공회사에 요청 하십시오
+인터넷 연결에 사용자 이름과 암호가 필요 합니까?
+인터넷 연결 유형은 자동 IP (케이블 모뎀, 유동 IP, DHCP) 또는 고정 IP 입니다
+이 유형은 IP 주소를 자동으로 가져오는 것을 허용 합니다. 이 연결 유형은 종종 케이블 서비스 제공자에 의해 사용 됩니다.
+인터넷 연결 유형은 PPPoE, L2TP 또는 PPTP 입니다
+* 만약 인터넷 연결 유형을 모를 경우, 인터넷 제공 회사에 연락 하십시오.
+2.4 GHz 설정을 5 GHz 에 복사
+2.4 GHz 설정을 5 GHz-1 에 복사
+5 GHz-1 설정을 5 GHz-2 에 복사
+연결 확인
+인터넷 설정
+라우터 설정
+빠른 인터넷 설정
+당신의 무선 네트워크에 접속하려는 클라이언트나 PC는 다음 단계를 따르십시오:
+1. 알림 영역에서, 네트워크 아이콘 ( <img src="/images/qis/win7_network_icon1.jpg"> ) 또는 ( <img src="/images/qis/win7_network_icon2.jpg"> ) 클릭.
+2. 네트워크 리스트 중에서 연결을 원하는 네트워크를 클릭하고 "연결"을 클릭.
+1. 알림 영역에서, 네트워크 아이콘을 클릭한 후 "사용 가능한 무선 네트워크 보기"를 클릭.
+1. 메뉴바의 에어포트 상태 아이콘 ( <img src="/images/qis/osx_network_icon.jpg"> ) 을 클릭하고, 연결하고자 하는 무선 이름을 선택.
+무선 네트워크에 연결
+아래 옵션에서 인터넷 연결 형식을 선택하십시오. 인터넷 연결 형식을 모르는 경우, ISP 에 문의하십시오.
+인터넷종류를선택하세요
+SIM 카드 또는 이더넷 케이블이 제대로 연결되어 있는지 확인하고 다시 시도하십시오.
+모바일 네트워크를 설정하려면
+이더넷 케이블이 모뎀 및 라우터의 WAN 포트에 올바르게 연결되어 있는지 확인하십시오.
+이더넷 WAN 네트워크를 설정하려면:
+SIM 카드를 SIM 카드 슬롯에 삽입되어 있는지 확인하고 다시 시도하십시오.
+모바일 네트워크를 설정하려면
+SIM 카드를 SIM 카드 슬롯에 삽입합니다.
+또한 WAN 포트에 네트워크 (RJ-45) 케이블을 연결할 수 있습니다.
+네트워크(RJ-45) 케이블을 모뎀과 라우터의 WAN 포트에 연결합니다.
+웹 인터페이스에서 다시 <b>재탐지</b> 클릭합니다.
+SIM 카드와 이더넷 WAN 케이블을 확인하세요
+네트워크 케이블 상태
+SIM 카드 상태
+아이디와비밀번호를입력하세요.
+VPN 클라이언트활성화
+다음을 클릭하여 RT-AC88U의 빠른 인터넷 설치 마법사를 시작하십시오.
+Enterprise-grade Security - ASUS AiProtection provides advanced protection for all devices connected to your home network.
+600 Mbps / 2.4 GHz를 지원하려면, RT-AC68U 를 ASUS PCE-AC66 또는 RT-AC68U 에 미디어 브리지 모드로 연결해야 합니다.
+ASUS 네트워킹 제품군 사용을 환영합니다!
+네트워크 이름 또는 SSID는 무선 네트워크를 구별하는 유일한 이름입니다. WiFI 기기들은 자동으로 범위 안의 모든 네트워크를 감지합니다.
+보안 키는 무선 네트워크를 인증받지 않은 엑세스로부터 안전하게 하기 위해 할당하는 암호입니다. 안전한 네트워크에 접근하기 위해, 사용자는 보안 키를 입력해야 합니다.
+고유이름이나 SSID (Service Set Identifier) 를지정하여무선네트워크를구분하세요.
+8 이상 63 이하의문자(글자,숫자또는둘의조합) 또는 64 16 진법의네트워크키를입력하세요. 기본 무선 보안 설정은 WPA2-Personal AES 입니다. 네트워크보안을설정하지않으시려면보안키를공백으로두시기바랍니다. 하지만이경우허용하지않은사용자가네트워크에접근할수있습니다.
+8 이상 63 이하의문자(글자,숫자또는둘의조합) 의네트워크키를입력하세요. 기본 무선 보안 설정은 WPA2-Personal AES 입니다.
+Separate 2.4GHz and 5GHz
+계정 이름은 공백으로 둘 수 없습니다.
+사용자 이름/암호란은 비워둘 수 없습니다.
+ISP 계정 설정
+빠른 시작
+연결 형식을 감지합니다.
+연결 상태를 다시 감지합니다.
+재감지
+자동 감지
+연결타입감지를시작합니다...
+이 과정을 마치려면 몇 분이 걸릴 수 있습니다. 기다리십시오.
+인터넷 연결 설정 완료
+인터넷에 연결
+단순 무선 보안 설정
+암호화 설정 검색와 설정
+고급 설정 페이지
+수동 구성과 세부 조정
+이 창을 닫고 설정 구성을 마침니다. 새 창을 열어 인터넷에 연결하십시오.
+완료
+RT-AC88U 에 연결한 다음 수동으로 이 페이지를 새로 고침하세요.
+계정 또는 암호를 다시 입력하십시오.
+DHCP 연결 실패
+정확하지 않은 계정과 암호. 수정하려면 링크를 클릭하십시오.
+PPPoE 연결 실패. 재시도 하려면 링크를 클릭하십시오.
+PPTP 연결 실패. 재시도 하려면 링크를 클릭하십시오.
+L2TP 연결 실패. 재시도 하려면 링크를 클릭하십시오.
+정적 연결 실패. 재시도 하려면 링크를 클릭하십시오.
+ISP 설정을 참고하여 관련 정보를 입력하십시오.
+정적 IP 연결 실패
+자동 IP 연결 실패. 여기에서 수동 구성할 수 있습니다.
+ISP 정보 설정
+저장된 구성 설정을 로딩하기 위해 <a><label for="upload_setting_profile" style="text-decoration:underline;cursor:pointer;font-weight:bold;color:#FC0;" onclick="">설정 복구</label></a> 를 클릭하십시오.
+라우터를 재설정 하기 전에 구성 설정을 백업한 경우 구성 설정을 복원하기 위해 <a><label for="upload_setting_profile" style="text-decoration:underline;cursor:pointer;font-weight:bold;color:#FC0;" onclick="">설정 복구</label></a> 를 클릭하십시오.
+ISP 연결 유형을 알고 있는 경우 무선 네트워크를 수동으로 설정하기 위해 <a><label style="text-decoration:underline;cursor:pointer;font-weight:bold;color:#FC0;" onclick="submitForm(0)">수동 설정</label></a> 을 클릭하십시오.
+고급 라우터 설정을 수동으로 설정 하거나, RT-AC88U 설정을 위해 <a><label style="text-decoration:underline;cursor:pointer;font-weight:bold;color:#FC0;" onclick="submitForm(0)">수동 설정</label></a> 을 클릭합니다
+무선 네트워크 전문가로서 인터넷 설정 마법사를 건너뛰시겠습니까?
+사용자의 ISP 가 제공하는 인터넷 연결 형태를 선택하십시오.
+인터넷 WAN 연결 형식
+WAN 형식을 선택하십시오.
+무선 설정
+신호
+원격
+아래의정보를사용하여 Wi-Fi 네트워크에연결하십시오.
+<a href='http://router.asus.com' target='_blank' style='text-decoration:underline'>router.asus.com</a> 으로이동하여장치에로그인하십시오.
+라우터 로그인 이름
+주: 약 60초 소요
+보안
+선택
+ISP 프로파일 선택
+다음 중 선택하십시오.
+ASUS 라우터 계정으로 로그인
+표준 설정
+활성화
+비활성화
+준비
+상태
+이더넷 포트
+포트
+연결 상태
+연결이 끊김
+CPU
+코어
+RAM
+사용된 공간
+사용 가능한 공간
+합계
+엑세스 포인트 상태
+ASUS RT-AC88U
+활성 연결
+자동 로그아웃
+시간대 변경
+시스템 로그
+이 활성 연결의 역사의 로그입니다.
+지정한 IP 주소만 허용
+지정된 IP 주소
+지정된 IP 주소활성화.
+이 기능을 사용하면 지정된 IP 주소만 WAN(활성화된 경우) 또는 LAN 측(Telnet LAN만 해당)으로부터 \"Web UI\" / \"SSH\" / \"Telnet\"을 통해 무선 라우터에 액세스하지 못하도록 제한할 수 있습니다.
+HTTPS LAN 포트
+웹 UI
+SSH
+Telnet (LAN 만 해당)
+로그아웃
+태그기반VLAN
+VLAN 활성화
+PVID 구성
+레이어2 VLAN
+태그가지정되지않은포트
+태그가지정된포트
+무선인터페이스
+서브넷프로필편집
+만들어진서브넷을선택하거나, &quot;New Subnet&quot; (새서브넷) 을선택하여 VLAN 의새서브넷을만듭니다. DHCP 구성이더필요하면<a style='color:#FFF; text-decoration:underline;' href='/Advanced_MultiSubnet_Content.asp'> LAN >> DHCP 서버</a>에서구성하십시오.
+바인딩인터페이스
+바인딩인터페이스가없습니다.
+바인딩인터페이스를추가하십시오.
+전에사용한적이없는VID를선택하십시오.
+2개이상의VLAN에서이서브넷들을사용중입니다.설정을변경하십시오.
+Edit Subnet Profile(서브넷프로필편집)버튼을클릭하여새서브넷을추가하십시오.
+이포트는IPTV용으로사용되며이VLAN에서비활성화되었습니다.
+트래픽 모니터
+전송 모드
+세 가지 주파대의 스마트 연결
+은 위치, 신호 강도 및 무선 프로토콜에 따라 장치를 다른 주파수대에 동적이고 원활하게 전환을 하고, 사용자 네트워크의 각 장치에 대해 일관된 처리량을 보장합니다.
+미디어 서버
+사용자 계정은 'root', 'guest' 또는 'anonymous' 일 수 없습니다! 유효한 계정을 입력하십시오.
+VPN 세부 사항
+Enter username and password.
+케이블이 RT-AC88U WAN 포트 및 모뎀에 연결되었는지 확인하십시오.
+<a style='color:#FFF' href='/Advanced_OperationMode_Content.asp'>작동 모드</a>를 변경해야 하는지 확인하십시오.
+잘못된 PPPoE 계정 또는 비밀번호입니다. <a style='color:#FFF' href='/Advanced_WAN_Content.asp'>확인하십시오</a>.
+PPPoE 인증 실패
+WAN 유형 변경
+<a style='color:#FFF' href='/Advanced_WAN_Content.asp'>연결 설정</a>이 올바른지 확인하십시오.
+<a style='color:#FFF' href='/'>WAN 연결</a> 활성화
+USB 모뎀의 전원이 켜졌는지 확인하십시오.
+<a style='color:#FFF' href='/Advanced_Modem_Content.asp'>USB 모뎀 설정</a>을 변경하십시오.
+WAN 연결이 비활성화되었습니다.
+USB 모뎀이 연결되지 않았습니다.
+[다음] 를 클릭하여 다음 IP 주소를 사용하십시오.
+모든 관련 서비스가 새 IP 주소를 사용하는지 확인하십시오(예: 포트 포워딩, DMZ 등).
+상위 AP를 인터넷에 연결할 수 있는지 확인하십시오.
+<a style='color:#FFF' href='/QIS_wizard.htm?flag=manual'>연결 설정 변경</a>.
+상위 AP에 연결할 수 없습니다.
+AiMesh 라우터의 전원이 켜졌는지 확인하십시오.
+AiMesh 라우터를 다시 시작하여 다시 시도하십시오.
+연결 실패의 이유
+보려는 웹 페이지를 로드하지 못했습니다.
+네트워크 케이블이 연결되어 있지 않습니다.
+PPPoE 또는 VPN 인증 실패
+원격 서버에서 응답하지 않습니다.
+ISP의 DHCP 기능이 동작하지 않습니다.
+WAN 연결 형식이 PPPeE로 감지되었으나 PPPoE 설정이 완전하지 않습니다.
+인터넷이 연결되지 않았습니다. 라우터 IP 주소는 게이트웨이 IP 주소와 같습니다.
+WAN 연결이 수동으로 중단되었습니다.
+라우터의 동적 또는 고정 IP 주소 설정이 틀립니다.
+IP 충돌이 감지되었습니다.
+총 트래픽 한도에 도달하여 인터넷 연결이 일시적으로 비활성화되었습니다.
+트래픽 리미터로 이동한 후 인터넷 컷오프를 비활성화하여 인터넷 연결을 복원하십시오.
+인터넷 컷오프 최대값을 높이십시오.
+인터넷에 다시 연결하는 중입니다.
+네트워크 관리자에게 문의하십시오.
+RT-AC88U 의 설정 페이지 이동
+그리고 당신의 설정을 확인하고 스스로 구성할 수 있습니다.
+문제가 지속될 경우 수동으로 연결 설정을 변경하십시오. 여기를 클릭하여 설정 페이지로 갑니다.
+WAN 연결의 전원을 켜십시오.
+권장합니다.
+관리자 계정과 암호가 필요합니다.
+케이블로 라우터와 모뎀의 WAN 포트를 올바르게 연결했는지 확인하십시오.
+계정 설정 페이지로 이동
+당신의 계정과 암호를 다시 확인하십시오.
+빠른 (인터넷 설정) 페이지로 가서 연결 유형을 자동으로 검색합니다.
+RT-AC88U이 WAN 형식을 자동으로 감지합니다.
+당신의  ISP(Internet Service Provider)와 연락하여 DHCP 실패의 원인을 알아내십시오.
+라우터 IP 주소를 다시 구성하고 게이트웨이 IP 주소와 다른지 확인하십시오.
+WAN 연결을 수동으로 설치하십시오.
+IP 및 DNS 설정이 올바른지 확인하십시오.
+RT-AC88U의 로컬 IP 어드레스를 재구성하고 WAN 게이트웨이와 다른지 확인하십시오. 예: 192.168.X.X; X 는 2에서 254 사이의 숫자.
+라우터를 모뎀과 연결한 후 "설정"을 클릭하여 빠른 설정 위저드를 시작합니다.
+WAN 연결 오프라인을 설정하거나 액세스 지점으로 작동 모드를 변경하려면, 수동 설정 을 클릭합니다.
+다음 단계에서 로그인 이름과 보안용 비밀번호를 설정합니다.
+ASUS 무선 라우터 RT-AC88U
+RT-AC88U
+구성됨
+무선 이름
+무선 라우터
+없음
+제어 채널
+키 인덱스
+WEP 키
+5개의 ASCII 숫자 또는 10진수
+13개의 ASCII 숫자 또는 26진수
+WPA 암호화
+접속 AP 리스트
+RT-AC88U가 WEP 또는 TKIP 암호화를 AES (n 만 지원) 모드로 변경하여 클라이언트가 올바로 접속할 수 있게 합니다.
+연결 성공
+Lyra 계정을 만듭니다. 로그인에 사용할 사용자 이름과 암호를 설정하여 Lyra 네트워크를 관리합니다.
+By using ASUS Lyra, you agree to the
+Lyra 사용을 환영합니다
+새 네트워크 만들기
+Or login to existing Lyra network
+ASUS 개인정보 보호정책
+ASUS 이용약관
+Trend Micro End User License Agreement
+Primary Lyra
+Before creating a new Lyra network, please make sure you are connecting to primary Lyra via Wi-Fi. If you are connecting to primary Lyra with Ethernet cable, please unplug the Ethernet cable on Lyra, then connect to primary Lyra via Wi-Fi “ASUS_XX_AMAPS” to continue.
+UTF-8
+한국어
+액세스 제어
+인트라넷 엑세스
+게스트가 인트라넷에 액세스하는 것을 허용합니다.
+이제 RT-AC88U에 연결된 USB 저장장치와 네트워크 장소(Samba)가 지원되는 장치에 엑세스가 가능합니다.
+엑세스 시간
+게스트가 인트라넷에 액세스하는 것을 허용하는 시간.
+액세스 유형
+단 6개의 계정만 허용됨
+계정유형
+듀얼 WAN 설정으로 이동하여 USB 모뎀을 활성화합니다.
+적응
+이 범주는 Diablo, WOW, Steam 게임, XBOX, 등을 포함합니다. 이 범주를 상위 범주로 이동하여 더 나은 게임 경험을 제공합니다.
+이 범주는 Youtube, Vimeo, iTunes, Hulu, Netflix, Spotify 등을 포함합니다. 이 범주를 위로 이동하면 더 나은 네트워크 경험을 제공합니다.
+This category includes VoIP, instant messaging, mail service, etc. You can adjust the priority according to your preference.
+이 범주는 flickr, twitter, facebook, tumblr, google toolbar 등과 같은 반 웹 서비스, 소셜 네트워크 애플리케이션을 포함합니다.
+이 범주는 uTorrent, BitTorrent, Dropbox, 4Shared, FTP 애플리케이션 등과 같은 피어 투 피어와 파일 전송 관련 소프트웨어를 포함합니다. 파일 전송 범주는 하위 우선순위에 두십시오.
+게임, 스트리밍 미디어, 온라인 채팅 및 통신, 웹 서핑 및 파일 전송에 포함되지 않은 모든 작업.
+This category includes Coursera, Khan, Udemy, TED, edX, etc. Move this category up to optimize online learning experience.
+우선순위 변경 모드
+선호하는앱의우선순위를수동으로지정합니다.
+파일 전송
+게임
+이모드는인터넷게임을플레이하고게이밍대역폭을부스트하는데적합합니다.
+웹 기록
+웹 기록은 클라이언트 웹 서핑 기록을 보여줍니다.
+Work-From-Home
+Choose this mode for a smooth streaming of online video-learning experience. This category includes VoIP, instant messaging, mail service, etc.
+기타
+적응형 QoS
+QoS 구성
+QoS 적응형 종류에서 우선순위를 가진 APP은 우선 순위를 위해 상위 레벨로 올리는 드래그 앤 드롭 APP 범주인 제한된 대역폭에서 APP들이 경쟁할 때 다른 앱보다 양호한 대역폭을 사용하게 됩니다.
+네트워크환경에따라우선순위모드를선택하십시오.또한사용자지정모드를선택하여앱범주의우선순위를지정할수있습니다.
+비디오 및 오디오 스트리밍
+이모드는최상의시청경험을위한비디오스트리밍에적합합니다.
+웹 서핑
+이모드는일반적인웹브라우징에적합하고파일전송동안네트워크대기시간을방지합니다.
+Learn-From-Home
+Choose this mode for a smooth streaming of online video-learning experience.This category includes Coursera, Khan, Udemy, TED, edX, etc.
+Choose this mode to ensure a smooth agile online conferencing experience.This category includes VoIP, instant messaging, mail service, etc.
+새로운 계정은 읽기/쓰기 권한이 없습니다.
+새 계정 추가
+새 폴더에 대한 기본 접근 권한은 읽기/쓰기 입니다.
+새 폴더 추가
+아래 지시 사항을 따르십시오:
+당신의 로컬 머신에 맞는 버전을 다운로드 하십시오.
+새 드라이버 파일에 다운로드한 파일의 경로와 이름을 지정하십시오.
+[업로드]를 클릭하여 RT-AC88U에 파일을 업로드하십시오. 업로드 과정은 약 1분 소요됩니다.
+올바른 드라이버 파일을 다운로드한 후, RT-AC88U는 자동으로 새로운 ADSL드라이버 파일을 설치합니다. 업그레이드가 끝난 후 시스템은 재시작합니다.
+새 ADSL드라이버 파일
+만약 ADSL드라이버 업그레이드가 실패하면, 이 웹페이지에서 드라이버를 다시 설치할 수 있습니다.
+참고:
+ADSL드라이버 버전
+ADSL링크 상태
+아래 무선 관련 정보를 설정하십시오.
+계정 상태
+잠금 해제
+최고의 시청각 경험을 위해 광대역 인터넷 연결이 필요합니다. 아래의 권장 사항을 참조하십시오:
+768 Kbps 또는 그 이상의 업로드 대역폭이 음악 감상에 권장됨.
+5 Mbps 또는 그 이상이 SD 비디오 감상에 권장됨.
+15 Mbps 또는 그 이상이 720p 비디오 감상에 권장됨.
+30 Mbps 또는 그 이상이 1080p HD 비디오 스트리밍에 권장됨.
+인터넷 업로드 속도는 ISP와 기타 요소들에 좌우됩니다. 당신의 인터넷 속도를 잘 모를 경우, ISP 에 문의하거나 ASUS 라우터에 연결된 PC로부터 온라인 대역폭 테스트를 사용하십시오.
+클라우드 목록
+클라우드 디스크에 접속하려면 <a id="cloud_url" style="font-weight: bolder;text-decoration: underline;" href="https://router.asus.com" target="_blank">https://router.asus.com</a>를 클릭.
+아래의 URL을 통해 클라우드 디스크에 접속:
+DDNS 이름을 변경하려면 <a style="font-weight: bolder;text-decoration: underline;" href="/Advanced_ASUSDDNS_Content.asp?af=DDNSName" target="_blank">여기</a>를 클릭.
+클라우드 디스크에 접속하려면 <a style="font-weight: bolder;text-decoration: underline;" href="https://router.asus.com" target="_blank">https://router.asus.com</a> 를 클릭.
+클라우드 디스크에 접속하려면 <a style="font-weight: bolder;text-decoration: underline;" href="/Advanced_ASUSDDNS_Content.asp" target="_blank">여기</a>를 클릭하여 ASUS DDNS에 등록하십시오.
+인터넷이 연결된 PC 또는 장치를 통해 액세스, 스트리밍 또는 공유할 USB-부착 저장 장치를 활성화합니다.
+클라우드 디스크를 만들려면 USB 저장장치를 이 라우터에 설치하고 클라우드 디스크를 <b>ON</b> 하십시오.
+기본 클라우드 디스크는 라우터 로그인 계정으로 접속합니다.
+AiCloud 2.0 사용하기
+보다 자세한 내용은 <a id="faq1" href="https://www.asus.com/support/FAQ/114093" target="_blank" style="font-weight: bolder;text-decoration:underline;">포트 포워딩 FAQ</a> 와 <a id="faq2" href="https://www.asus.com/support/FAQ/1011723" target="_blank" style="font-weight: bolder;text-decoration:underline;">DMZ FAQ</a> 를 참조하십시오.
+잘못된 초대 코드입니다!
+기간
+로그인 시도 오류 최대 허용 횟수
+이 페이지는 AiCloud 의 활동에 관한 로그를 보여줍니다.
+ASUS AiCloud 2.0는 언제 어디서나 인터넷을 통해 데이터에 액세스할 수 있습니다. 홈 네트워크와 온라인 저장 서비스를 연결하여 iOS 또는 Android 모바일 장치에 있는 AiCloud 앱을 통해, 또는 웹 브라우저에 있는 개인 웹 링크를 통해 데이터에 액세스할 수 있습니다. 언제 어디서나 자신의 데이터를 사용할 수 있습니다.
+IP 주소가 틀립니다. WAN IP 주소를 <a href=\"Advanced_WAN_Content.asp\" style=\"text-decoration:underline\">여기</a> 또는 <a href=\"https://
+\" style=\"text-decoration:underline\">AiCloud</a>에서 설정할 수 있습니다.
+레코드 없음
+무선 라우터가 현재 개인 WAN IP 주소를 사용하고 있습니다. <p> 이 라우터가 다중 NAT 환경에 있을 수 있으며 WAN에서 AiCloud에서 액세스하지 못합니다.
+암호 보호기능 활성화
+암호 보호 기능:
+암호 보호 기능은 AiCloud 에 인증없는 무단 엑세스를 막아줍니다.
+계정/암호를 통한 로그인 시도 횟수를 제한할 수 있습니다.
+예를 들어, 3번 / 2분이라고 지정하면 사용자는 계정과 암호를 2분 내에 3번 입력 시도할 수 있게 됩니다. 지정된 시도 횟수를 초과하면, AiCloud 계정은 잠기게 되며 관리자가 해제시켜줘야 합니다.
+AiCloud 컨텐트 스트리밍 포트
+AiCloud 2.0
+AiCloud 웹 엑세스 포트
+계정
+익명 로그인 허용
+주의: AiDisk 가 설정되었습니다. AiDisk 를 한 번 더 설정하면 이전 계정/암호와 엑세스 권한이 초기화됩니다. 계정을 추가하려면 <a href="../Advanced_AiDisk_ftp.asp" target="_blank" style="text-decoration: underline; font-family:Lucida Console;">여기</a>를 클릭하여 계정 프로필을 편집하십시오.
+(익명 로그인 허용) 으로 인증 없이 FTP 서비스를 사용할 수 있습니다!
+FTP 서비스에 로그인하려면 사용자 이름과 암호를 입력해야 합니다.
+(익명 로그인 허용) 으로 인증 없이 FTP 서비스를 사용할 수 있습니다! 활성화하시겠습니까?
+게스트 로그인 허용
+고급 파일 공유 구성은<a href="../Advanced_AiDisk_ftp.asp" target="_blank" style="text-decoration: underline; font-family:Lucida Console;">여기</a>를 통하여 할 수 있습니다.
+NTFS 스파스 파일 지원
+읽기
+(익명 로그인 허용) 을 활성화하면 로컬 네트워크에 있는 모든 사용자가 인증 없이 네트워크 장소 (Samba) 를 사용할 수 있습니다!
+네트워크 환경 (Samba) 에 로그인하려면 사용자 이름과 암호가 필요합니다.
+(게스트 로그인 허용), 을 활성화하면 로컬 네트워크에 있는 모든 사용자가 인증 없이 네트워크 환경 (Samba) 을 사용할 수 있습니다! 활성화하시겠습니까?
+무제한 액세스 권한을 사용하여 모든 사용자가 인증하지 않고 FTP 서비스에 액세스 할 수 있습니다!
+RT-AC88U 는 공유 자원에 대해 세가지 엑세스 형식을 제공합니다:<p> a) 제한된 엑세스 권한, FTP 서버 상에서 당신의 USB 디스크에 누구나 접근 가능함.</p> <p> b) 제한된 엑세스 권한, 엑세스 권한을 할당받은 경우에만 USB 디스크에 접근 가능. 이 경우, RT-AC88U 이 \"admin/Family\" 계정을 생성 </p> <p> c) 관리자 권한, RT-AC88U 이 \"admin\" 계정을 생성하여 모든 접근 권한을 부여.</p><p>주: 허가권 설정은 계정 본래의 설정을 무시합니다.</p>
+PS. 계정 관리 기능은 NTFS 파티션 상에서 동작하지 않습니다.
+엑세스 권한 만들기
+ASUS DDNS 는 동적 IP 어드레스와 함께 도메인 이름을 생성합니다. <p> 만약 다른 DDNS 서비스 설정이 필요한 경우, <a href='/Advanced_ASUSDDNS_Content.asp' target='_top'>고급 DDNS</a>을 참조하십시오.</p>
+DDNS 서비스 설정
+<a href='../Advanced_AiDisk_samba.asp' target='_top'>네트워크 이웃 공유</a>: 삼바 서버를 전문적으로 운영할 수 있습니다. <br/><a href='../Advanced_AiDisk_ftp.asp' target='_top'>FTP 공유</a>: FTP 서버를 전문적으로 운영할 수 있습니다.
+공유 디스크 설정
+선택된 계정이 없음
+공유 폴더 생성을 위해 선택된 디스크가 없음
+선택된 폴더가 없음
+공유 폴더 생성을 위한 선택된 파티션이 없음
+Aidisk 마법사는 잘 동작합니다. 나중에 다시 시도하십시오.
+AiDisk 마법사의 설정을 구성한 후에 아래의 정보를 참조하여 디스크에 접근하십시오.
+쓰기
+AiDisk는 다음과 같은 기능을 제공합니다:
+인터넷을 통한 USB 디스크의 파일 공유
+FTP 서버용 도메인 이름 생성
+AiDisk 마법사 사용을 환영합니다.
+AiDisk 마법사
+업데이트 확인
+계속하시겠습니까?
+&nbsp;
+인증을 사용하는 경우 AiMesh 시스템을 사용할 수 없게 됩니다.
+라우터의 작동 모드를 Repeater Mode(리피터 모드)로 변경하면 AiMesh 시스템이 비활성화됩니다.
+라우터의 작동 모드를 Media Bridge mode(미디어 브리지 모드)로 변경하면 AiMesh 시스템이 비활성화됩니다.
+SSID 및 WPA 의 사전 공유된 키를 변경하면 AiMesh 라우터의 Wi-Fi 연결이 영향을 받습니다.
+SSID 를 변경하면 AiMesh 노드의 Wi-Fi 연결이 영향을 받습니다.
+WPA 의 사전 공유된 키를 변경하면 AiMesh 노드의 Wi-Fi 연결이 영향을 받습니다.
+국가 코드를 변경하면 AiMesh 시스템이 영향을 받습니다.
+무선 기능을 비활성화하면 AiMesh 라우터의 Wi-Fi 연결이 영향을 받습니다.
+SSID를 숨기면 AiMesh 라우터의 Wi-Fi 연결이 영향을 받습니다.
+SSID를 숨기면 WPS 기능이 비활성화되고 AiMesh 라우터의 Wi-Fi 연결이 영향을 받습니다.
+DHCP 서버를 비활성화하면 AiMesh 라우터의 Wi-Fi 연결이 영향을 받습니다.
+AiMesh 시스템과 최종 장치의 호환성을 고려할 때 WPA2-Personal 사용을 권장합니다. #AUTHMODE 로 전환하시겠습니까?\n*연결 문제가 발생한 경우, WPA2-Personal로 전환하거나 제조업체를 통해 추가 정보를 확인하시기 바랍니다.
+AiMesh 시스템과 최종 장치의 연결을 보장하기 위해 WPA3-Personal로 전환하기 전에 이 <a id="wpa3FaqLink">FAQ</a>를 읽어 보십시오.
+현재 WPA3-personal을 사용 중입니다. AiMesh 시스템을 생성하기 위해 인증 방법이 WPA2/WPA3-personal로 변경됩니다. 계속하시겠습니까?
+You can read this <a id='wpa3FaqLink'>FAQ</a> for more information.
+고급 ASUS AiMesh 는여러개의 ASUS 라우터를함께연결하여가정전체의 Wi-Fi 네트워크를구성할수있는새로운혁신적라우터기능입니다.
+ASUS AiMesh 에대한자세한내용을확인하십시오.
+AiMesh 노드찾기
+내 AiMesh 노드를찾을수없습니까?
+AiMesh 노드를검색하는동안 WPS 가활성화됩니다.
+주변에서사용가능한 AiMesh 노드를검색하여 AiMesh 시스템에조인합니다.
+주변에서 AiMesh 노드를찾을수없습니다.
+이장치가 <span style='color:#569AC7;'>AiMesh 라우터</span> 로지정되지않은경우다음을확인한후다시시도하십시오.
+AiMesh 노드전원이켜졌는지
+AiMesh 노드의펌웨어가최신버전인지
+AiMesh 노드가기본값으로리셋되었는지
+AiMesh 노드를AiMesh라우터가까이이동했는지
+이장치가 <span style='color:#569AC7;'>AiMesh 노드</span> 로지정되지않은경우다음을수행한후다시시도하십시오.
+이장치의리셋버튼을누른후기다립니다.
+AiMesh 라우터 GUI 에로그인하여 AiMesh 아이콘을클릭합니다.
+라우터 GUI 에서 AiMesh 아이콘을찾을수없는경우 AiMesh 라우터의펌웨어를업그레이드합니다.
+이노드 (<span id='newReMac'></span>) 가준비될때까지기다리십시오.
+AiMesh 라우터 및 AiMesh 노드 사이의 신호 품질이 약해서 연결 품질이 불량하고 인터넷이 불안정할 수 있습니다. 노드를 AiMesh 라우터 쪽으로 더 가까이 이동하고 다시 시도하십시오.
+다음상황때문에AiMesh노드 <span class='amesh_device_info'></span> 를AiMesh시스템에추가할수없습니다.확인후다시시도하십시오.
+다른사용자가 AiMesh 시스템설정을시도하고있습니다. 1 분기다린후다시시도하십시오.
+설정과정이진행되는중에는 AiMesh 라우터와노드간간격이 3m 이내에있도록하십시오.
+AiMesh 노드가 AiMesh 지원펌웨어로업그레이드되어있어야합니다.
+AiMesh 노드
+이 AiMesh 노드를 AiMesh 시스템에추가하시겠습니까?
+You just setup <span class='amesh_device_info'></span> as an AiMesh node, please wait for the <span class='amesh_device_info'></span> to be online...
+<span class='amesh_device_info'></span> 을(를) AiMesh시스템에성공적으로추가했습니다.해당라우터가AiMesh라우터목록에연결된상태로표시되는데약간의시간이걸립니다.
+AiMesh 노드를다음과같이배치하십시오.
+AiMesh 라우터와기존의데드존사이에배치하십시오.
+개방된공간에서위를향하도록하십시오.
+AiMesh 라우터와 AiMesh 노드를하드와이어로연결하려면 RJ-45 케이블을 AiMesh 라우터의 LAN 포트와 AiMesh 노드의 WAN 에연결하십시오. AiMesh 시스템이이더넷백홀로자동전환됩니다.
+연결우선순위
+Auto(자동)을 설정하면 시스템의 연결 유형을 유선 또는 무선으로 자동 변경합니다.
+이더넷의 경우 시스템의 연결 유형을 유선으로 변경합니다.
+이AiMesh노드를AiMesh시스템에서제거하시겠습니까?
+이 노드가 공장 기본 설정으로 초기화되면서 사용 중인 AiMesh 시스템에서 제거됩니다. 계속하시겠습니까?
+AiMesh 시스템내의 AiMesh 노드목록
+위치
+가정
+거실
+식당방
+침실
+사무실
+계단통
+현관
+주방
+다락방
+지하실
+마당
+부부용 침실
+손님방
+아이방
+서재
+복도
+옷방
+욕실
+2층
+3층
+보관소
+발코니
+회의실
+사용자 지정
+차고
+오프라인팁
+AiMesh 노드가켜졌는지확인합니다.
+AiMesh 노드를재부팅하고다시시도합니다.
+Wi-Fi 연결을사용하는경우또다른 AiMesh 노드에더가까운장소를찾으십시오.
+유선연결을사용하는경우케이블이올바로설치되었는지확인하십시오.
+문제가지속되면 \"Reset\"(리셋버튼) 을눌러 AiMesh 노드를리셋한후이노드의추가를다시시도하십시오.
+다른 AiMesh 노드가페어링을완료할때까지기다리십시오.
+AiMesh 라우터
+이더넷 백홀 모드
+AiMesh 시스템에 대한 양호한 연결을 보장하기 위해 이더넷 케이블을 사용해 모든 노드를 업링크 AP에 연결하도록 하십시오.
+시스템 재부팅
+AiMesh 시스템의 라우터와 노드가 재부팅됩니다.
+시스템을 공장 출고시 기본값으로 재설정합니다.
+AiMesh 시스템의 라우터와 노드가 재설정됩니다.
+프로세스를 완료하는 데 몇 분 정도 걸립니다.
+시스템의 일부 AiMesh 장치가 클라이언트 바인딩 기능을 지원하지 않습니다.
+이 바인딩 규칙이 설정되었더라도 장치가 해당 모델 중 하나에 연결될 수 있습니다.
+바인딩 지원 안 함
+이 장치는 현재 #MODELNAME에 바인딩되었습니다.
+연결 품질을 최적화하기 위해 시스템이 자동으로 장치에 맞는 최상의 라우터를 선택했습니다.
+최적화
+AiMesh 시스템이 완전히 최적화됩니다.
+그 동안, 무선 연결을 사용하는 모든 AiMesh 노드가 일시적으로 연결이 끊기고 최상의 연결을 다시 검색합니다.
+AiMesh 시스템을 최적화하는 중입니다.
+각 AiMesh 노드가 순서대로 다시 연결됩니다.
+#MODELNAME이(가) 최적의 경로에 다시 연결하는 중입니다.
+다시 묻지 않음
+#CLIENTNAME이(가) AiMesh 시스템에 다시 연결하는 중입니다.
+#CLIENTNAME이(가) #MODELNAME(#LOCATION)에 다시 연결되었습니다.
+#CLIENTNAME을(를) 바인딩할 노드를 선택하십시오:
+#CLIENTNAME이(가) #MODELNAME(#LOCATION)에 바인딩되었습니다.
+#CLIENTNAME이(가) 강제로 #MODELNAME에 바인딩됩니다.
+현재 연결 강도가 약하기 때문에 #CLIENTNAME의 인터넷 연결이 끊길 수 있습니다.
+계속하시겠습니까?
+시도할 조치
+#CLIENTNAME 및 #MODELNAME 간에 몇몇 간섭이 있을 수 있습니다.
+장치를 서로 더 가까이 이동하고 "다시 시도"를 클릭하십시오.
+시스템이 #CLIENTNAME의 바인딩을 #MODELNAME(#LOCATION)에서 해제합니다.
+바인딩
+바인딩 해제
+다시 연결
+위협활동
+Security Alert
+알림 기본사항
+클라이언트 이름을 선택하십시오
+Trend Micro 의 AiProtection 은 실시간 네트워크 모니터링으로 PC 또는 연결된 장치에 도달하기 전에 맬웨어, 바이러스 및  기타 침입을 발견합니다. 자녀 보호로 인터넷에 접속할 수 있는 시간을 정해 놓이 괸리할 수 있습니다. 또한 원치 않는 웹사이트와 앱을 제한할 수도 있습니다.
+감염된장치방지및차단은감염된네트워크장치가봇넷또는좀비에의해슬레이브화되어중요한정보를절취하거나다른컴퓨터를공격하지못하도록합니다.
+감염된 장치 보호 및 차단
+AiProtection, Traffic analyzer, Apps analyzer and Adaptive QoS contains services provided by Trend Micro, please be aware that ASUS shall bear no responsibility for any and all information security, the privacy practices and the services provided or implemented by Trend Micro. ASUS encourage you to read and be aware of the privacy statements or terms and conditions of Trend Micro before your use of these service.
+도메인 이름은 공백일 수 없습니다.
+도메인 이름이 이미 화이트리스트에 있습니다.
+화이트리스트가 최대에 도달했습니다. 최대 크기는 64 입니다.
+잘못된 도메인 이름 / IPv4 주소 형식
+보안이벤트
+영구히 이벤트를 삭제하시겠습니까?
+대상
+소스
+위협
+성공적으로보호된이벤트의세부정보
+감지된이벤트가없음
+웹 & 앱 필터링
+성인
+성인물 차단은 자녀들이 섹스, 폭력, 불법 관련 콘텐츠를 방문할 수 없도록 방지합니다.
+포르노
+불법 및 폭력
+도박
+인터넷 전화 통신
+인스턴트 메시지
+가상 커뮤니티
+블로그
+모바일
+콘텐츠 범주
+웹 & 필터링은 원치 않는 웹사이트와 앱의 액세스를 차단할 수 있습니다. 웹 & 앱 필터링을 사용하려면:
+[클라이언트 이름] 컬럼에서 네트워크 사용량을 관리할 클라이언트를 선택합니다. 클라이언트 이름은 네트워크 맵 클라이언트 목록에서 변경할 수 있습니다.
+원치 않는 콘텐츠 범주를 선택합니다.
+더하기(+) 아이콘을 클릭하여 규칙을 추가한 다음 적용을 클릭합니다.
+인스턴트 메시지 및 통신
+IM 차단 및 통신 콘텐츠는 자녀들이 소셜 네트워크 사용에 중독되지 않도록 방지할 수 있습니다.
+규칙을 일시적으로 비활성화하려면 규칙 앞에 있는 체크 상자를 선택 해제합니다.
+P2P 및 파일 전송
+P2P 차단 및 파일 전송 콘텐츠는 양호한 전송 품질의 네트워크를 유지할 수 있습니다.
+파일 전송
+피어 투 피어
+스트리밍 및 엔터테인먼트
+게임
+스트리밍 미디어
+인터넷 라디오 및 TV
+스트리밍 및 엔터테인먼트 차단 콘텐츠는 자녀들이 장시간 인터넷 엔터테인먼트에서 시간을 허비하지 않게 방지할 수 있습니다.
+네트워크 보호 는 ROG RT-AC88U 의전용게이밍네트워킹보호시스템으로서외부공격와백도어데몬으로부터게이밍네트워크를보호합니다.
+네트워크 보호사용
+네트워크 보호
+네트워크 보호는 클라이언트 장치간의 의심스러운 연결과 악의적인 대상이 감지되어 차단될 경우 경고 이메일을 보냅니다. 아래에 자격 증명과 이메일을 입력합니다.
+Trend Micro의 네트워크 보호는 네트워크 익스플로이트 대상을 보호하여 원치 않는 접속으로부터 네트워크를 보호합니다.
+보안 수준
+레벨
+라우터 보안 검색
+라우터의 보안 취약점을 검색하여 증강된 보호 옵션을 추천합니다.
+기본 라우터 로그인 사용자 아이디 및 변경된 비밀번호
+무선 비밀번호 강도 확인
+무선 암호화 활성화
+UPnP 서비스 활성화
+WAN 비활성화에서 웹 액세스
+WAN 비활성화에서 PING
+DMZ 비활성화
+포트 트리거 비활성화
+포트 전달 비활성화
+FTP 공유로 익명의 로그인 비활성화
+네트워크 장소 공유에 대한 게스트 로그인 비활성화
+악성 웹사이트 차단 활성화
+침입자 방지 활성화
+라우터 보안을 위해 로그인 사용자 이름 및 비밀번호를 변경하십시오.
+보안을 위해 복잡한 네트워크 비밀번호를 사용하십시오.
+무선 비밀번호가 없기 때문에 무선 네트워크가 보안되지 않았습니다. 하이퍼링크를 클릭하여 비밀번호를 설정하십시오.
+UPnP 서비스를 비활성화하면 다른 프로그램이 UPnP 포트를 사용하여 라우터 설정을 변경하지 않도록 방지할 수 있습니다.
+WAN에서의 웹 액세스를 비활성화하여 외부에서 라우터를 제어하는 것을 방지합니다.
+WAN에서의 PING을 비활성화하여 크래커가 외부 네트워크에서 라우터에 연결하는 것을 방지합니다.
+DMZ를 비활성화하여 모든 인바운드 패킷이 인터넷에 노출되는 컴퓨터로 리디렉션되는 것을 방지합니다.
+포트 트리거를 비활성화하여 특정 포트를 통해 크래커가 라우터에 접속하는 것을 방지합니다.
+포트 전달을 비활성화하여 특정 포트를 통해 크래커가 라우터에 접속하는 것을 방지합니다.
+FTP 공유로 익명 로그인을 비활성화하여 비승인 사용자가 데이터에 액세스하는 것을 방지합니다.
+네트워크 장소 공유에 대한 게스트 로그인을 비활성화하여 비승인 사용자가 데이터에 액세스하는 것을 방지합니다.
+악의적인 사이트 차단을 활성화하여 알려진 악성 웹사이트로의 액세스를 제한합니다.
+침입자 방지를 활성화하여 라우터 또는 장치 소프트웨어의 취약점을 통한 크래커 침입을 방지합니다.
+감염된 장치 방지 및 차단을 활성화하여 의심스러운 연결 또는 작업을 감지하여 데이터 도난을 방지합니다.
+공격자가 지능형 무차별 대입 공격을 통해 사용자의키를 획득하지 못하도록 하려면 Wi-Fi 보호 설정을 비활성화하십시오.
+위험
+적중수
+리스크
+안전
+이 웹사이트가 안전한 것으로 간주됩니까?
+Trend Micro 에 보고
+이 웹사이트가 다른 범주로 간주됩니까?
+Trend Micro 에 재분류 요청
+항상 최신의 보호를 위해 Trend Micro의 데이터베이스에 알려진 악성 웹사이트의 접속을 제한합니다.
+악의적인 사이트 차단
+신뢰하는 도메인을 추가하고 AiProtection으로 잠금 해제
+화이트리스트에 도메인 추가
+AiProtection
+대역폭사용률
+인터넷의업로드및다운로드대역폭을입력하십시오.
+ROG RT-AC88U 는이대역폭을사용하여게이밍장치에대한최상의트래픽을준비합니다.
+게임대시보드
+ROG RT-AC88U Dashboard 에서게이밍네트워크에대해최상의설정을구성하고실시간모니터링을할수있습니다.
+대시보드
+전용게이밍 Wi-Fi
+최상의 Wi-Fi 게이밍네트워크를위해게이밍컴퓨터,콘솔또는모바일장치를전용 ROG LAN 포트에연결합니다.
+ROG RT-AC88U 는최상의 Wi-Fi 온라인게이밍을위해컴퓨터,콘솔또는모바일을연결하는전용 ROG LAN 포트를제공합니다.
+게임레이더
+ROG RT-AC88U Game Radar 는특정게임에대한최상의게임서버를검색합니다. Game Radar 는사용자의위치와 ISP 를찾고,선택한게임에대한모든게임서버를검색한후지도를제공합니다.
+모든 게임 이름, 로고 및 브랜드는 해당 소유자의 재산입니다. 해당 이름, 로고 및 브랜드의 사용은 보증을 포함하지 않습니다.
+VR 게이밍에최적합함
+ROG RT-AC88U 는동시적이고신뢰성있으며원활한온라인 VR 게이밍및 4K 비디오스트리밍에최상의솔루션을제공합니다.
+상위클라이언트
+Two-Way IPS(양방향IPS)
+Two-Way IPS(침입방지시스템)는스팸또는DDoS가사용자의장치를공격하지못하도록하고악성수신패킷을차단함으로써쉘쇼크,하트블리드,비트코인마이닝및랜섬웨어와같은네트워크취약성공격으로부터라우터를보호합니다.이시스템은또한의심스러운발신패킷을감지하여감염된장치를찾아낸후해당장치가봇넷에의해슬레이브화되지않도록합니다.
+침입자 방지
+취약점 보호, 악의적인 사이트 차단, 감염된 장치 보호 및 차단을 활성화합니다. 보안 설정은 무선, 유선 및 첨부된 저장소 네트워크 성능에 영향을 줍니다.
+라우터 구성 내의 공통 익스플로이트를 해결합니다.
+콘텐츠 범주는 비워두면 안됩니다.
+웹 콘텐츠 필터
+웹 콘텐츠 필터로 원치 않는 웹사이트에 액세스하지 않도록 차단할 수 있습니다.
+웹 콘텐츠 필터 사용
+소셜 네트워킹
+이메일
+이미지 검색
+검색 엔진
+Click going to Trend Micro website to check more information.
+허가 권한/엑세스 권한 설정에 실패
+디스크 권한 요청 실패
+스왑 파일 생성 실패
+디스크 포맷 실패
+계정 생성 실패
+계정 삭제 실패
+계정 생성 실패
+공유 폴더 생성 실패
+공유 폴더 삭제 실패
+공유 폴더 수정 실패
+AiDisk 애플리케이션 제어 실패
+디스크 언마운트 실패
+PROTOCOL 관련 입력 없음!
+폴더관련 입력 사항이 올바르지 않음!
+풀(POOL) 또는 폴더에 관한 입력이 올바르지 않음!
+허가 권한에 관한 입력이 없습니다!
+허가 권한 관련 입력이 올바르지 않습니다.
+암호 입력이 없습니다! 암호 항목이 없습니다.
+암호 입력이 올바르지 않습니다!
+새 계정 또는 새 암호에 대힌 입력이 없습니다!
+새 폴더에 대한 입력이 없습니다!
+플래그에 대한 입력이 없습니다!
+플래그에 대한 입력이 올바르지 않습니다!
+프로토콜에 대한 입력이 올바르지 않습니다!
+DISK에 대한 입력이 없습니다!
+시스템에 선택한 디스크가 없습니다!
+새로운 파티션의 이름에 대한 입력이 없습니다!
+새로운 파티션의 이름에 대한 잘못된 형식입니다!
+새로운 파티션의 크기에 대한 입력이 없습니다.
+새로운 파티션의 파일 시스템에 대한 입력이 없습니다!
+동작 모드에 대한 입력이 없습니다.
+동작 모드에 대한 입력이 올바르지 않습니다!
+계정에 대한 입력이 없습니다!
+계정에 대한 입력이 올바르지 않습니다!
+풀(POOL)에 대한 입력이 없습니다!
+풀(POOL)에 대한 입력이 올바르지 않습니다!
+폴더에 관한 입력이 없습니다!
+시스템 에러: 메모리 할당을 할 수 없음!
+시스템 에러: 디스크 데이터를 읽어올 수 없음!
+시스테 에러: 디스크가 바쁨!
+시스템 오류.
+첫글자와 마지막 글자 사이에 공백이 있어선 안됩니다.
+RT-AC88U 이 IE6 을 사용하고 있음을 발견하였습니다. 최상의 브라우징 환경을 위해 Google 크롬, IE7 또는 그 이상의 브라우저를 권장합니다.
+Amazon Alexa Skill 를통한 ASUS 라우터제어
+Amazon Alexa 및 ASUS 라우터스킬을사용하여간단한음성명령으로 ASUS 라우터를제어합니다. Amazon Alexa 와페어링되면사용자는 ASUS 라우터앱이나웹사용자인터페이스에로그인하지않고도 ASUS 라우터에게다양한작업을수행하라고요청할수있습니다.예:
+다음과같이말해보십시오.
+Alexa, ask ASUS ROUTER to turn on the Guest Network
+Alexa, ask ASUS ROUTER to upgrade the firmware
+Alexa, ask ASUS ROUTER to pause the Internet
+경고: “Alexa, ask ASUS Router to cut internet on all devices” 라고말하면방화벽에대한현재네트워크서비스필터정책이덮어쓰입니다.
+활성화 코드 받기
+Amazon 계정과 ASUS 라우터를 연동하려면 활성화 코드를 붙여 넣으십시오.
+스킬더보기
+ASUS 라우터를 Amazon Alexa 와수동으로페어링하려면아래의활성화코드를복사하여 ASUS 라우터와 Alexa 연결웹페이지에붙여넣으십시오.
+선택한 후 원하는 Amazon 지역의 웹사이트로 이동하십시오.
+호주 & 뉴질랜드
+캐나다
+프랑스
+독일과 오스트리아
+인도
+이탈리아
+일본
+스페인
+미국
+영국과 아일랜드
+Amazon Alexa 계정이 등록되었습니다.
+IFTTT 계정이 등록되었습니다.
+ASUS 라우터와 Alexa 를사용하여더스마트한홈을만드십시오!
+원격제어를위해 WAN 에서 DDNS 와웹액세스를활성화하려면<span id=\"remote_control_here\">여기</span>를클릭하십시오
+WAN 에서 DDNS 와웹액세스를활성화하시겠습니까?
+서버 연결 실패
+Alexa 계정에로그인하십시오.
+아래 단계를 따라 계정을 페어링하십시오.
+인터넷 연결이 끊어짐. 원격 제어를 위한 WAN 연결을 확인하십시오.
+Amazon Alexa Skill
+활성화 코드 받기
+Amazon 계정과 ASUS Router 를 연동하려면 활성화 코드를 붙여 넣으십시오.
+IFTTT 계정과 ASUS Router를 연동하려면 활성화 코드를 붙여 넣으십시오.
+모든
+모든클라이언트
+암호 로그인 허용
+Android 폰
+IP 정보를 얻는데 실패
+AP IP 어드레스
+AP 탐색
+Apps
+APN 구성
+APP 리스트 로딩…
+ASUS Router 홈 네트워크를 관리하는 혁신적인 앱입니다.
+WPA 키 인증에 실패함. WPA 키를 다시 입력하십시오.
+ASUS EZ 프린터 공유 (Windows 만 지원)
+네트워크 로그인 이름과 비밀번호가 기본 설정과 같습니다. 이를 변경하여 보안 위험을 방지하십시오.
+라우터에 대한 새 펌웨어 업데이트가 있습니다. 업데이트하여 시스템의 안정성을 높이고, 새롭게 향상된 기능을 사용하고, 보안 위험을 방지하십시오.
+Wi-Fi 네트워크가 암호화 되어 있지 않아 위험합니다. 네트워크에 비밀번호를 설정하여 보안 위험을 방지하십시오.
+현재 AiDisk FTP 권한은 비승인 사용자 로그인을 허용합니다. (익명 로그인 허용) 을 비활성화여 보안 위험을 제거하십시오.
+FTP가 위험했었으므로 (익명 로그인 허용) 이 자동으로 비활성화되었습니다. 라우터 로그인 이름 및 암호를 사용하여 FTP 에 로그인할 수 있습니다. 권한 설정을 변경하려면 여기를 클릭하십시오.
+현재 네트워크 환경 (Samba) 권한이 비승인 사용자 로그인을 허용합니다. (게스트 로그인 허용) 을 비활성화하여 보안 위험을 제거하십시오.
+네트워크 환경 (Samba) 이 위험했었으므로 (게스트 로그인 허용) 이 자동으로 비활성화되었습니다. 라우터 로그인 이름과 암호를 사용하여 로그인할 수 있습니다. 권한 설정을 변경하려면 여기를 클릭하십시오.
+지금 변경
+지금 업데이트
+지금 만들기
+이 메시지를 다시 보지 않음.
+ASUS 서비스 / 케이스 번호 또는 CRS ID
+인증됨
+인증되지 않음
+인증된 키
+자동 설치 중…
+사용 가능한 공간
+평균
+평균
+앱 분석 활성화는 장치 아이콘을 클릭할 수 있으며 자세한 클라이언트 모니터를 위해 각 장치별로 모든 앱 트래픽을 표시합니다.
+대역폭 모니터
+앱 분석
+트래픽이감지되지않음
+WAN/LAN 대역폭 모니터
+Bandwidth Setting
+다운로드 관리자 사용?
+다운로드 공유 사용?
+iTunes 서버 사용?
+UPnP 사용
+블랙 리스트
+차단
+욕설이나 저속한 콘텐트가 있는 사이트는 일반적으로 미성년자에게 부적절하다고 간주됩니다. 이러한 사이트에는 에로틱한 콘텐트나 성적 서비스를 위한 광고를 제공하는 사이트가 포함되지만 성적으로 노골적인 이미지가 있는 사이트는 제외됩니다.
+아동 포르노와 관련된 파일 공유 및 전송을 목적으로 하는 소프트웨어에 대한 정보를 제공하는 사이트.
+성적 서비스를 제공하는 사이트를 포함하여 성적 흥분을 목적으로 한, 성적으로 노골적인 이미지가 있는 사이트.
+노골적인 이미지 유무와 관계없이 생식, 성행위, 피임, 성병, 안전한 성행위 또는 성적 외상에 대한 대처 등을 토론하는 사이트.
+수영복이나 속옷을 착용한 모델 이미지를 게재하고 이러한 의복을 판매하는 사이트.
+저속하거나 포르노가 아닌 일반적으로 예술적으로 간주되는 누드 또는 부분적 누드 이미지를 보여주는 사이트.
+주류 또는 담배 제품을 홍보 또는 판매하거나 이에 대한 정보를 제공하는 사이트.
+빈집털이, 사기, 지적 재산 절도, 표절 등 비폭력 범죄를 저지르는 방법을 홍보하고 토론하는 사이트로서, 여기에는 표절되거나 도난당한 물건을 판매하는 사이트가 포함됩니다.
+불필요하게 공격적이고 충격적인 콘텐트가 포함된 사이트로서, 여기에는 신체 변형, 절단 또는 동물 학대의 극단적인 형태를 보여주는 사이트가 포함됩니다.
+혐오와 폭력을 조장하는 사이트로서, 여기에는 사회적 집단에 대한 편견, 극단적인 폭력 및 위험한 활동, 훼손, 피 또는 파괴 장치의 제작을 옹호하는 사이트가 포함됩니다.
+액세서리 및 사용을 포함한 무기 관련 사이트로서 여기에는 군사 연구기관의 사이트 또는 스포츠나 레크리에이션 장비로서의 무기를 토론하는 사이트는 제외됩니다.
+낙태에 대한 도덕적 또는 정치적 견해를 다루는 사이트를 포함하여 낙태를 홍보, 장려 또는 토론하는 사이트.
+사회 통념에 어긋하거나 불법적인 중독성 물질을 사용하는 방법을 홍보, 미화, 공급, 판매 또는 설명하는 사이트.
+마리화나의 재배, 흡입 또는 조제에 대해 토론하거나 관련 도구를 판매하는 사이트.
+온라인 도박 사이트를 포함하여 도박에 관한 정보를 홍보하거나 제공하는 사이트.
+VoIP(음성 인터넷 프로토콜) 통화를 위해 웹 기반 서비스 또는 다운로드할 수 있는 소프트웨어를 제공하는 사이트.
+방문 웹 브라우저로 악성 추적 쿠키를 보내는 사이트.
+컴퓨터 보안 시스템을 우회하기 위한 소프트웨어를 제공하는 사이트.
+악의적인 도메인 또는 웹 사이트, 악성 페이로드를 호스팅하는 도메인.
+웹 분석 도구 및 네트워크 모니터를 포함하여 데이터 및 데이터 분석을 수집, 처리 및 제공하는 데 사용되는 콘텐트 서버, 이미지 서버 또는 사이트.
+사용자를 불안하게 만들 수 있는 애플리케이션을 포함하여 다운로드할 수 있는 'joke' 소프트웨어를 제공하는 사이트.
+중복되거나 일반적으로 원치 않는 결과로 검색 엔진을 오염시키기 위해 스크래핑하거나 복사한 콘텐트를 사용하는 사이트.
+배너 또는 팝업 광고를 표시하는 데 사용되는 사이트를 포함한 광고 게재 전용 사이트.
+비밀번호 크랙 소프트웨어를 배포하는 사이트.
+컴퓨터를 원격에서 모니터링하거나 제어하는 도구를 제공하는 사이트.
+주로 라디오 또는 TV 프로그램을 스트리밍하는 사이트로서 여기에는 다른 종류의 스트리밍 콘텐트를 제공하는 사이트는 제외됩니다.
+트로이 목마가 감지되어 차단되었습니다.
+프록시 서버나 웹 필터링 시스템을 우회하는 도구를 제공하는 사이트를 포함하여 우회 방법을 다루는 사이트.
+유해할 수 있는 다운로드가 포함된 사이트.
+의심스러운 사용자가 소유한 컴퓨터에서 데이터를 수집하고 전송하는 다운로드가 들어 있는 사이트.
+합법적인 사이트를 가장하여 사용자 이름 및 비밀번호와 같은 중요한 정보를 수집하는 사기 사이트.
+스팸 메시지에서 발견된 적이 있는 주소를 사용하는 사이트.
+광고 또는 기타 홍보 콘텐트를 표시하는 다운로드가 들어 있는 사이트로서 여기에는 브라우저 도우미 개체를 설치하는 사이트가 포함됩니다.
+업그레이드를 호스팅하거나 도난당한 정보를 저장하는 데 사용되는 사이트를 포함하여 악성 프로그램이 사용하는 사이트.
+직간접적으로 악성 소프트웨어 또는 소스 코드를 용이하게 배포하도록 도와주는 사이트.
+방문 웹 브라우저로 악성 추적 쿠키를 보내는 사이트.
+사용자 동의없이 다른 네트워크에 연결되는 다운로드 사이트.
+컴퓨터 보안 시스템을 우회하기 위한 소프트웨어를 제공하는 사이트.
+사용자를 불안하게 만들 수 있는 애플리케이션을 포함하여 다운로드할 수 있는 'joke' 소프트웨어를 제공하는 사이트.
+비밀번호 크랙 소프트웨어를 배포하는 사이트.
+컴퓨터를 원격에서 모니터링하거나 제어하는 도구를 제공하는 사이트.
+중복되거나 일반적으로 원치 않는 결과로 검색 엔진을 오염시키기 위해 스크래핑하거나 복사한 콘텐트를 사용하는 사이트.
+배너 또는 팝업 광고를 표시하는 데 사용되는 사이트를 포함한 광고 게재 전용 사이트.
+악의적인 도메인 또는 웹 사이트/악성 페이로드를 호스팅하는 도메인.
+먼저 고전적인 신뢰감 구축에 사용되는 수법으로 신뢰를 얻은 후 개인이나 집단을 사취하는 사이트.
+직간접적으로 랜섬웨어를 용이하게 배포하도록 도와주는 사이트.
+클라이언트를 차단하려면 여기를 클릭하십시오.
+자세한 정보:
+관리자로서 보호 설정을 조정하려는 경우 홈 보호 페이지로 이동하여 구성을 변경하십시오.
+Trend Micro는 보다 견고하고 강화된 보안 솔루션을 제공합니다. <a href="http://bit.do/bcLqZ" target="_blank">다운로드</a>링크를 클릭하여 무상 시험판을 시작하거나 <a href="http://www.trendmicro.com" target="_blank">Trend Micro 웹사이트를 방문하여</a> 온라인 검사 서비스를 사용하십시오.
+경고! 이 웹사이트에는 맬웨어가 포함되어 있습니다. 이 웹사이트를 방문하면 컴퓨터가 피해를 입을 수 있습니다!
+관리자로서 차단된 웹사이트를 방문하려는 경우 자녀 보호로 이동하여 구성을 변경하십시오.
+이 웹 페이지는 필터링되었습니다.
+이 장치는 인터넷에 액세스할 수 없도록 차단되었습니다.
+관리자로서 웹사이트를 방문하려는 경우
+로 이동하여 구성을 변경하십시오.
+클라이언트로서 문제가 있는 경우 관리자에게 문의하십시오.
+경고! 이 장치는 인터넷에 액세스할 수 없습니다.
+차단된 클라이언트 리스트
+대역폭 상태
+대역폭 관리 - 사용자 지정 서비스
+사용자 지정 룰 리스트
+서비스 이름
+소스 IP 또는 MAC
+목적지 포트
+우선 순위
+ISP가 제공하는 호스트 이름:
+WAN 연결 형식이 PPTP 또는 L2TP인 경우, VPN 서버의 서버 이름 또는 서버 IP 어드레스를 입력하십시오.
+이 항목에 RT-AC88U의 호스트 이름을 기재합니다. 일반적으로 ISP 에서 요구합니다.
+최대 다운로드 대역폭 설정. 0은 무제한 대역폭을 의미합니다.
+사용안함
+사용하지않음
+사용
+내보내기
+설정
+제거
+보내
+WAN 설정
+그림모드
+그림모드로들어가십시오.
+이더넷/네트워크케이블이제대로연결되었는지확인하십시오
+라우터가 ASUS 서버에서 펌웨어 업데이트를 확인 합니다.
+클라이언트 이름
+상
+인터넷 액세스 차단
+장치
+MAC 및 IP 주소 바인딩
+이름
+로그인한 사용자
+프린터
+오프라인
+클라이언트의 연결이 끊김
+온라인
+모든 목록
+숨기기
+표시하기
+시간 형식
+Cloud Disk
+암호 길이는 8 자 이상이어야합니다.
+브라우저
+새초대를받았습니다.
+원격 경로
+동기화
+USB 디스크에 다운로드
+동기화
+클라우드로 업로드
+서버 공유 폴더
+계정없이 공유하는 경우 계정은 숨겨집니다. 정말 사용하지 않길 원하십니까?
+네트워크 환경에서 디스크 공유를 사용하지 않으시겠습니까?
+FTP 서버를 통한 디스크 공유를 사용하지 않으시겠습니까?
+네트워크 환경 공유를 사용하지 않으면 다운로드 관리자를 사용할 수 없게 됩니다.
+계정을 통한 공유를 사용하면 다른 엑세스 권한을 가진 여러 PC가 파일 공유에 접근할 수 있게 됩니다. 정말 사용하도록 하시겠습니까?
+네트워크 환경에서 디스크를 공유하시겠습니까?
+FTP 서버를 통해 디스크를 공유하시겠습니까?
+암호 재입력
+라우터가 펌웨어 업데이트를 위해 ASUS 서버에 접속할 수 없습니다. 인터넷에 다시 연결하고 이 페이지에서 최신 펌웨어 업데이트를 확인하십시오.
+당신의 iOS 또는 안드로이드 기기들을 WiFi 를 통해RT-AC88U에 연결하십시오. AiCloud 2.0 앱이 설치 과정을 자동으로 안내해줄 것입니다.
+클라이언트 리스트
+연결 중...
+연결 시간
+연결
+연결 상태
+Asia
+Australia
+China
+Europe
+Korea
+Russia
+Singapore
+The United States
+캐나다
+무료계정만들기
+PPPoE, PPTP 또는 L2TP에서 레벨 2 CTF가 지원되지 않습니다. 레벨 1 CTF를 변경하려면, 확인 을 클릭하십시오.
+하드웨어 가속기 사용
+Click <a style="text-decoration:underline" href="Advanced_SwitchCtrl_Content.asp?af=ctf_disable_force">HERE</a> to disable NAT Acceleration.
+사용
+추가
+동의
+Change
+로그 확인
+비우기
+닫기
+지우기
+사용안함
+Default
+사용안함
+동의하지 않음
+연결끊김
+사용
+완료
+완료됨
+포맷
+생성
+도움말
+링크
+로컬 장치
+로그인
+지원되지 않음
+확인
+저장
+자동 연결
+새로고침
+초기화
+복구
+검색
+검색
+라우터 보안
+펌웨어 업그레이드
+업로드
+Initialize
+현재값
+현재 주파수
+현재 설정
+사용자 지정
+Customize
+날짜
+금
+월
+토
+일
+목
+화
+수
+일수
+레지스터
+HTTPS/SSL 인증서
+Let's Encrypt 의 무료 인증서
+Let's Encrypt 의
+인증서 가져오기
+인증 기관에서 발행한 인증서를 여기에 업로드합니다. 개인 키와 SSL 인증서가 필요합니다.
+개인 키
+개인 키는 암호로 보호할 수 없습니다.
+SSL 인증서
+서비스 약관
+Transfer ASUS DDNS name
+WAN IP 및 호스트 이름 확인
+Check every
+서비스에 동의하고 사용합니다
+이 계정은 네트워크 환경과 FTP 에서의 엑세스 권한을 포함하여 삭제됩니다. <p> 정말 계속하시겠습니까? </p>
+이 계정 삭제
+최초시간지연
+폴더를 삭제하기 전에, 안이 비었는지 확인하십시오. <br><br> 정말 폴더를 삭제하기 원하십니까?
+이 폴더 삭제
+설명
+찾는 중, 기다리십시오…
+iTunes 서비스:
+프린터 서비스:
+장치 유형
+PC
+라우터
+엑세스 포인트
+NAS
+IP 카메라
+기타 장치
+리피터 모드에서는, DHCP 가할당된 IP 주소가변경됩니다.무선라우터의새로운 IP 주소를받으려면 <a href=\"http://dlcdnet.asus.com/pub/ASUS/LiveUpdate/Release/Wireless/Discovery.zip\" style=\"font-family:Lucida Console;text-decoration:underline;color:#FC0;\">Device Discovery Utility</a>를설치하여사용하시기바랍니다.
+엑세스 포인트(AP) 모드에서, DHCP 가할당된 IP 주소가변경됩니다.무선라우터의IP주소를감지하려면,  <a href=\"http://dlcdnet.asus.com/pub/ASUS/LiveUpdate/Release/Wireless/Discovery.zip\" style=\"font-family:Lucida Console;text-decoration:underline;color:#FC0;\">Device Discovery Utility</a> 를설치하여사용하시기바랍니다.
+AiMesh 라우터가 AP 모드에 있는 경우 DHCP에 할당된 IP 주소가 변경됩니다. 무선 라우터의 IP 주소를 검색하려면 <a href=\"http://dlcdnet.asus.com/pub/ASUS/LiveUpdate/Release/Wireless/Discovery.zip\" target=\"_blank\" style=\"font-family:Lucida Console;text-decoration:underline;color:#FC0;\">Device Discovery Utility</a> 를 설치한 후 사용하십시오.
+Media Bridge 모드에서, DHCP 로 할당된 IP 어드레스는 변경됩니다. <a href=\"http://dlcdnet.asus.com/pub/ASUS/LiveUpdate/Release/Wireless/Discovery.zip\" style=\"font-family:Lucida Console;text-decoration:underline;color:#FC0;\">장치 탐색 유틸리티(Device Discovery Utility)</a> 를 사용하여 무선 라우터의 IP 어드레스를 탐지하십시오.
+무선 MAC 필터로 무선 LAN에서 지정된 MAC 어드레스를 가진 기기로의 패킷을 제어할 수 있습니다.
+DHCP 쿼리 주파수
+공격적인 모드
+일반 모드
+이 페이지는 MAC, IP 그리고 리스 타임 설정과 같은 기기 관련 설정들을 보여줍니다.
+계정없이 공유
+공유 사용안함
+FTP 사용안함
+인터넷 연결 끊기
+마운트해제
+디스크 라벨
+헬스 스캐너
+하드 드라이브에서 에러가 감지되었습니다. 손상된 파일을 제거하거나 PC를 사용하여 시스템 문제를 고치십시오.
+매일
+스캔 결과
+디스크 스캔 스케쥴 :
+디스크 스캔 완료 중…
+빈도
+정보
+[다시 검색] 을 클릭하여 하드 드라이브의 무결성을 확인
+디스크 스캔 초기화
+매월
+디스크 스캔 과정 완료. 아래의 세부 결과를 확인하십시오.
+디스크 재마운트
+디스크 스캔 중…
+스캔 중에서는 모든 디스크 활동이 멈춥니다. 지금 디스크 스캔을 진행하시겠습니까?
+스캔 중에서는 모든 디스크 활동이 멈춥니다.
+디스크 스캔 진행 중. 기다리십시오.
+디스크 스캔 예약
+디스크 스캔 거의 완료…
+시간
+디스크 언마운트 중…
+주
+매주
+USB 디스크를 삽입하였습니다.
+갱신
+시스템 상황
+Display routing table
+공유 콘텐츠 유형
+미디어 서버 디렉토리
+UPnP 서버 활성화
+미디어 서버 이름
+수동 미디어 서버 경로
+미디어 서버 경로 설정
+모든 다스크 공유
+미디어 서버 상태
+Download Master 사용할 수 없습니다.
+다운로드 관리자 지금 다운로드
+PC-무료 다운로드 관리자
+엑세스 하길 원하는 USB 저장장치를 선택하십시오.
+다운로드 관리자 설치 성공!
+다운로드 관리 지금 실행
+RT-AC88U 는 첫 파티션에 이 같은 포맷을 지원하지 않습니다. FAT32, MS-DOS 및 ext2/3 을 지원합니다.
+첫 파티션의 디스크 할당량은 1GB 미만
+Download Master
+DNS 쿼리
+클라이언트 기기에 DNS 서버를 설정하십시오.
+도메인 이름
+ASUS AiCloud 2.0 앱을 폰과 패드에 다음에서 다운로드 하십시오:
+다운로드 대역폭
+다운로드 관리자가 당신의 RT-AC88U에 설치되지 않았습니다.
+다운로드 관리자가 당신의 RT-AC88U에서 지원되지 않습니다.
+다운로드 우선순위
+지금 다운로드하십시오
+받은 데이터/초
+받은 데이터
+페이지 새로 고침
+이 항목은 Bitswap 을 활성화합니다. Bitswap 은 휴지통/채널에 할당된 비트를 조정합니다. 사용중이거나 가득 찬 휴지통/채널은 비트를 덜 할당하며 사용할 수 있는 채널은 더 많은 비트를 할당하여 사용합니다.
+인터페이스 이름
+DSL Information
+Line Attenuation
+Signal Attenuation
+This page shows the detailed DSL status.
+모드
+Power
+Current Profile
+Data Rate
+Max Rate
+SNR Margin
+SRA(Seamless Rate Adaptation)을 사용하여 일관된 데이터 전송률과 접속 끊김을 방지할 수 있습니다. 그러나 연결이 매우 안정적임에도 다운로드 또는 업로드 속도가 떨어진다면 SRA를 사용하지 않을 수도 있습니다.
+이 항목은 Signal-to-Noise Ratio Offset 을 구성합니다. 만약 DSL 연결이 불안정하고 연결 구성이 되지 않는 경우, 값을 음수 dB, 예를 들면 -1 dB로 설정하십시오. 문제가 계속된다면, 값을 -2 dB ~ -5dB (최대 안정성)으로 설정하십시오. 일반 DSL연결에서는 1 dB ~ 10 dB (최대 성능) 값입니다.
+VDSL Band Status
+PVC 설정을 편집하려면 편집 아이콘을 클릭하십시오. 추가 (+) 또는 삭제 (-) 아이콘을 클릭하여 PVC 설정을 추가 또는 삭제할 수 있습니다.
+전화 케이블 또는 이더넷 케이블이 꼽혀있지 않습니다.
+PPPoE, PPPoA 또는 VPN 인증 실패
+변경하기 전에 ISP 에 문의하여 DSL설정에 관해 문의하십시오.
+DSL모듈레이션
+ANNEX 모드
+DSL 라인 설정
+Regional Mode
+Current SNR Margin
+Share PVC
+SRA (Seamless Rate Adaptation)
+안정성 조정
+RT-AC88U 는 듀얼 WAN 지원을 제공합니다. 장애 조치 모드를 선택하면 백업 네트워크 액세스에 보조 WAN 을 사용합니다. 부하 분산 모드를 선택하면 대역폭 최적화, 처리량 최대화, 응답 시간 최소화, 두 WAN 연결의 데이터 과부하를 방지합니다.
+듀얼 Wan 활성화
+장애 복구 허용
+시스템 복구 메커니즘을 트리거하는 기간 기준. 사용자가 이차 WAN으로 변경하면, 라우터는 일차 WAN이 얼마나 오랫동안 연결되어 있었는지 확인합니다. 일차 WAN 연결이 안정적인 경우(시스템 복구 감지 시간보다 긴 경우), 연결이 일차 WAN으로 변경됩니다.
+기본 WAN이 연속해서 $WANDOG_FB_COUNT 회 실제 케이블을 사용하여 인터넷 연결이 활성화된 것으로 검색되면 기본 WAN으로 장애 복구됩니다.
+장애 복구 트리거 조건
+현재 WAN이 연속해서 $WANDOG_MAXFAIL 회 실패하면 보조 WAN으로 장애 조치됩니다.
+장애 조치 트리거 조건
+기본 WAN에 대한 국가 / ISP 프로필 규칙
+ISP 프로필 규칙
+보조 WAN에 대한 국가/ISP 프로필 규칙
+If you turn on the load balance option, AiProtection function will be disable. Are you sure to process?
+부하 분산은 리소스를 최적화하고 처리량을 최대화함으로써 네트워크 속도는 비슷하게 유지하면서 기본 및 보조 WAN 의 성능을 높여줍니다.
+포트 트리거 / 포트 포워딩 / DMZ / DDNS 기능은유선(이더넷) WAN 연결에서만작동합니다.
+듀얼 WAN 모드
+장애 조치
+부하 분산
+부하 분산 구성
+라우터를 다시 시작할 때 첫 번째 핑 패킷을 보내기 전의 지연 시간입니다.
+핑 시간 감시 장치를 활성화하여 RT-AC88U 와 원격 호스트 간의 기본 WAN 연결을 계속해서 모니터할 수 있습니다. 이 설정에서는 라우터가 사용자가 정의한 대상을 계속해서 핑합니다. 라우터가 대상 IP 주소 핑에 실패할 경우 라우터가 자동으로 장애 조치합니다.
+시스템 대체 작동 감지 시간
+Failover Execution Time
+Maximum Continuous Failures Allowed
+Continuous
+detect network failed
+시스템 복구 감지 시간
+Failback Execution Time
+두 개 핑 패킷 간의 시간 간격.
+라우터가 핑 패킷을 계속해서 보내는 대상 호스트의 IP 주소.
+장애 조치 메커니즘을 트리거하는 기간 기준. 일차 WAN의 분리 시간이 장애 조치 감지 시간에 도달하면, 일차 WAN 연결이 이차 WAN으로 전환됩니다.
+Ping 시간 Watch Dog
+자동 네트워크 검색
+기본 WAN
+현재 기본 WAN
+이더넷 LAN
+이중 WAN 라우팅 규칙
+라우팅 규칙 활성화
+라우팅 규칙
+보조 WAN
+WAN 장치
+USB 디스크 꺼내기
+비었음
+DMZ 사용
+MAC 필터를 사용
+NAT 사용
+WAN 다운브라우저리디렉션알림활성화
+This feature allows browser to redirect to failed connection warning page when Internet is down, if disabled warning page would not appear.
+재부팅 스케줄러 활성화
+Router Advertisement 사용
+Enable SSH
+Telnet 사용
+WAN 사용
+QoS 활성화
+USB 모드활성화
+계정을 통한 공유 사용
+공유 사용
+FTP 사용
+부하 분산 활성화
+5GHZ 백홀 클라이언트 연결 허용
+차단하지 않음
+제한된 차단
+완전 차단
+RT-AC88U는 ATM 을 통해 LAN 과 WAN 프로토콜을 압축 또는 변환하는 두 가지 모드를 제공합니다. 적절한 압축 모드를 선택하십시오.
+이더넷 WAN
+설치하다
+설치 중…
+외부 전용
+TTL 값 확장
+EZQoS 대역폭 관리
+ISP 에서 대역폭 정보를 획득하거나  <a href="http://speedtest.net" target="_blank" style="text-decoration:underline;color:#FC0;">http://speedtest.net</a> 에 가서 대역폭을 확인하십시오.
+기본값은0으로서,이는무제한대역폭을의미합니다.
+서비스 품질 (QoS)은 우선 순위 작업과 애플리케이션을위한 대역폭을 보장합니다.
+<span style="font-weight:bolder;font-size:14px;">적응 형 QoS</span> 미리 정의 된, 드래그 드롭 사전 설정을 통해 우선 순위 응용 프로그램 및 작업에 대한 유선 및 무선 연결에 대한 인바운드 및 아웃 바운드 대역폭을 보장합니다: 게임, 미디어 스트리밍, VoIP를, 웹 서핑 및 파일 전송.
+<span style="font-size:14px;font-weight:bolder">대역폭리미터</span> 에서는 클라이언트 장치의 최대 다운로드 및 업로드 속도를 제어할 수 있습니다.
+QoS 기능을 활성화하려면 QoS 슬라이드 스위치를 클릭한 후 업로드 및 다운로드에 입력합니다.
+<span style="font-weight:bolder;font-size:14px;">기존 QoS</span> 는 수동 사용자 정의 매개변수를 통해 우선순위 애플리케이션 및 작업을 위한 유선 및 무선 연결 양쪽에 대한 인바운드 및 아웃바운드 대역폭을 보장합니다.
+QoS 비활성화
+EZQoS 에 대해
+QoS 를 사용하면 몇 분 정도 걸릴 수 있습니다.
+스마트 QoS 활성화
+적응형 QoS 종류는 라우터 스트리밍에 근거하여 앱 범주 우선순위를 변경할 수 있습니다. QoS 전환은 각 클라이언트에 대해 우선순위 구성만 유지합니다.
+기존 QoS
+기존 QoS 종류는 포트, 프로토콜, 전송을 포함하여 고급 구성 항목을 제공합니다. QoS 전환은 각 클라이언트에 대해 우선순위 구성만 유지합니다.
+Quality of Service(QoS) 는 네트워크 속도 성능을 보증합니다. 기본 원칙은 웹 서피을 가장 높은 우선 순위를 두며 BitTorrent와 같은 P2P 애플리케이션에 영향을 받지 않는 것입니다. QoS 기능을 사용하려면, QoS 사용을 클릭하고, 업로드와 다운로드 항목을 기입합니다. 대역폭 정보는 ISP로 부터 얻습니다. <p> 특정한 네트워크 애플리케이션이나 네트워크 기기들의 우선순위를 변경하려면, 사용자 정의 QoS 규칙을 통해 바꿀 수 있습니다.
+보다 고급 및 상세 구성은 다음을 참고
+장애 조치 재시도횟수
+자세한 설명은 <a id="network_detect_faq" href="" target="_blank" style="margin-left:5px; text-decoration: underline;">ASUS 지원 사이트 FAQ</a>에서 볼 수 있으며 이 기능을 효과적으로 사용하는 데 도움이 될 수 있습니다.
+FAQ 찾기
+3G/4G 로그
+Please fill in this column with your ASUS service number or case number provided by the ASUS Call Center or CRS(Customer Review Support) ID provided by ASUS Customer Support(on Amazon site). If you do not remember your service number, please check your e-mail and search for an email from ASUS Technical Service.<br>This column only accepts either one English letter and 10 digits(for example: E1234567890). Or for CRS ID, 5 digits(such as 10688).
+설명 / 제안
+호환성문제
+OS 또는 애플리케이션에서
+외부 하드웨어 디스크 사용
+모뎀 사용
+기타 네트워크 장치 사용
+기타 라우터 사용
+프린터 사용
+USB 모뎀 사용
+연결/속도문제
+느린 무선 속도
+느린 유선 속도
+자동으로 라우터 재부팅
+불안정한 연결 문제
+DSL 서비스의 성능을 가장 잘 설명하는 옵션을 선택하십시오
+국가 / 지역
+디버그 캡처 취소
+진단 디버그 로그 캡처가 진행 중
+진단 디버그 로그 캡처 기간
+xDSL 라인은 피드백 양식이 제출된 후 1분이 지나면 재동기화됩니다.
+디버그 로그 캡처가 진행 중이고, UI의 오른쪽 상단에서 시스템 아이콘이 노란색으로 깜박이면서 디버그 로그 캡처가 진행 중임을 표시합니다. 디버그 로그 캡처를 취소하려면 노란색 시스템 아이콘을 클릭하십시오.
+디버그 로그 캡처가 진행 중인 동안에는 USB 디스크를 뽑지 마십시오. 왜냐하면 이 디스크가 디버그 로그의 저장 위치이기 때문입니다. UI의 오른쪽 상단에서 시스템 아이콘이 노란색으로 깜박이면서 디버그 로그 캡처가 진행 중임을 표시합니다. 디버그 로그 캡처를 취소하려면 노란색 시스템 아이콘을 클릭하십시오.
+현재 로그를 캡처하는 중
+디버그 파일
+DSL 라인 진단 활성화
+시스템 진단 활성화
+USB 디스크에 저장
+최소 하나의 캡처할 로그 유형을 선택해야 합니다.
+당사는 ASUS 제품에대한피드백,의견,제안및기능관련아이디어를환영합니다.
+여러분의 의견은 매우 소중하며 RT-AC88U 펌웨어를 향상시키는데 도움이 됩니다. 연결 문제에 관해 의견 또는 제안 사항이 있으면 아래 양식을 작성하여 주십시오. 현재 DSL 로그를 포함하여 여러분의 의견이 ASUS 지원팀에 전송됩니다. 보내주신 의견에 답장을 보내기 위해 정확한 이메일 주소를 입력 해 주십시오.
+ASUS 라우터가 인터넷에 연결되지 않았기 때문에 이 기능을 사용할 수 없습니다. 피드백을 다음 이메일 주소로 보내십시오.
+이메일 주소
+이메일 주소 형식이 틀립니다.
+이메일 주소 필드가 비어 있습니다. 계속 하시겠습니까?
+디버깅에대한추가정보
+피드백을보내는데실패했습니다.인터넷연결을확인한후다시시도하십시오.
+<span style="color:#FC0;">시스템이 메일 서버에 연결하는 데 실패했습니다.</span> 이메일을으로 직접 보낼 수 있습니다
+간단히아래의내용을복사하여이를이메일내용으로붙여넣으면됩니다.
+다음 디버그 파일들을 다운로드하여 이들을 이메일 첨부 파일로서 추가하십시오.
+또는 <a id="bind_google">Google 계정을 바인딩하여</a> 이메일을 통해 피드백을 보내십시오.
+자주 연결 끊김
+Iptables 설정
+ISP / 인터넷 서비스 공급업체
+최대2000개의문자-남은문자수
+Now this function can't work, because your ASUS Router isn't connected to the Internet. Please send your Feedback to this email address :
+펌웨어 버전을 사용자의 정보 및 의견과 함께 제출합니다.
+사용자 의견은 문제점을 진단하는 데 사용되고, RT-AC88U 의 펌웨어를 개선하는 데 도움이 됩니다. 명시적이든 부수적이든 사용자가 제출한 모든 개인 정보는 당사의 <a style="font-weight: bolder;text-decoration:underline;cursor:pointer;" href="https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/" target="_blank">개인정보 보호정책</a>에 따라 보호됩니다.
+사용자 의견을 제출하면, 이는 ASUS 에서 자사의 네트워킹과 무선 제품을 개선하기 위해 사용자 의견을 사용할 수 있음에 동의하는 것입니다.
+긴급한 문제가 발생하면 가까운 기술 지원 센터로 연락하십시오.
+가끔 끊김
+* 옵션
+문제 설명
+문제 유형
+파일설정
+구성문제
+연결 안정됨
+당사는수신한모든피드백을중시합니다.당사는보내주신피드백과의견을사용하여ASUS경험을개선하기위해노력합니다.
+시간을내서피드백을보내주셔서감사합니다.
+제안된번역
+Translated Suggestion
+보통 내지 항상 사용할 수 없음
+본인은 본인 ASUS 라우터의 문제점 진단과 개선 및 신제품이나 ASUS 서비스의 개발과 평가를 목적으로 한 사용자 경험 분석을 위해 상기 정보, 모델 이름, 본인의 ASUS 라우터, 브라우저 버전, MAC 주소, IP 주소, 인터넷 상태, 라우터 시스템 정보, 이 의견서 양식을 제출한 시기를 제공할 것에 동의하며<a style="font-weight: bolder;text-decoration:underline;cursor:pointer;" href="https://www.asus.com/us/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy" target="_blank">ASUS 개인정보 보호정책</a>에도 동의합니다.
+[보내기]를클릭하기 전에 다음 정보에 동의하십시오.
+Wi-Fi 로그
+12자 이상의 글자로 공유를 설정하면 윈도우 버전에 따라 보이지 않는 경우도 있습니다. 계속 하시겠습니까?
+공유 이름은 공백일 수 없습니다.
+공유 이름은 알파벳/대쉬/언더스코어/공백문자만 포함할 수 있습니다.
+이 볼륨에 이미 같은 공유 이름이 있습니다.\n다른 이름을 입력하십시오!
+다음에 로그인할 때 이 새로운 암호를 사용하십시오.
+사용자 이름은 알파벳 숫자 문자와 대쉬 기호만 포함할 수 있습니다.
+파일 공유
+FileFlex 커넥터
+FileFlex 커넥터 설치 성공!
+새 FileFlex 계정 만들기
+인터넷으로 연결된 모든 장치에서 ASUS 라우터를 통해 사용자가 모든 파일을 원격으로 액세스하여 공유할 수 있습니다.（1 년 무료 평가판을 포함한 타사 소프트웨어）
+FileFlex 는 보안 원격 액세스에 대한 클라우드 기능, 스마트폰, 태블릿 또는 원격 컴퓨터에서 라우터의 USB 연결형 스토리지 또는 라우터-네트워크 연결형 장치의 스토리지로 공유와 스트리밍 기능을 제공합니다. 또한 스마트폰 및 태블릿에서 라우터의 USB 연결형 스토리지 또는 라우터-네트워크 연결형 장치 스토리지로 사진과 동영상의 자동 백업을 지원합니다.
+FileFlex 설치 FAQ
+FileFlex 소개
+지금 FileFlex 로그인
+네트워크 서비스 필터는 LAN 에서 WAN 으로 패킷 교환을 차단하고 장치의 특정 네트워크 서비스 사용을 제한합니다. <p> 예를 들어, 어떤 장치를 인터넷에 접속하지 못하게 하고 싶다면 목적지 포트에 80 을 입력합니다. 포트 80 을 사용하는 트래픽은 차단됩니다. <p>소스 IP 필드를 공백으로 두면 이 규칙은 모든 LAN 장치들에 적용됩니다.
+로컬 네트워크를 해커들의 공격으로부터 지키려면 방화벽을 사용하십시오. 방화벽은 필터 규칙에 따라 들어오고 나가는 패킷을 필터링 합니다.
+<b> 블랙 리스트 지속기간 : </b> 예약된 지속 기간 동안, 블랙 리스트의 클라이언트들은 특정 네트워크 서비스를 사용할 수 없습니다. 그 기간 이후에 모든 클라이언트가 특정 네트워크 서비스에 접근할 수 있습니다. <br> <b> 화이트 리스트 지속기간 : </b> 예약된 지속 기간 동안 화이트 리스트의 클라이언트는 오직 지정된 네트워크 서비스만 사용할 수 있습니다. 지속 기간 이후 화이트 리스트의 클라이언트들과 다른 네트워크 클라이언트들은 인터넷 또는 어떤 인터넷 서비스도 이용할 수 없습니다.
+<b>주:</b> 만약 화이트 리스트에 서브넷을 지정하면, 서브넷 밖의 IP 어드레스는 인터넷 또는 다른 인터넷 서비스를 이용할 수 없습니다.
+MAC 필터는 특정 MAC 어드레스를 가진 기기에 대한 네트워크 접근을 수락하거나 거부할 수 있습니다. <p> MAC 필터를 수락 또는 거부 모드로 설정할 수 있습니다.<p>거부 모드에서, 리스트에 있는 기기들은 네트워크 접근이 거부됩니다. <p> 수락 모드에선, 오직 리스트에 있는 기기들만이 네트워크에 접근 가능합니다. 리스트에 없는 기기들은 네트워크 접근이 거부됩니다.
+\"denial-of-service\" 공격은 합법적인 사용자들이 서비스 또는 컴퓨터 자원을 사용하지 못하게 하려는 시도입니다. <p> 이 기능을 사용하면 Dos 공격으로부터 라우터를 보호할 순 있지만 라우터의 작업 부하를 증가시킵니다.
+Dos 보호 사용
+방화벽을 사용하지 않으면 모든 관련 기능을 비활성화하게 됩니다.
+방화벽 사용
+WAN 설치시 FTP 서버 포트 범위로 20:21 를 설정하면, 당신의 FTP 서버와 RT-AC88U의 기본 FTP 서버와 충돌하게 됩니다!
+키워드 필터 사용
+키워드 필터는 클라이언트가 특정 키워드를 가진 웹페이지를 접근하지 못하도록 차단하게 해줍니다.
+키워드 필터링의 한계 : <ol><li> HTTP 압축 기술을 사용하는 압축된 웹페이지는 필터링 불가<a href="http://en.wikipedia.org/wiki/HTTP_compression" target="_blank" style="text-decoration: underline; font-family:Lucida Console;">보다 자세한 내용은 여기 참조</a></li><li>Https 웹페이지 필터링 불가</li></ol>
+키워드 필터 리스트
+이 필드는 LAN 에서 WAN 으로의 필터가 적용되는 일자를 지정합니다.
+LAN 에서 WAN 으로의 필터 사용 날짜
+이 필드는 LAN 에서 WAN 으로의 필터가 적용되는 시간 간격을 지정합니다.
+LAN 에서 WAN 으로의 필터 사용 시각
+LAN 에서 WAN 으로 패킷 교환을 수락 또는 거부하는 화이트 리스트 또는 블랙 리스트를 필터 테이블에서 선택하십시오.
+필터 테이블 종류
+목적지 IP
+들어오거나 나가는 패킷 제어를 위한 IP 또는 포트를 지정하는 필터를 사용하려면 [예]를 선택하십시오.
+네트워크 서비스 필터 사용
+이 필드는 필터링될 LAN 에서 WAN으로의 ICMP 패킷 유형 리스트를 지정합니다. 예를 들면, Echo(유형 8)와 Echo Reply(유형 0)을 필터링하는 경우, 공백으로 구분하는 숫자로된 [0, 8] 과 같은 문자열을 입력하십시오.
+필터링되는 ICMP 패킷 유형
+소스 IP
+포트 범위
+네트워크 서비스 필터 테이블
+최소한 하나의 수락 어드레스가 MAC 필터 리스트에 있어야 합니다.\n 이 로그인 클라이언트 MAC 을 추가하시겠습니까?
+MAC 필터 리스트
+수락
+거부
+수락 모드에서, RT-AC88U 는 오직 리스트에 있는 MAC 어드레스를 가진 기기들만 수락합니다. 거부 모드에서, RT-AC88U 는 리스트에 있는 MAC 어드레스를 가진 기기들만 거부합니다.
+MAC 필터 모드
+만약 네트워크의 방화벽을 사용하지 않고, WAN 설정에 80을 HTTP 서버 포트 범위로 80 을 지정하면 당신의 http 서버/웹 서버는 RT-AC88U 의 웹 사용자 인터페이스와 충돌하게 됩니다.
+이 필드는 URL 필터가 적용될 날짜를 지정합니다.
+URL 필터를 사용할 날짜:
+이 필드는 URL 필터가 적용될 날짜를 지정합니다. 반드시 다른 시작과 끝 시간을 입력하십시오.
+시작 시각 끝 시각보다 이후입니다.
+유효하지 않은 시간 간격
+지정된 시간 간격은 중첩되면 안됩니다.
+URL 필터를 사용할 시간
+URL 필터 사용
+차단하고자 하는 사이트의 키워드를 입력하십시오. <p>예, 리스트에 "XXX" 를 입력하면 URL 필터는 http://www.abcXXX.com, http://www.XXXbbb.com 등을 차단합니다.
+URL 필터 리스트
+이 필드는 LAN과 WAN 간에 로그로 남겨지는 패킷 종류를 나타냅니다.
+로그된 패킷 유형
+RT-AC88U 가 WAN으로부터의 LPR 에 응답하도록함
+WAN 으로부터의 LPR Request에 응답하도록 합니까
+이 기능은 WAN으로부터의 Ping 에 응답하도록 합니다.
+WAN 으로부터의 Ping 에 응답하도록 합니다.
+이 기능은 무선 라우터를 인터넷을 통해 구성할 수 있게 해줍니다. 기본 포트는 8080 이며 http://[WAN IP]:8080 또는 http://[DDNS 이름]:8080 으로 무선 라우터 웹 사용자 인터페이스를 실행하여 사용할 수 있습니다.
+WAN 을 통한 웹 엑세스 사용
+WAN에서 웹 UI에 액세스할 때는 HTTPS만 지원됩니다.
+인터넷을 통해 RT-AC88U 을 구성하도록 사용할 포트를 지정. 기본 포트는 8080
+WAN 으로부터의 웹 엑세스 포트
+IPv6 방화벽사용
+IPv6 에서 나오는 모든 아웃바운드 트래픽은 관련 인바운드 트래픽과 마찬가지로 LAN 에서 허용됩니다. 다른 인바운드 트래픽은 특히 이곳에서 허용되어야 합니다.
+원격 IP 를 비워 두어 다른 원격 호스트에서의 트래픽을 허용할 수 있습니다. 서브넷도 지정할 수 있습니다. (예: 2001::1111:2222:3333/64)
+인바운드 방화벽 규정
+Remote IP/CIDR
+앱 패트롤
+앱 패트롤 기능으로 원하지 않는 앱에 액세스하지 않도록 차단할 수 있습니다.
+앱 패트롤 사용
+상용 애플리케이션
+리모컨 및 네트워크 관리
+웹 서비스 및 서핑
+이메일 및 협업
+데이터베이스
+비즈니스
+네트워크 관리
+원격 액세스 단자
+네트워크 프로토콜
+개인 프로토콜
+바이패스 프록시 및 터널
+웹
+소셜 네트워크
+폴더명
+하드 드라이브를 포맷하려면[Format(포맷)]을 클릭하십시오.
+포맷 상태
+포맷 유형
+포맷이 진행되는 동안에는 모든 디스크 활동이 중단되고 여러 개의 디스크 파티션이 한 개로 리셋됩니다. 지금 디스크를 포맷하시겠습니까?
+디스크를 초기화하는 중…
+디스크를 포맷하는 중...
+포맷이 완료됨
+FTP 서비스의 계정과 권한을 설정
+클라이언트
+다음의 ASUS 지원 사이트에서 최신 펌웨어를 다운로드하십시오. <a style="font-weight: bolder;text-decoration: underline;color:#000000;" href="https://www.asus.com/support/" target="_blank">https://www.asus.com/support/</a>
+최신 펌웨어를 얻으려면 ASUS 지원 사이트  https://www.asus.com/support/ 을 방문하십시오.
+다운로드 펌웨어
+제품 ID
+펌웨어 버전
+새 펌웨어 파일
+수동펌웨어업데이트
+최신 펌웨어 버전에는 이전 버전의 업데이트가 포함되어 있습니다.
+업데이트 과정이 실패하면 RT-AC88U가 비상 모드로 자동 전환됩니다. RT-AC88U 전면의 LED는 이러한 상황을 표시합니다. <a id="asus_link" style="font-weight: bolder;text-decoration: underline;color:#FFFFFF;" href="https://www.asus.com/support/Download-Center/" target="_blank">ASUS 다운로드 센터인</a> 에서 ASUS 장치 복구 유틸리티를 다운로드하십시오.
+주:
+AiMesh 시스템을사용하는경우수동펌웨어업데이트는선택된 AiMesh 라우터/노드만업데이트합니다.적용가능한각라우터/노드에올바른 AiMesh 펌웨어버전을업로드하고있는지확인하십시오.
+이 AiMesh 노드는펌웨어를수동으로업데이트할수없습니다. \"확인\" 를클릭하여온라인을통해펌웨어업그레이드를수행하십시오.
+AiMesh 시스템에오프라인 AiMesh 노드가있습니다.오프라인 AiMesh 노드는업로드할수없습니다. (온라인 AiMesh 노드는여전히업로드할수있습니다.)
+먼저 파일의 압축을 해제하십시오.
+Updated
+새 펌웨어가 있습니다.
+게임 가속도
+Game Boost
+세 레벨의 게임 가속도
+장치에서 게임 서버로 전송되는 매 단계에서 게임 트래픽을 가속함으로써 최상의 연결 및 성능을 보장합니다.
+실시간 네트워크 보호
+Trend-Micro™에서 구동되는 AiProtection 은 엔터프라이즈 수준의 보안 기능을 제공합니다. 사용자가 안심할 수 있도록 네트워크의 상태와 안전을 지속적으로 모니터링합니다. PC 에서 일시적으로 바이러스 방지 소프트웨어를 해제하여 게임에 사용할 시스템 리소스를 보존할 수 있습니다.
+ASUS 라우터상의 Game Boost：
+평균ping시간및변동을줄입니다.
+평균패킷손실률을줄입니다.
+여러플랫폼을지원합니다.
+Windows, Macintosh, Linux, 모바일,콘솔게임
+PC 용유틸리티가없고게임에대해 CPU/RAM 사용량이예약됨.
+하나의장치가속도에대한평생무료가입.
+독점적인 WTFast 탑재게이머개인네트워크(GPN)인 Game Boost 는게임패킷에가장효율적인경로를위해자동으로경로최적화를수행합니다.
+Game Boost(게임 부스트)는 적응형 QoS를 사용하여 게이밍 모드를 활성화합니다. 최고의 성능을 보장하기 위해 ROG 라우터를 통과하는 모든 게이밍 트래픽의 우선순위를 지정할 수 있습니다.
+Game Boost(게임부스트)정보
+인터넷 게임 부스트
+LAN 부스트
+적응성 QoS 가 유/무선 연결 모두에서 인바운드 및 아웃바운드 대역폭을 최적화합니다. 게임의 경우 드래그 앤 드롭 사전 설정을 사용해 애플리케이션과 작업의 우선순위를 손쉽게 지정할 수 있습니다.
+원클림 게임 우선 모드
+여기에 WTFast 계정을입력하십시오.
+Game Boost Management
+Game Private Network
+게임 장치
+연결된 장치로 전송되는 네트워크 트래픽의 우선순위를 지정하는 전용 게이밍 포트.
+GameFirst V 는 온라인 PC 게이밍용 네트워크 트래픽을 최적화하기 위해 ROG 마더보드, 랩톱 및 데스크톱에 제공됩니다. 간단히 GameFirst V에서 ROG First를 클릭하면 라우터가 ROG 장치를 자동으로 인식하여 레벨 2 가속도를 활성화합니다.
+게임목록
+게임 패킷 우선순위 지정
+Ping 상태
+플랫폼
+게이밍 포트 우선순위 지정
+게임프로필
+Game Profile(게임 프로필)에는 인기 있는 온라인 게임용 내장 규칙이 포함되어 있습니다. 아래 목록에서 게임을 선택하여 기본 설정을 완료하십시오. 설정을 마치는 즉시 최적화된 게임을 경험하게 될 것입니다.
+프로필을선택하면어떤이점이있습니까?
+콘솔게임을플레이할때프로필을선택하면콘솔에서모뎀에이르는루트가최적화됩니다.루트최적화에대한심층지식이없어도됩니다.한번의마우스클릭으로모든게해결됩니다.
+이페이지에표시된모든게임상표,서비스마크,상호,제품이름및로고는해당소유자의재산입니다.
+Portforwarding.org 에서제공
+게임 서버 가속도
+WTFast 는 가장 짧은 경로를 통해 대기 시간과 ping 시간이 가장 짧게 홈 네트워크를 게임 서버에 연결합니다.
+OpenNAT 는 온라인 게임에 사용되는 포트 포워딩 규칙을 간단하게 생성하는 방법을 제공하며 게임 콘솔에서 모뎀으로 전송되는 라우팅 패킷을 최적화함으로써 게임 경험을 최적화합니다.
+라우터 무료 기본 계정
+기본 계정
+라우터 고급 계정
+종료날짜
+WTFast 는모든신규사용자에게다양한프록시서버옵션을갖추고고급고객에초점을맞춘고급시험판을14일동안무료로사용할수있도록제공하고있습니다.시험판사용기간이만료되어도사용자는여전히트래픽제한이있는기본계정특징을무료로사용할수있는평생가입혜택을누릴수있습니다.
+지금부터 라우터 무료 기본 계정을 사용합니다.
+WTFast 탑재 Game Boost 를사용하는경우귀하는 WTFast <span><a href="javascript:open_link('terms')" style="text-decoration:underline;color:#008DE5;">이용약관</a></span>과<span><a href="javascript:open_link('privacy')" style="text-decoration:underline;color:#008DE5;">개인정보보호정책</a></span>에동의하는것입니다.
+제품페이지의책임의한계에명시되어있듯이WTFast는계속해서게임콘솔지원개발을연구중입니다.현재<a href="javascript:open_link('gameList')" style="text-decoration:underline;color:#008DE5;">지원되는게임의목록은다음목록을</a>참조하십시오. (정기적으로업데이트됨)
+GPN 성능은사용자의ISP또는위치에따라다릅니다.펌웨어가항상업데이트되었는지확인하십시오.
+어떻게양호한 GPN 서버를선택합니까? <span><a id="link" href="javascript:open_link('gpn1')" style="text-decoration:underline;color:#008DE5;">여기</a></span> 어떻게최상의게이밍경험을할수있습니까? <span><a id="link" href="javascript:open_link('gpn2')" style="text-decoration:underline;color:#008DE5;">여기</a></span>
+어떻게 ASUS 라우터에서 WTFast 를사용합니까? <span><a id="link" href="javascript:open_link('howto')" style="text-decoration:underline;color:#008DE5;">여기</a></span>
+게임 부스트 규칙 목록
+활성화된 규칙 수가 계정의 제한에 도달했습니다. 추가된 규칙이 기본적으로 비활성화됩니다.
+활성화된 규칙 수가 계정의 제한에 도달했습니다. 먼저 기존의 활성화된 규칙을 비활성화하기 전까지는 규칙을 활성화할 수 없습니다.
+시스템 부팅 후 지난 시간
+가동 시간
+이 페이지는 시스템 활동의 세부 사항을 보여줍니다.
+Get Beta Firmware
+게스트 네트워크로 이동
+USB 모뎀 설정으로 이동
+Alexa/IFTTT Configured
+Alexa/IFTTT의 기본 설정
+게스트 네트워크 사용
+무선 MAC 필터를 활성화 해야 합니다.
+게스트 네트워크 인덱스
+게스트 네트워크는 게스트에게 인터넷 연결은 제공하나 인트라넷 접근에 제한을 둡니다.
+게스트 네트워크를 운영하려면 Wi-Fi 를 켜십시오.
+새로 만들기
+기타 복사
+게스트 합계
+게스트
+액세스 제한
+인터넷 액세스만 해당
+다음과 동일한 설정 사용
+하드웨어 버전
+Help
+도움말이 라우터 기능 사용에 관한 안내와 정보를 제공합니다.
+노란 그리고 파란 밑줄된 하이퍼링크를 클릭하여
+도움말을 확인하십시오.
+네트워크 환경에서 RT-AC88U의 그룹 이름이며 표준 입력 글자는 문자(A-Z, a-z), 숫자(0-9), 그리고 하이픈(-) 또는밑줄( _ ) 또마침표 (.) 하이픈(-) 또는밑줄( _ ) 또마침표 (.) 문자는 아니지만 첫 번째 문자로 사용될 수있다. 비표준 이름을 사용하는 경우 다른 사용자가 LAN 에서 당신의 PC를 찾지 못합니다.
+16 진수
+높음
+가장 높음
+최우선순위 패킷
+시간
+인터넷연결에실패했습니다.다시시도하거나인터넷서비스제공자 (ISP) 에서계정설정을확인하십시오.
+인터넷 서비스 제공자 위치를 선택하십시오.
+위치
+현재 이 위치를 지원하지 않습니다. [기타]를 사용하십시오.
+전화 번호를 입력하십시오.
+전화 번호
+DNS 서버
+3G/4G USB 무선 동글 또는 Android 폰을 USB 모뎀으로 사용하려면 USB 모드로 전환하십시오.
+현재 3G/4G 설정은 3G/4G 백업 모드입니다. 만약 WAN 포트가 연결되어 있지 않다면, 네트워크 모드는 자동으로 3G/4G 모드로 바뀝니다.
+연결 형식을 바꾸고자 한다면 <a href="/Advanced_Modem_others.asp">USB 모뎀</a> 페이지로 가서 USB 어댑터를 사용하지 않도록 합니다.
+USB 모뎀 사용
+USB 모뎀 모드
+ISP를 선택하십시오.
+ISP
+암호를 입력하십시오.
+암호
+당신의 SIM 카드의 Personal Identification Number(PIN) 코드를 입력하십시오. 4자 이상 8자 이하의 숫자입니다. PIN 코드를 모르는 경우, ISP 에 문의하십시오.
+APN 서비스 이름을 모르는 경우 ISP에 문의하십시오.
+APN 서비스(옵션)
+USB 어댑터
+당신의 USB 어댑터를 선택하십시오.
+사용자 이름을 입력하십시오.
+사용자 이름
+다음 링크를 통한 설정 페이지 접속
+HTTP 및 HTTPS WAN 포트 설정의 중복 포트 번호.
+NAT (Network Address Translation)는 새로운 주소 정보로 네트워크 패킷의 어드레스 정보를 대체하기 위해 라우터에 사용되는 프로세스 입니다. NAT에 대한 일반적인 응용 프로그램은 WAN과 LAN에 연결하는 라우터입니다. LAN에서 모든 네트워크 장치는 사설 IP (LAN IP)를 가지고 있지만 하나의 공용 IP (WAN IP)가 있습니다. 인터넷으로의 네트워크 장치 액세스를 허용하기 위해, 라우터는 모든 송신 된 데이터 패킷에 자신의 공용 IP 주소로 송신자의 사설 IP 주소를 대체합니다. 들어오는 데이터 패킷은 그 후에 정확한 네트워크 디바이스에 할당 할 수 있도록 라우터 테이블의 모든 필요한 정보 (NAT 테이블)을 저장합니다.
+Paste activation code to link IFTTT account and your ASUS Router
+그리고다음을수행할수있습니다…
+<a id="ifttt_asus_channel">ASUS Router Channel</a>(ASUS 라우터채널) 로 <b>Connect</b>(연결) 를클릭하십시오
+ASUS 라우터에서 IFTTT 사용하기
+IFTTT 는 "if this then that" 의약어입니다.이는“애플릿”이라고부르는간단한조건문으로웹사이트,앱및인터넷연결장치들을연결하는플랫폼입니다.애플릿은특정조건을사용하여모든종류의사용자지정작업을수행합니다. ASUS 라우터를IFTTT를연결하여 ASUS 라우터채널에서창의적인애플릿으로자동화생활을시작하십시오.예:
+If closes to dinner time or bedtime, then turn off wifi
+If my daughter comes home, then send me and email, text, or phone call
+If my wife comes home, then play my favorite song
+If I am playing a game, then boost the game speed
+애플릿더보기
+ASUS 라우터를 IFTTT 와수동으로페어링하려면아래의활성화코드를복사하여 ASUS 라우터와 IFTTT 연결웹페이지에붙여넣으십시오.
+기존애플릿에서선택하거나 <a id="ifttt_applet_link">ASUS 라우터채널</a> 에서애플릿을직접만드십시오.
+IFTTT 계정에 <a id="ifttt_signin">로그인</a> 하십시오.
+ASUS 라우터와 IFTTT 로자동화생활을시작하십시오!
+시작하기:
+에
+Temporarily unable to get the latest firmware information. Please try again later.
+밴드
+대상 밴드
+인터넷
+간격
+소개데모
+초대장
+소스와 목적지 IP 어드레스로, 당신은 : (a) 특정 IP 어드레스 \"192.168.122.1\"와 같이 입력하거나; (b) 한 개의 서브넷 또는 동일 IP 풀 내의 IP 어드레스, 예를 들면 \"192.168.123.*\", 또는 \"192.168.*.*\"; 혹은 (c) 모든 IP 어드레스, 다음 \"*.*.*.*\" 와 같이 표현할 수 있습니다.
+IP 공유
+IP 공유: 대부분 ISP는 이 방식을 사용합니다. IP 공유 모드에서 무선 ADSL모뎀 라우터는 인터넷에 연결하고 LAN 클라이언트들은 하나의 공용 IP 어드레스를 공유합니다.
+설명
+포트 트리거 사용
+Incoming Port
+트리거 포트
+LAN 에서 다수의 사용자가 동시에 StarCraft 를 플레이 할 수 있게 한다면 예를 선택하십시오.
+Starcraft (Battle.Net)
+일부 애플리케이션은 NAT 사용 시에 특별한 처리기를 필요로 합니다. 기본값은 이 특별한 처리기를 사용하지 않는 것입니다.
+Please <span style="text-decoration:underline;cursor:pointer" id="addVtsRule_ftp">add a rule</span> to port forwarding list for USB Disk access properly on FTP service.
+특수 애플리케이션
+공개 기지국의 IP 어드레스
+가상 DMZ는 하나의 PC를 인터넷에 노출시키도록 하여 모든 내부지향 패킷들을 설정한 PC로 리다이렉트합니다. 이는 수신 포트가 확실하지 않은 일부 애플리케이션을 실행하는 경우 유용합니다. 주의하여 사용해야 합니다.
+WAN IP 설정
+LAN 클라이언트의 IP 어드레스를 입력
+내부 지향 패킷들이 이 포트로 리다이렉트 되길 원하면 이 필드를 공란으로 두십시오.
+포트 범위는 다양한 형식으로 허용됩니다. 포트 범위 (300:350), 개별 포트(566, 789) 또는 혼용 (1015:1024, 3021)
+포트 트리거는 LAN 기기들이 인터넷에 무제한 접근을 요구하는 경우 임시로 데이터 포트를 개방하는 것입니다. 내부 지향 데이터 포트를 개방하는 두 가지 방법: 포트 포워딩과 포트 트리거. 포트 포워딩은 특정 데이터 포트를 항상 개방하고 장치는 정적 IP 어드레스를 사용해야 합니다. 포트 트리거는 오직 LAN 장치가 트리거 포트로의 접근을 요청하는 때에만 내부 지향 포트를 개방합니다. 포트 포워딩과 달리 포트 트리거는 LAN 장치의 정적 IP 어드레스를 필요로 하지 않습니다. 포트 포워딩은 다수의 장치들이 한 개의 개방된 포트를 공유하며, 포트 트리거는 오직 한 번에 한 클라이언트만 개방된 포트에 접근하도록 합니다.
+트리거 포트 리스트
+사용자 정의
+일상적인 애플리케이션
+UPnP (Universal Plug and Play)는 IP 기반 네트워크나 게이트웨이를 통한 중앙제어없이, 라우터, 텔레비전, 스테레오 시스템, 게임 콘솔, 휴대폰과 같은 장치들을 제어할 수 있도록 합니다.
+포트 포워딩 사용
+가상 서버 / 포트 포워딩은 원격 컴퓨터가 사설 LAN 안의 특정 PC 또는 서비스에 접속할 수 있게 해줍니다. 더 빠른 연결을 위해 일부 P2P 애플리케이션(예 BitTorrent)은 포트 포워딩 설정을 요구합니다. 세부 사항은 P2P 애플리케이션의 사용자 매뉴얼을 참조하십시오. 다수의 포트 또는 한 범위의 포트들을 라우터에서 개방할 수 있으며 데이터를 리다이렉트하여 해당 포트를 통해 네트워크 상의 단일 클라이언트에 전달할 수 있습니다. <p> 만약 동일 네트워크 상의 클라이언트들에게 한 포트 범위를 지정한다면, 서비스 이름, 포트 범위 (예 10200:10300), LAN IP 어드레스를 입력하고 로컬 포트는 공란으로 두면 됩니다.
+로컬 IP
+로컬 포트
+프로토콜
+USB FTP 서버와 LAN FTP 서버 간의 포트 충돌 때문에 USB FTP 서버를 사용할 수 없습니다. LAN FTP 서버와 USB FTP 서버를 동시에 사용하려면 각 서버에 고유한 외부 포트가 있는지 확인하십시오(기본 USB FTP 서버 포트는 21임).
+Advanced Settings(고급 설정) - WAN - Virtual Server/Port Forwarding(가상 서버/포트 전달)으로 이동하여 LAN FTP 서버의 외부 포트를 변경하십시오.
+LAN FTP 서버의 외부 포트를 변경하십시오.
+FTP 서버 포트
+유명한 게임 리스트
+유명한 서버 리스트
+테이블에 데이터가 없음.
+소스 IP
+포트 포워딩 리스트
+외부 포트
+내부 포트
+내부 IP 주소
+외부 포트는 다음 형식을 수용합니다.
+1. 예를 들어 300:350과 같이 시작 포트와 종료 포트 사이에 콜론 ":"을 사용하는 포트 범위 .
+2. 예를 들어 566, 789와 같이 개별 포트 사이에 쉼표 ","를 사용하는 단일 포트.
+3. 예를 들어 1015:1024, 3021과 같이 콜론 ":"과 쉼표 ","를 사용하는, 포트 범위와 단일 포트가 혼합된 형식.
+인터넷에서 특정 IP 주소로 연결되는 포트를 열려면 지정하려는 IP 주소를 소스 IP 필드에 입력하십시오.
+클라이언트 장치에 DNS 서버를 설정하십시오.
+WAN DNS 설정
+WAN과 LAN은 서로 다른 IP 어드레스와 서브넷을 가져야합니다.
+WINS 서버1
+WINS 서버2
+WINS 서버에 자동으로 접속
+DHCP 옵션
+IPv4 라우터마스크길이
+IPv6 Prefix
+IPv4 경계라우터
+자동 구성 설정
+클라이언트 IPv6 어드레스
+서버의 IPv6 주소
+IPv6 DNS 서버
+IPv6 DNS 설정
+IPv6 네트워크 정보
+이 페이지에는 IPv6 네트워크에 대한 세부 정보를 표시합니다.
+LAN IPv6 어드레스
+LAN IPv6 Prefix
+IPv6 LAN 설정
+IPv6 Prefix 길이
+IPv4 Anycast 릴레이
+정적 IPv6
+서버 IPv4 주소
+WAN IPv6 어드레스
+WAN IPv6 게이트웨이
+WAN Prefix 길이
+IPv6 WAN 설정
+WAN 선택
+GVT 사용자인 경우, 사용자 이름에 <b>turbonet@turbonet</b>, 암호에 <b>gvt25</b>를 입력하십시오. 아니라면 ISP 에서 제공하는 사용자 이름과 암호를 입력하십시오.
+ISP 프로파일을 선택하여 특별한 ISP 설정을 구성하십시오.
+iTunes Server
+iTunes Server Name
+Jitter
+Please select at least one Access Type.
+RT-AC88U로의 연결 실패. 예를 클릭하여 요청을 보내거나 취소를 눌러 중지합니다.
+이 필드는 다운로드 관리자의 사용 여부를 결정합니다.
+이 필드는 다운로드한 자료들을 인터넷 사용자들에게 공유할 수 있게 합니다.
+이 필드는 UPnP 의 사용 여부를 결정합니다.
+Data will not be able to recover once deleted, are you sure you want to clean?
+LAN IP 주소와 서브넷 마스크가 변경되었습니다. RT-AC88U IP 주소 풀을 업데이트해야 합니다. IP 주소 풀을 자동으로 업데이트하시겠습니까?
+새로운 IP 풀과 서브넷 마스크와 일치하지 않습니다. RT-AC88U 가 자동으로 IP 풀을 변경하도록 하시겠습니까?
+이 항목은 리스트에 존재합니다.
+1 에서 2592000(초) 사이의 값을 입력하십시오.
+잘못된 문자가 있습니다.
+유효하지 않은 PIN 코드
+인증코드가유효하지않습니다.
+로컬 IP 또는 포트 범위 필드는 공란이어선 안됩니다.
+이 테이블은 오직
+항목들만 허용합니다.
+네트워크 환경 또는 FTP 서버의 최대 동시 접속 수입니다. 일부 ftp 클라이언트는 하나 이상의 연결을 구성합니다. 이 설정을 너무 낮게 하면 로그인에 실패할 수 있습니다.
+이름을 설정(예 aabbcc)한 후, 인터넷 익스플로러의 URL 창에 \\\aabbcc 를 입력하면 네트워크 장소 서비스에 빠르게 접속할 수 있습니다. 표준 입력 글자는 문자(A-Z, a-z), 숫자(0-9) 그리고 하이픈( - ) 또는밑줄( _ ). 하이픈 (-) 과아래 줄 (_) 문자는 아니지만 첫 번째 문자로 사용될 수있다.
+라우터 로그인 이름은 영숫자, 밑줄, 대시 기호만 사용할 수 있습니다. 대시 ( - ) 또는 밑줄 ( _ )은 최초 문자로 사용할 수 없습니다.
+Invalid username or password
+는 유효한 포트 범위가 아닙니다!
+이는 FQDN(Fully Qualified Domain Name, 전체 주소 도메인 이름) 규칙을 준수하지 않습니다.
+영숫자, 밑줄, 대시 기호만 사용할 수 있습니다.
+첫 문자가 대시 - , 또는 밑줄 _ 가 될 수 없습니다.
+영숫자, 대시 기호만 사용할 수 있습니다.
+첫 문자가 대시 - 가 될 수 없습니다.
+점보 프레임
+LAN IP
+언어 선택
+DHCP 서버 기능은 라우터의 DHCP 서버가 자동적으로 네트워크 클라이언트들에게 IP 어드레스를 할당하도록 합니다. 이 기능을 사용할 수 없으면, LAN 장치들에 IP 어드레스 설정을 수동으로 할당해야 합니다.
+DHCP 서버 사용
+DHCP(Dynamic Host Configuration Protocol) 는 IP 네트워크 상에서 자동 구성을 위한 프로토콜입니다. DHCP 서버는 각 클라이언트에 IP 어드레스를 할당하고 DNS 서버 IP와 기본 게이트웨이 IP를 전달합니다.
+RT-AC88U IP 어드레스:
+RT-AC88U 의 LAN 설정 구성
+LAN IP 어드레스는 VPN 서버에 의해 사용됩니다. LAN IP 어드레스를 위한 또 하나의 IP 어드레스를 사용하십시오.
+RT-AC88U의 IPv6 인터넷 설정 구성
+RT-AC88U 의 IPTV 설정을 구성합니다
+IPTV 를 시청하려면 WAN 포트가 인터넷에 연결되어야 합니다. <a href="/Advanced_WANPort_Content.asp" style="text-decoration: underline;">WAN - Dual WAN</a>으로 가서 WAN 포트가 기본 WAN으로 할당되어 있는지 확인하십시오.
+IPTV를 사용하려면 "이더넷 LAN"을 기본 WAN으로 선택해야 합니다. 이더넷 LAN이 기본 WAN에 할당되었는지 확인하려면 <a href="/Advanced_WANPort_Content.asp" style="text-decoration: underline;">WAN - Dual WAN</a>로 가십시오.
+DHCP 서버로 부터 IP 어드레스를 요구하는 클라이언트의 도메인 이름
+오직 알파벳숫자와 대쉬 기호만 가집니다.
+RT-AC88U 의 도메인 이름
+네트워크 클라이언트가 무선 라우터에 연결할 수 있는 현재 IP어드레스의 리스 시간을 설정합니다. 리스 시간이 넘어서면 네트워크 클라이언트는 무선 라우터의 DHCP 서버로부터 갱신하거나 새로운 IP 어드레스를 받아야합니다.
+리스 시간
+고정된 IP 어드레스를 클라이언트에 할당. 클라이언트의 MAC 어드레스가 필요함
+수동 할당 사용
+할당 사용
+DHCP 리스트에서 수동으로 IP 할당
+무선 라우터가 멀티캐스트 패킷을 다룰 수 있게 합니다. 멀티 캐스트 라우터를 적용하면 RTP나 RTSP 기능도 사용하게 됩니다.
+IPTV 셋탑박스가 연결하는 LAN 포트
+이 필드는 LAN의 DHCP 서버가 할당하는 IP 풀의 마지막 주소를 가리킵니다.
+IP 풀 종료 어드레스
+풀의 첫 주소는 LAN 상의 DHCP 서버가 할당합니다.
+IP 풀 시작 어드레스
+DDNS 서버가 응답하지 않음. 다시 시도 하십시오.
+인증받지 않은 등록 요청!
+클라이언트 에러: 프록시 인증 필요함!
+DDNS 서버가 응답하지 않음.
+유효하지 않은 도메인 이름의 글자는
+호스트 이름은 공란일 수 없습니다.
+요청 에러! 다시 시도 하십시오.
+등록 성공!
+원본 호스트 이름 등록 성공
+새로운 호스트 이름 등록 성공
+IP와 호스트 이름이 등록되지 않았습니다. 먼저 등록하시기 바랍니다.
+호스트 이름은 먼저 숫자가 오거나 '.' 를 포함(예 123abc 또는 aaa.bbb )할 수 없습니다.
+유효하지 않은 도메인! 형식은 'xxx.asuscomm.com' 과 같아야 합니다.
+도메인 이름
+마지막 업데이트 이후 호스트 이름과 IP 어드레스 모두 변경되지 않았습니다.
+은 등록되었습니다.
+은 이미 등록되어있습니다. 그리고 당신은 등록 :
+마지막업데이트후 IP 주소,서버및호스트이름이변경되지않았습니다.업데이트하려면 [예] 를클릭하십시오.
+DDNS 클라이언트 사용
+DDNS (Dynamic Domain Name System) 은 네트워크 클라이언트가 동적 공용 IP 어드레스를 사용하는 무선 라우터일지라도 등록된 도메인 이름을 통해 접속할 수 있게 해주는 서비스입니다. 무선 라우터는 ASUS DDNS 서비스나 다른 DDNS 서비스에 포함됩니다. <p>
+무선 라우터는 현재 사설 WAN IP 어드레스를 사용합니다. <p> 이 라우터는 다중 NAT 환경 하에 있으며 DDNS 서비스는 이 경우 동작하지 않습니다.
+호스트 이름이 성공적으로 등록되었습니다. WAN 에서 홈 네트워크의 서비스에 "[hostname].asuscomm.com" 을 사용하여 접속할 수 있습니다. "[hostname].asuscomm.com" 으로 당신의 네트워크에 원격으로 접속할 수 있습니다.<p> 고급 설정으로 이동 > WAN 메뉴로 이동하여 포트 포워딩 또는 DMZ 설정을 하면 다른 WAN 클라이언트들도 원격에서 당신의 네트워크에 접속할 수 있습니다.<p> 만약 당신의 무선 라우터를 원격에서 구성하고 싶다면<a href="/Advanced_System_Content.asp?af=misc_http_x" target="_blank" style="text-decoration: underline; font-family:Lucida Console;">여기</a>로 이동하십시오.
+DDNS 설정
+쿼리
+호스트 이름은 먼저 숫자가 오거나 '.' 를 포함(예 123abc 또는 aaa.bbb )할 수 없습니다.
+호스트 이름
+이 필드는 동적 DNS 서비스에 로그인 하는데 암호로 사용됩니다.
+암호 또는 DDNS 키
+서버
+무료 트라이얼
+업데이트
+이 버튼으로 DDNS 데이터베이스를 수동으로 업데이트할 수 있습니다. 자동 DDNS 업데이트 실패 시에 사용합니다. 시스템 로그에서 현재 DDNS 서버 업데이트 상태를 알 수 있습니다.
+수동 업데이트
+이 필드는 동적 DNS 서비스에 로그인 하는 식별자로 사용됩니다.
+사용자 이름 또는 이메일 주소
+사용할 경우, 와일드 카드를 사용한 도메인 이름이 당신의 IP 어드레스로 리다이렉트 됩니다.
+와일드 카드 사용
+Let's Encrypt는 도메인 검증에 의한 인증을 무료로 제공하는 서비스로서 도메인에 대한 인증을 발행하기 전에 도메인을 검증합니다. Let's Encrypt에서 발행하는 인증서는 90일 동안 유효합니다. 인증서가 만료되기 전에 ASUS 라우터에서 도메인을 성공적으로 검증한 후 인증서를 자동으로 갱신합니다. 도메인을 검증하고 인증서를 갱신하려면 라우터가 포트 80을 통해 인터넷에 연결되어 있어야 합니다.
+Let’s Encrypt 인증을 획득했습니다. 이 웹사이트에 다시 로그인하십시오.
+이것은 AP 의 기본 게이트웨이 IP 어드레스 입니다.
+이 필드는 DNS 의 IP 어드레스를 클라이언트에 제공하여 DHCP 서버로부터 IP 어드레스를 요청할 것인지 나타냅니다. 공란으로 남겨둘 경우, RT-AC88U가 DNS 요청을 하게 됩니다.
+DNS 서버
+DNS 와 WINS 서버 설정
+이 필드는 당신의 LAN의 게이트웨이의 IP 어드레스를 표시합니다. 공란으로 두는 경우 RT-AC88U의 IP 어드레스가 할당됩니다.
+시스템 시간을 NPT 서버와 동기화 합니다.
+NTP 서버
+NTP 링크
+이 필드는 원격 서버가 RT-AC88U의 로그 메시지를 기록할 것인지 결정합니다. 공란으로 두는 경우, 시스템이 RT-AC88U에 최대 1024 개의 메시지를 기록합니다.
+원격 로그 서버
+당신의 지역 또는 지방의 표준 시간
+알림: 시스템 시간대가 당신의 지역 설정과 다릅니다.
+시간대
+DST 시간대변경을시작합니다
+To set your clock forward one hour in the spring when DST (Daylight Saving Time) starts
+DST 시간대변경을종료합니다
+To set your clock back one hour in the fall when DST (Daylight Saving Time) ends
+Windows 인터넷 네이밍 서비스는 인터넷에서 각 PC 의 상호 작용을 관리합니다. WINS 서버를 사용한다면 서버의 IP 어드레스를 여기에 입력하십시오.
+WINS 서버
+마지막 30 일
+RT-AC88U는 WAN(Wide Area Network)에 몇가지 연결 형식을 제공합니다. 이 형식은 WAN 연결 형식 옆 메뉴의 드롭다운 메뉴에서 선택할 수 있습니다. 이 설정 필드는 당신이 선택한 형식에 따라 달라질 수 있습니다.
+WAN IP 를 자동으로 얻음
+WAN 포트에 브리지할 LAN 포트를 선택하십시오. 만약 WAN 에 연결해야할 또 다른 기기를 가지고 있고, ISP는 오직 하나의 WAN 링크만을 제공한다면, 일부 LAN 포트를 WAN 포트로부터 패킷을 받도록 지정할 수 있습니다. 예를 들어, IPTV 셋탑박스를 특정 포트에 연결하고 ISP로부터 직접 신호와 IP 어드레스를 받을 수 있습니다.
+IPTV STB 포트 선택
+인터넷연결설정이부하 분산모드에서구성되면, DDNS기능은유선(이더넷) WAN연결에서만작동합니다.
+인터넷연결설정이부하 분산모드에서구성되면, DMZ기능은유선(이더넷) WAN연결에서만작동합니다.
+인터넷연결설정이부하 분산모드에서구성되면,포트 포워딩기능은유선(이더넷) WAN 연결에서만작동합니다.
+인터넷연결설정이부하 분산모드에서구성되면,포트 트리거기능은유선(이더넷) WAN 연결에서만작동합니다.
+더 보기
+리스 만료
+LED 켜기 / 끄기
+무제한액세스
+네트워크 환경에서 공유를 사용하지 않고 있습니다. USB 애플리케이션에서 사용 가능하게 하고 네트워크 환경을 통해 공유하십시오.
+당신의 브라우저가 하이퍼링크 클릭을 통해 네트워크 환경에 접속하는 것을 지원하지 않습니다.
+FTP 서버를 사용하고 있지 않습니다. <a href="../Advanced_AiDisk_ftp.asp" target="_blank" style="text-decoration: underline; font-family:Lucida Console;">여기</a>를 클릭하여 FTP 서버를 사용하십시오.
+DDNS를 사용하고 있지 않습니다. WAN / DDNS 메뉴에서 사용 가능하게 하면 WAN 에서 도메인 이름을 통해 사람들이 FTP 에 접속할 수 있게 할 수 있습니다.
+DDNS 사용 중. 그러나 도메인 이름 등록 실패. WAN 에서 도메인 이름을 통해 FTP 접속이 불가능합니다.
+추가 / 삭제
+최대 제한:
+확인
+로컬 액세스 구성
+로그 파일
+로그인 사용자 IP:
+다른 사용자가 먼저 로그아웃 하기 전까지 로그인 할 수 없습니다.
+로그 아웃 성공.
+손실
+낮음
+최저
+프린터 공유를 위해 LPR 프로토콜을 사용하십시오
+MAC 필터 리스트에 항목이 존재하는 경우, 적용 을 클릭하여 해당 항목을 삭제하십시오. 그리고 적용 을 다시 클릭하여 MAC 필터 기능을 비활성화하십시오. 리스트에 항목이 없는 경우, 적용 을 한 번 클릭하여 MAC 필터 기능을 비활성화 하십시오.
+매뉴얼
+수동으로 할당
+도시
+국가/부위
+PTM 연결을 설정하려면 VLAN ID 가 필요합니다. ISP 에서 지시하지 않는 한 VLAN ID 를 변경하지 마십시오.
+이 빠른 설치 가이드는 RT-AC88U WAN 설정을 빠르게 구성할 수 있게 안내합니다. 드롭다운 메뉴에서 국가와 ISP 이름을 선택하십시오. 다음을 클릭하여 필수 정보를 입력하십시오. 필요한 경우, ISP 에 문의하여 ADSL설정에 관한 정보를 얻으십시오.
+ATM PVC를 설치하려면 VPI(Virtual Path Indentifier)와 VCI(Virtual Channel Identifier) 가 필요합니다. ISP의 특별한 지시가 없다면 VPI 와 VCI 값을 변경하지 마십시오.
+은 유효합니다.
+은 범위를 초과합니다.
+안내:
+빠른 수동 설정
+RT-AC88U WAN 설정을 참조하십시오. 새로운 설정을 추가하는 경우 화면의 안내에 따르십시오. 이전 설정을 수정하는 경우, [고급 설정] -> [WAN] -> [인터넷 연결] 페이지로 이동하십시오.
+제조업체
+최대 대역폭 제한
+최대 업로드 대역폭 제한 설정
+최대컴퓨터수
+최대치
+FTP와 네트워크 장소(Samba) 설정
+중간
+IPTV
+피드백
+AiDisk
+실시간
+마지막 24 시간
+매일
+QoS
+시스템 상태
+동적 IP 설정
+IP 설정
+최소 예약 대역폭
+최소 예약 대역폭 설정
+분
+APN 프로필
+구성 중…
+PIN 확인
+* APN 설정이자동으로구성되지않으면,사용자가이를수동으로구성해야합니다.
+데이터 사용량
+RT-AC88U 의 모바일 브로드밴드 설정을 구성합니다.
+모바일 광대역이 비활성화되면 핫-스텐바이를 사용할 수 없습니다. 비활성화 설정을 하시겠습니까?
+모바일 광대역이 비활성화되었습니다.
+모바일 광대역을 활성화합니다
+모바일 브로드밴드 네트워크 연결에 실패했습니다.
+PIN을 변경하지 못했습니다.
+휴대폰번호
+유휴 시간
+모바일 브로드밴드 정보 페이지로 갑니다.
+PIN 을입력하십시오.
+PUK 를입력하십시오.
+인터넷 사용량
+데이터사용량한계값이현재데이터사용량값보다작습니다.모바일광대역연결의경우데이터사용량한계값을더높게설정하십시오.
+모바일광대역데이터사용량한계값에도달했습니다.모바일광대역에더이상액세스할수없습니다.모바일광대역데이터사용량한계값의설정을변경하시겠습니까?
+PIN 코드가 필요합니다.
+PIN2 코드가 필요합니다.
+PUK 코드가 필요합니다.
+PUK2 코드가 필요합니다.
+네트워크 운영자
+새 PIN
+새 PIN 을입력하십시오.
+신호 없음
+이전 PIN
+PDP 종류
+잘못된 PIN 코드입니다.
+서비스 제공 업체의 PIN 코드를 입력하십시오.
+PIN 관리
+PIN 변경
+PIN 확인
+PIN 차단 해제 키(PUK)
+서비스 제공 업체에 PIN 해제 코드(PUK)를 요청하십시오.
+SIM 카드의최대수에도달했습니다.현재 SIM 카드의데이터사용량을줄이기위해,가장오래된레코드가삭제됩니다.가장오래된레코드를삭제하시겠습니까? 참고: RT-AC88U 는최대 10 개의 SIM 카드의데이터레코드를보관할수있습니다.
+남은 데이터
+남은 시도 횟수
+새초기화날짜는다음달에적용됩니다.
+사이클시작날짜
+로밍
+ISP 로밍
+Roaming Scanning Time
+로밍 ISP스캔은 현재의 모바일 연결을 해제합니다.
+내 PIN 저장
+오퍼레이터 선택
+모바일 광대역 설정으로 이동합니다.
+신호 세기
+SIM 카드 읽기에 실패했습니다.
+SIM 카드가 잠겨 있습니다. 서비스 제공 업체에 문의하십시오.
+SIM 카드가 삽입되지 않았습니다.
+SIM 카드가 준비됨
+SMS 알림보내기
+정의된사용량에도달하면SMS알림이보내집니다.Mobile Phone Number(휴대폰번호)필드에SMS알림을받을휴대폰번호를입력해야합니다.
+시작날짜
+데이터사용량이기록되는날짜수를선택합니다.사이클이끝날때마다데이터사용량값이초기화됩니다.
+모바일 연결 상태
+이 페이지는 기본 장치 정보, 인터넷 연결 상태, 인터넷 사용량을 표시합니다.
+이메시지를다시표시하지마십시오.
+성공적으로 PIN을 변경했습니다.
+모바일 브로드밴드
+데이터 사용량 한계
+차단 해제
+SIM 차단 해제
+정의된사용량에도달하면,시스템이경고알림을보냅니다.
+데이터 사용량 주기
+데이터 사용량 제한
+정의된사용량에도달하면,모바일광대역연결에더이상액세스할수없습니다.
+데이터 사용량 경고
+USIM 카드 상태
+SIM 카드 데이터 로딩 중. 기다리십시오…
+PIN 코드가 틀렸습니다. 정확한 PIN 코드를 입력하세요.
+PIN 코드가 틀렸습니다. 정확한 PUK 코드를 입력하세요.
+계정의 엑세스 권한이 이름과 암호를 변경 후에 바뀌지 않았습니다. 어떠한 변경도 하지 않을 경우, 계정 값은 그대로 똑같이 남아있습니다.
+새로운 암호는 재시작 후 또는 다음에 시스템에 로그인 하는 경우 적용됩니다.
+이 계정 수정
+모델명
+이름 변경 후, 폴더와 하위 폴더의 접근 권한도 변하지 않습니다.
+이 폴더 이름 변경
+월
+더 많은 구성
+MPPE 암호화
+잔여 시간
+NAT 가속도
+NAT 가속이 활성화되면 스위치가 자체적으로 네트워크 패킷을 처리하고 CPU를 우회할 수 있습니다. 그러면 NAT 처리량이 증가할 수 있으나, 시간 예약, 게스트 네트워크에서 기존의 QoS 및 대역폭 제한기 등 일부 기능이 정확히 작동하지 않을 수 있습니다. NAT 가속을 자동으로 설정한 경우, 이러한 기능이 활성화되면 자동으로 비활성화됩니다.
+NAT 트래픽은CPU에서처리합니다.
+CTF (컷스루포워딩) 이활성화되었습니다.
+CTF (컷스루포워딩) 와 FA (흐름가속) 가속기가활성화되었습니다.
+활성화된 게스트 네트워크의 대역폭 제한기로 인해 NAT 가속이 꺼집니다.
+NAT acceleration is enabled.
+NAT 가속 사용
+H.323 패쓰스루
+IPSec 패쓰스루
+L2TP 패쓰스루
+본딩/링크 집계
+이 항목에 다양한 이름이 포함되어 있습니다: 포트 트렁킹/ 본딩/ 티밍/ 링크 집계/ 802.3ad
+유선 클라이언트에 대한 본딩(802.3ad) 지원을 활성화한 후 이를 라우터의 LAN1 및 LAN2 포트에 연결하십시오.
+NAT 패쓰스루는 가상 사설 네트워크(VPN) 연결을 라우터를 통해 네트워크 클라이언트에 전달합니다.
+PPTP 패쓰스루
+RTSP 패쓰스루
+SIP 패쓰스루
+DDNS 사용 안함
+Connections to NAT
+By source IP
+SNAT connections
+Sort by dst
+Sort by dst-port
+Sort by src
+Sort by src-port
+Sort by state
+네트워크
+네트워크 분석
+네트워크 모니터링
+네트워크 프린터 서버 두 방법을 지원합니다. (1) ASUS EZ 프린터 공유 (2) LPR 프린터 공유
+네트워크 프린터 서버
+네트워크 도구
+네트워크 종류
+Check Station Status
+To check station's wireless status around AiMesh nodes
+카운트
+네트워크 진단 실행
+Extended option
+네트워크 상세 출력
+방법
+지정 DNS 서버를 사용하는 주어진 호스트의 IP 주소의 이름 서버를 쿼리합니다.
+오프라인 리스트
+Option
+ICMP ECHO_REQUEST 패킷을 네트워크 호스트에 보냄
+이름 해결
+대상
+호스트 추적 경로
+Wake on LAN
+절전모드 해제
+새기능이사용가능합니다
+새 폴더 이름
+다음 페이지
+암호화 없음
+감지된 프린터 없음
+감지된 USB 디스크 없음.
+계정 없음
+장치 없음.
+스마트 싱크 서비스를 시작하지 않았습니다.
+리스트에 없음
+WPS 를작동하려면Wi-Fi를켜십시오.
+WPS를활성화하려면,인증방법을 WPA2 또는 WPA-Auto (WPA-자동)로변경하십시오.
+WPS 를 활성화하려면 먼저 SSID 숨기기를 해제해야 합니다.
+Note: New patch will be updated regularly, please keep your firmware stay up to date.
+알림항목
+<a href="http://iplookup.asus.com/nslookup.php" target="_blank" style="font-family:Lucida Console;text-decoration:underline;">http://iplookup.asus.com/nslookup.php</a>에서 ASUS DDNS 서비스에 사용할 고정 주소를 검색하십시오.
+OFDMA/802.11ax MU-MIMO
+Hide Offline Client List
+Show Offline Client List
+이미 이 모드로 구성되었습니다.
+수락
+둘다
+다운로드
+끊김
+보다 큼
+보다 작음
+업로드
+OTP 인증
+상위 AP 상태
+활동 일정
+허용
+상위 제어에 추가된 클라이언트는 기본적으로 인터넷 접속이 제한됩니다.
+거부
+보다 정밀한 스케줄링 제어를 위해서는 <a id="disable_NAT" style="color:#FC0;text-decoration: underline;" href="" target="_blank">NAT 가속도</a> 을 비활성화하십시오.
+자녀 보호 기능 사용
+시간 예약을활성화
+자녀 보호 기능은 클라이언트의 네트워크 사용 시간 제한을 가능하게 합니다. 자녀 보호 기능을 사용하려면;
+시간 예약은 고객의 네트워크 사용에 대한 시간 제한을 설정할 수 있습니다. 시간 예약을 사용하려면:
+[클라이언트 이름] 컬럼에서 관리할 네트워크 사용의 클라이언트를 선택합니다. [클라이언트 MAC 어드레스] 컬럼에 클라이언트 MAC 주소를 입력해도 됩니다.
+[추가 / 삭제] 컬럼에서 플러스(+) 아이콘을 클릭하여 클라이언트를 추가합니다.
+[시간 관리] 컬럼에서 편집 아이콘을 클릭하여 활성화된 일정을 편집합니다.
+허용된 접속 시간에 원하는 시간 슬롯을 선택합니다. 길게 누르면 긴 시간 슬롯을 만듭니다.
+[확인]를 클릭하여 만든 설정을 저장합니다.
+클라이언트 MAC 어드레스
+시간 관리
+클라이언트 이름
+장치 그룹 이름
+라우터 로그인 암호 변경
+언어:
+검사 기간은이상이어야 합니다
+권한 관리
+장치
+장치그룹
+사용자그룹
+RADIUS 서버
+사용자
+PHY 속도 이상
+PHY 속도 미만
+PIN 코드
+Ping
+Ping 대상
+계정테이블
+아래표의장치관리
+장치 표
+새 장치 만들기
+한 개 이상의 그룹에 장치를 추가하십시오.
+방화벽 / 액세스제어 / QoS 기능을사용하기위해사용자를그룹으로구성합니다.
+RADIUS 서버는인터넷접속과네트워크서비스에대한중앙집중식인증관리를제공합니다.
+사용자의계정기본설정관리
+새 사용자 만들기
+한 개 이상의 그룹에 사용자를 추가하십시오.
+파일공유기능을사용하기위해사용자를그룹으로구성합니다.
+새 그룹 만들기
+이 그룹에 사용자 추가
+규칙 목록
+그룹 이름
+RADIUS 서버 사용
+RADIUS 클라이언트
+암호 확인
+새 RADIUS 클라이언트 만들기
+그룹 표
+파티션 이름
+소스 혹은 목적지 포트 범위의 경우: a) 특정 포트 명시 \"95\"; 또는b) 특정 범위의 포트들 \"103:315\", \">100\", 또는 \"<65535\" 모두 가능합니다.
+포트 맵핑
+포트 맵핑은 특정 LAN 포트를 위한 IPTV WAN 인터페이스를 지원합니다. 적절한 LAN 포트를 선택하고 적용 버튼을 클릭하십시오.
+포트 맵핑 사용
+LAN 포트
+SSH 포트
+이 포트는 다음 용도로 사용
+이 페이지는 포트 포워딩 상태를 보여줍니다. 일부 P2P 프로그램은 UPnP 프로토콜을 사용하여 포트를 열고 포트 번호는 이 페이지에 나타납니다.
+RT-AC88U 이 연결 형식이 PPPoE 임을 감지했습니다. 사용자이름/암호를 입력하고 적용 버튼을 클릭하십시오. 다시 설정하려면 수동 설정을 클릭하십시오.
+인터넷 서비스 공급자(ISP)가 제공한 사용자 이름/비밀번호를 입력한 후 다음 을 클릭합니다.
+이 항목은 일부 ISP 가 제공합니다. 필요한 경우 ISP에 문의하여 정보를 입력하십시오.
+일부 인터넷 서비스 공급자는 기기에서 DHCP 를 너무 자주 쿼리할 경우 MAC을 차단합니다. 이를 방지하려면 DHCP 쿼리 빈도를 변경하십시오. <br/> 기본 적극적인 모드에서 RT-AC88U 가  ISP 에서 응답하지 않을 경우, 20 초 후에 다시 쿼리를 보내어 3번을 시도합니다.<br/>일반 모드에서 RT-AC88U 가 ISP 에서 응답하지 않을 경우, 120 초 후에 두 번째 쿼리를 보내어 두 번 시도합니다.
+인증
+주문형 다이얼<br>(아이들 타임아웃 타이머)
+주문형 다이얼 기능은 네트워크 연결을 필요 시에만 구성하고 지정된 유휴 시간 후엔 연결을 끊습니다.
+이 필드는 선택사항이며 일정 시간이 지난 후 ISP 연결을 끊도록 구성하게 합니다. 제로 값은 무한 유휴 시간을 의미합니다.
+유휴 시간 후 연결 종료(초 단위)
+이 필드는 PPPoE와 같은 WAN 연결 형식으로 설정했을 경우만 사용 가능합니다.
+이 필드는 USB 모뎀, PPPoE, PPTP 또는 L2TP와 같은 WAN 연결 형식으로 설정했을 경우만 사용 가능합니다.
+이 항목은 일부 ISP 가 제공합니다. 필요한 경우 ISP에 문의하여 정보를 입력하십시오.
+엑세스 집중장치 이름
+이 항목은 일부 ISP 가 제공합니다. 필요한 경우 ISP에 문의하여 정보를 입력하십시오.
+추가 PPPD 옵션
+호스트 이름
+Internet Detection
+MAC 어드레스
+PPP Echo Interval
+PPP Echo Max Failures
+PPPoE의 최대 수신 단위(MRU). 기본값은 1492. ISP가 요구하는 경우에만 이 값을 변경하십시오.
+MRU
+PPPoE의 최대 전송 단위(MTU). 기본값은 1492. ISP가 요구하는 경우에만 이 값을 변경하십시오.
+MTU
+PPPoE 릴레이를 사용하면 LAN 상의 장치들이 NAT를 거치는 개별 PPPoE 연결을 구성하게 할 수 있습니다.
+PPPoE 릴레이
+이 항목은 일부 ISP 가 제공합니다. 필요한 경우 ISP에 문의하여 정보를 입력하십시오.
+PPTP 옵션
+이 항목은 일부 ISP 가 제공합니다. 필요한 경우 ISP에 문의하여 정보를 입력하십시오.
+서비스 이름
+VPN + DHCP 연결활성화
+Network Place(네트워크위치)가활성화되어있으면이도활성화되어야합니다.
+VPN 서버는 당신이 언제 어디에서든 홈 네트워크에 접속할 수 있게 해줍니다.
+(6) 만약 WAN IP 어드레스가 동적 주소라면, <a href="../Advanced_ASUSDDNS_Content.asp" target="_blank" style="text-decoration: underline; font-family:Lucida Console;">여기</a>를 클릭하여 DDNS을 설정하십시오.
+LAN 접두사 길이
+이전 페이지
+모노폴리(Monopoly) 모드를 사용하면 일시적으로 라우터까지 독점 연결을 가지고 프린트 요청을 보낼 수 있습니다.
+RT-AC88U에 접속하는 프린터 모델
+프린터 모델:
+프린터의 현재 상태
+프린터 상태:
+이 프린터를 사용하는 사용자의 IP 어드레스
+사용 중인 사용자:
+모노폴리 모드:
+프린터 상태:
+기본 ACK, SYN 및 ICMP 패킷은 게임 응답성 향상을 위해 사용됩니다.
+높음
+일반
+낮음
+제품 정보
+제품 등록
+공급자
+압축
+압축 모드
+푸시
+정말로 이 PVC를 지웁니까?
+편집 PVC
+ATM(Asynchronous Transfer Mode) 은 두 가지 전송 연결을 제공합니다. Virtual Path Interface(VPI) 와 Virtual Channel Interface(VCI). VCI 는 단방향 파이프로 일련의 연결 요소의 병합으로 구성됩니다. VPI는 이 채널들의 집합으로 구성됩니다.
+PVC 요약
+편집
+PVC 설정
+PVC 형식은
+서비스 분류
+이더넷 케이블이 WAN 포트에 올바르게 연결되어 있는지 확인하십시오.
+자동 모드
+대역폭 제한 값이 올바르지 않습니다.
+QoS 유형
+사용자 정의 우선 순위
+사용자 정의 QoS 규칙
+RT-AC88U를 수동으로 재시작 하십시오.
+재부팅 날짜
+재부팅 시간
+시스템 재부팅
+인터넷에 다시 연결하기
+라우터에서 하드 디스크를 제거하려면, 우측 상단에 있는 USB 아이콘을 클릭하십시오.
+원격 액세스 구성
+복구 모드
+확인된 대상
+응답 IP
+시스템을 공장 출고 기본값으로 돌리고 연결 형식을 자동 감지하려면, <a href="" onclick="gotoRestoreSetting();">여기</a>를 클릭하십시오.
+그것은 목적지 네트워크 또는 라우트 규칙의 호스트를 나타냅니다. 그래서  '192.168.123.11' 과 같은 호스트 어드레스 또는 '192.168.0.0' 과 같은 네트워크 어드레스일 수 있습니다.
+그것은 네트워크 ID와 서브넷 ID 에 얼마나 많은 비트가 있는지 나타냅니다. 예를 들면, 십진수 넷마스크 255.255.255.0 의 경우, 넷마스크 비트는 24 입니다. 만약 목적지가 호스트라면, 넷마스크 비트는 32 입니다.
+그것은 패킷이 전달되는 게이트웨이의 IP 어드레스를 나타냅니다. 지정된 게이트웨이가 먼저 도달될 것입니다. 이것은 미리 게이트웨이로의 정적 라우트를 설정해야 하는 것을 의미합니다.
+메트릭은 네트워크에 대한 거리 값입니다.
+라우트 규칙이 적용되는 네트워크 인터페이스
+이 기능으로 IPTV 애플리케이션 (VLC 같은) 을 여러 대의 PC에서 동시에 실행시킬 수 있습니다. 이 기능은 멀티캐스트 UDP 스트림을 유니캐스트 HTTP 스트림으로 전환합니다. IPTV 애플리케이션에 할당할 포트 (4000 번 같은) 번호를 입력하십시오. 그리고 이 형식을 주소 창에 입력하여 IPTV 스트림을 감상하십시오. http://[Router IP]:[Udpxy port]/[protocol]/[channel IP address]:[channel  port] (예,  http://192.168.1.1:4000/udp/239.255.1.1:5000 또는 http://192.168.1.1:4000/rtp/239.255.1.2:5000).  0 (zero) 을 입력하면 이 기능을 사용하지 않습니다.
+로밍 길잡이
+Disconnect clients with RSSI lower than :
+장치를 로밍 차단 목록에 추가할 수 있으며, 이 경우 해당 장치가 AiMesh 노드 사이에서 로밍되지 않습니다.
+로밍 차단 목록 활성화
+LED 활성화
+네트워크 PING
+네트워크트래픽
+PING 편차
+WAN 상태
+무선상태
+이 페이지는 상세 라우팅 상태를 보여줍니다.
+라우터 모드
+라우터 모드: 오직 일부 ISP만 이 모드를 사용합니다. 라우터 모드에선 당신의 ISP 가 제공하는 ADSL모뎀 라우터의 IP 어드레스와 서브넷 마스크를 입력해야 합니다. 또한 DHCP 서버를 비활성화하고 PC의 IP 어드레스를 수동으로 입력해야 합니다.
+DHCP 라우트 사용
+IPTV/ VoIP Port Settings
+게임 포트가 LAN1 및 LAN2 에 설정됩니다. 게임 포트를 사용하려면 IPTV 또는 VoIP 포트에 대해 LAN5/ LAN6 를 선택하십시오.
+링크 집계는 LAN5 및 LAN6 에서 구성됩니다. 링크 집계를 사용하려면 IPTV 또는 VoIP 포트에 대해 LAN1/ LAN2 를 선택하십시오.
+브로드캐스트 스톰 제어(Mbps):
+이 기능을 사용하여 네트워크 트래픽을 제어하고 네트워크를 느리게 하거나 불안정하게 하는 브로드캐스트 스톰을 막을 수 있습니다. 이 필드의 범위는 1부터 1024 이며, 0을 입력하면 이 기능을 사용하지 않습니다.
+멀티캐스트 스톰 제어(Mbps):
+알려지지 않은 멀티캐스트 스톰 제어(Mbps):
+알려지지 않은 유니캐스트 스톰 제어(Mbps):
+멀티캐스트 라우팅 사용
+이 기능은 기본 WAN에서만 작동됩니다.
+정적 라우트 리스트
+정적 라우트 사용
+이 기능은 RT-AC88U에 라우팅 규칙을 추가합니다. RT-AC88U 아래 추가 라우터를 연결하여 동일한 인터넷 연결을 공유하는 경우 유용합니다.
+게이트웨이
+네트워크/호스트 IP
+넷마스크
+메트릭
+IPTV 포트 번호는 이중 WAN LAN 포트 번호와 같습니다.
+UDP 프록시(Udpxy)
+동기화 서버 활성화에 실패했습니다.
+여기를 클릭하여 먼저 AiCloud 2.0(Cloud Disk 및 Smart Access)을 활성화하십시오.
+폴더
+<b>투웨이 동기화:</b> 게스트와 호스트의 선택된 폴더에 저장된 파일들을 동기화. 동기화 폴더에 있는 모든 파일들은 게스트와 호스트 모두 접근 가능
+<b>클라이언트에서 서버:</b> 게스트는 호스트의 동기화 폴더에 파일 업로드가 가능. 그러나 게스트는 호스트의 동기화 폴더에 저장된 파일에 접근 불가능
+<b>서버에서 클라이언트:</b> 게스트는 호스트가 만든 동기화 폴더에 저장된 파일들을 다운로드 가능. 그러나 게스트는 호스트의 동기화 폴더에 파일 업로드가 불가능
+투웨이 동기화
+클라이언트에서 서버
+서버에서 클라이언트
+보안 코드
+RSA Encryption
+모든 AMPDU 위해 RTS를 사용
+디스크를 제거해도 안전합니다.
+이 디스크를 정말로 제거합니까?
+안전하게 디스크 제거
+네트워크 장소(Samba) 서비스의 계정과 권한 설정
+Windows® 10 을 사용하는 경우 <a id="SMBv1_FAQ">FAQ</a> 를 사용하여 SMBv1 클라이언트를 활성화하면 네트워크에 저장된 파일에 액세스할 수 있습니다.
+복제 또는 동일한 VPI와 VCI 설정
+시스템이 재시작합니다! 기다리면 RT-AC88U의 홈 화면에 리다이렉트 됩니다.
+스케일
+초
+보안 수준
+모든 선택
+AP 선택하여
+APN 서비스 선택하여
+DHCP 선택하여
+장치 이름 선택하여
+DHCP 클라이언트의 IP 주소 선택하여
+DHCP 클라이언트의 MAC 어드레스 선택하여
+인터넷 서비스 선택하여
+서비스 이름 선택하여
+USB 장치선택
+USB Mode
+무선 클라이언트의 MAC 주소 선택하여
+메일보내기
+일련 번호
+서버 센터
+서버 이름
+Sync Server
+설정 파일 업로드 실패. 올바르지 않은 설정 파일 또는 전송 오류일 수 있습니다. 설정 파일이 유효한지 확인하고 다시 시도 하십시오.
+설정을 업로드 중입니다! 약 60초간 기다려 주십시오.
+업로드와 다운로드 비율 제한을 설정하십시오.
+현재의 모든 설정이 지워지고 라우터는 공장 초기 설정으로 되돌아갑니다.\n
+정말 계속 하시겠습니까?
+RT-AC88U의 기본 LAN IP 어드레스는 192.168.1.1.\n 추후 설정 페이지로 돌아올 수 없다면, 컴퓨터의 IP 구성을 갱신하십시오.
+[복구]를 클릭하여 라우터를 공장 초기 설정으로 돌리고 모든 현재 설정을 지우십시오. 라우터가 재시작할 때까지 기다리십시오.
+[Restore(복원)] 바튼을 클릭하여 라우터를 공장 설정값으로 복원하십시오. AiProtection, Traffic Analyzer 및 Web History를 포함하여 모든 데이터 기록을 지우려면 확인란을 클릭하고 [Restore(복원)]를 클릭하십시오. 마지막으로 라우터가 재부팅을 마칠 때까지 기다리십시오.
+공장 초기값
+기본값
+All current settings and data log for each functions will be erased. Router will restore to initial factory setting.\n
+설정을 초기화하고, AiProtection, Traffic Analyzer 및 Web History에 대한 모든 데이터 기록을 지우십시오.
+[저장] 버튼을 클릭하여 현재 RT-AC88U 의 설정을 파일로 저장합니다. (주: 파일로 설정을 저장하는 동안 플래쉬에도 같이 저장됨)
+설정 저장
+이 기능은 현재 RT-AC88U의 설정을 파일로 저장하거나 또는 파일로 부터 설정을 불러올 수 있게 합니다.
+파일 형식 또는 경로가 유효하지 않음
+설정 파일의 경로와 이름을 지정하고 [업로드]를 클릭하면 RT-AC88U에 파일을 기록합니다. RT-AC88U가 재시작할 때까지 약 60초 기다리십시오.
+설정 복구
+Click on this checkbox if you want to share the config file for debugging. Since the original password in the config file will be removed, please do not import the file into your router.
+설정
+수정하려면 <a id="redirect_to_setup">여기를</a> 클릭하십시오. 자세한 내용은 이 <a id="redirect_to_FAQ">FAQ</a> 를 참조하십시오.
+노드 설정하기
+설정 과정이 진행되는 중에는 RT-AC88U 라우터와 노드 간 간격이 1〜3 m 이내에 있도록 합니다.
+시스템 설정을 전원 켜기 및 대기로 유지합니다.
+장치 이름
+당신의 설정 파일 인코딩에 알맞은 언어 설정을 선택하십시오.
+FTP 서버에서의 문자 집합
+영어
+번체자
+간체자
+러시아어
+체코어
+최대 동시 연결 수
+0에서 999까지의 값을 입력. 기본값은 0 이며 업로드 제한이 없음
+최대 업로드 비율
+시딩 기능을 사용하거나 사용하지 않을 수 있습니다. RT-AC88U 은 다운로드 작업이 끝날때까지 오픈되어 있습니다.
+시딩
+워크 그룹
+You can add the clients which connect in default LAN (VID = 1) for managing on related functions.
+Device Management FAQ
+전부 표시
+서명 버전
+가입
+Display all sockets
+Display listening server sockets
+Don't resolve names
+RAW sockets
+TCP sockets
+UDP sockets
+UNIX sockets
+Smart Access
+원격으로 액세스할 네트워크 장소(Samba) 네트워크 연결된 PC 와 장치를 활성화합니다. 스마트 액세스는 대기 모드에 있는 PC를 재가동시킵니다.
+WOL(Wake-On-LAN) 기능은 당신의 PC를 네트워크에 있는 어떤 장치에서도 켤 수 있게 합니다.
+<a id="faq3" href="https://www.asus.com/support/FAQ/1011268" target="_blank" style="font-weight: bolder;text-decoration:underline;">WOL</a> 이란?
+Smart Connect
+바운드 감지
+Smart Connect 활성화
+아래의 스마트 연결 설정을 구성하십시오.
+인터페이스 선택 및 감사 절차
+스마트 연결 규칙
+STA 선택 정책
+카운트
+드웰 타임 (Dwell Time)
+윈도우 타임 (Window Time)
+작동 상태 조정
+대역폭 활용
+AiCloud Sync
+<a style="font-weight: bolder;text-decoration: underline;" href="https://www.asuswebstorage.com/navigate/" target="_blank">ASUS Webstorage</a> 미치 기타 AiCloud 2.0-활성화된 네트워크와 같은 클라우드 서비스로 USB 부착 저장소의 동기화를 활성화합니다.
+AiCloud Sync (스마트 동기화) 기능을 활성화하십시오. 단계별 지침은 다음과 같습니다:
+스마트 싱크를 시작하려면 <a style="font-weight: bolder;text-decoration: underline;" href="https://www.asuswebstorage.com/" target="_blank">ASUS webstorage</a> 계정에 가입하고, Cloud Disk 와 AiCloud Sync를 설정합니다. USB 저장 장치를 라우터에 설치하였는지 확인하여야 합니다.
+AiCloud 를 실행하고, ASUS WebStorage 와 동기화 하려는 특정 폴더를 클라우드 디스크에서 지정하십시오. 그리고 이어지는 지시를 따르십시오.
+소스와 목적지 IP 어드레스로, 당신은 : (a) 특정 IP 어드레스 \"192.168.122.1\"와 같이 입력하거나; (b) 한 개의 서브넷 또는 동일 IP 풀 내의 IP 어드레스, 예를 들면 \"192.168.123.*\", 또는 \"192.168.*.*\"; 혹은 (c) 모든 IP 어드레스, 다음 \"*.*.*.*\" 와 같이 표현할 수 있습니다.
+신호 노이즈 비율 그래프는 기존 SNR(신호에 대한 노이즈 비율)을 표시하며, DSL 연결의 안정성을 파악하는데 사용할 수 있습니다. Transmission(전송) / Reception(수신은) 반송파 당 송신 / 수신되는 비트 수를 표시합니다.
+데이터 수집 후 스펙트럼 그래프 표시 시간(초):
+그래프 업데이트 시간(초):
+Spectrum
+Spoof LAN TTL value
+저장/재시작
+SSH 포트는 HTTPS LAN 포트와충돌합니다.다른포트번호를사용하십시오.
+보안 문제로 인해 1025 ~ 65535 범위의 포트를 사용할 것을 권장합니다.
+WAN 의 SSH 연결은 잠재적인 보안 위험을 유발할 수 있습니다. 신뢰할 수 있는 대상에 한해 이 서비스를 활성화하고 SSH 연결이 종료된 후에는 비활성화하십시오.
+보안 문제로 인해 텔넷 대신 SSH 사용을 권장합니다. SSH 는 암호화된 네트워크 통신을 제공합니다.
+콜드-스탠바이
+핫-스텐바이
+핫-스텐바이모드가활성화된경우,기본인터페이스가다운되거나액세스할수없으면시스템이연결을다른인터페이스로신속하게전환합니다.
+시스템이대기 WAN 을연결상태로유지하고검색간격을다음과같이줄입니다
+통계
+디스플레이 대상
+마지막 날짜
+표시 기준
+Step 1
+Step 2
+재시도간격
+검색 간격
+재시도횟수
+클라이언트 상태
+인터넷 상태
+프린터 상태
+외부 USB 디스크 상태
+기본 WAN 상태
+보조 WAN 상태
+AiCloud를 사용하려면:
+어떻게 당신의 폴더를 공유할지 결정하십시오.
+ASUS DDNS 서비스를 통해 도메인 이름을 만드십시오.
+My FTP 서버는 공유되었습니다.
+무제한 접근 권한
+제한된 접근 권한
+관리자 권한
+성공적으로 구성되었습니다.
+서브넷
+지원
+스위칭 주파수
+스위치 제어
+본딩 정책
+대상 본딩
+소스 본딩
+RT-AC88U 스위치 제어 설정
+GRO(Generic Receive Offload) 사용
+해시 알고리즘
+소스 포트
+본딩 유형 선택
+본딩/링크 집계
+성능을 최대화하려면 포트 조합을 다음과 같이 한 개 이상 선택해야 합니다. " + groupNumHint + " .
+각 그룹에 사용할 2 - 4 포트를 선택하십시오.
+적어도 본딩/링크 집계 그룹 " + _group_id + "에 사용할 2 포트를 선택해야 합니다.
+본딩/링크 집계 그룹 " + _group_id + "에 사용할 2 포트만 선택하십시오.
+계속 진행하려면 최소한 그룹 한 개를 설정하십시오.
+이 조합 중에서 하나를 선택하십시오. (1 & 2) , (3 & 4) , (1 & 4) , (2 & 3)
+이 조합 중에서 하나를 선택하십시오. (5 & 6) , (7 & 8) , (5 & 8) , (6 & 7)
+그룹 한 개용 2 포트를 선택하십시오.
+본딩 기능을 활성화하면 VLAN 기능이 비활성화됩니다. 계속하시겠습니까?
+LAN을 WAN 네트워크로 구성함에 따라 현재 기능이 비활성화된 상태입니다. 계속 진행하려면 설정을 제거하십시오.
+스위치 페이지:
+Sync Server 는 클라우드 디스크와 다른 AiCloud 2.0 계정을 동기화할 수 있습니다.  양식에 입력하여 다른 계정 초대장을 생성하십시오.
+아래 초대장에 입력하십시오.
+보안 코드 획득 방법을 선택하십시오.
+<b>생성</b>을 클릭하여 초대장을 생성합니다.
+초대장 내용을 복사하여 이메일로 전송합니다.
+AiCloud Sync를 사용 시 ISP 방화벽 문제가 발생할 경우, 인터넷 서비스 공급자(ISP)에게 문의하십시오.  고급 사용자는 아래 특정 "호스트 이름"을 입력하여 다른 사람과 AiCloud Sync를 사용하십시오.
+자동 생성
+초대장 생성기
+AiCloud Sync 로파일을공유합시다!
+동기화설명
+동기화경로
+동기화규칙
+유선또는무선연결을통해장치를 ASUS 라우터에연결하고아래의링크를클릭하여이초대를확인하십시오.
+동기화 목록
+로컬 동기화 폴더
+라우터 로그인 암호, 시간대, 및 NTP 서버 설정을 변경하십시오.
+기본 구성
+LAN
+기타
+Telecommunications Standards
+WAN 인터페이스를 종료
+시간 예약
+Time Machine
+백업 (Apple Time Machine 사용법) 을 시작하시겠습니까?
+백업 시작
+백업 경로
+Time machine 을 활성화합니다
+타임 머신 기능을 활성화
+Time Machine FAQ
+최초 백업 시 이더넷 연결을 사용하십시오.
+최초 백업은 OSX 볼륨 크기에 따라 시간이 걸릴 수 있습니다. 최초 백업은 저녁에 시작하여 밤 사이에 완료하는 것이 좋습니다.
+백업 과정이 정지된 경우 디스크 유틸리티를 사용하여 복구하십시오.
+대상 디스크 파티션을 선택합니다.
+Time Machine 자습서
+사용량 제한을 설정하고 [적용] 을 클릭합니다.
+Time Machine 볼륨 크기
+Time Period
+times
+수신
+내부 지향 인터넷 패킷
+유선 네트워크로 부터의 내부 지향 패킷
+무선 네트워크로 부터의 내부 지향 패킷
+외부 지향 인터넷 패킷
+유선 네트워크로 부터의 외부 지향 패킷
+무선 네트워크로 부터의 외부 지향 패킷
+전송
+유선
+무선
+총합
+총 공간
+총 트래픽
+Traffic Statistic(트래픽통계)에서클라이언트의네트워크트래픽정보를기록하고클라이언트또는앱별로트래픽사용량을분석합니다.
+모든앱
+모든클라이언트
+앱이름
+앱이없음
+클라이언트가없음
+트래픽이없음
+일별사용된상위5개의앱
+주간상위5대앱
+월별사용된상위5개의앱
+일별사용된상위5개의클라이언트
+주간상위5대클라이언트
+월별사용된상위5개의클라이언트
+Traffic Analyzer(트래픽분석기)
+기간 트래픽
+트래픽 분석기는 네트워크 트래픽을 분석하여 결과를 그래프로 표시하며, 이를 통해 네트워크가 사용된 방식과 네트워크를 사용한 클라이언트 장치 또는 앱을 알 수 있습니다. 네트워크 트래픽이 매시간 정시에 기록되고 클라이언트 또는 앱별로 표시됩니다.
+일일 트래픽
+Monthly Traffic
+트래픽정보를기록하려면트래픽통계를활성화하십시오.
+데이터는매시간새로고쳐집니다.
+사용된상위5개의앱
+Top 5 Clients Used
+사용된 백분률
+사용된 트래픽
+Weekly Traffic
+트래픽 모니터는 들어오고 나가는 패킷을 다음과 같이 모니터링 할 수 있게 해줍니다:
+<b>주:</b> 인터넷으로부터의 패킷은 유선과 무선 장치에서 동일하게 전송됩니다.
+NAT 가속이 활성화되면, 유선 네트워크 트래픽은 트래픽 모니터의 정확성에 영향을 미칠 수 있는 CPU 를 무시합니다.
+터널 MTU
+터널 TTL
+에니 웨톡, 콰자 레인
+미드웨이 아일랜드, 사모아
+하와이
+알래스카
+태평양 표준시 (미국, 캐나다)
+산지 표준시 (미국, 캐나다)
+애리조나
+치와와, 마사 틀란
+서스 캐처 원
+과달라하라, 멕시코 시티
+몬테레이
+중부 표준시 (미국, 캐나다)
+동부 시간 (미국, 캐나다)
+인디애나 (동부)
+보고타, 리마, 키토
+대서양 시간 (캐나다)
+라 파스
+카라카스
+산티아고
+뉴 펀들 랜드
+브라질리아
+부에노스 아이레스, 조지 타운
+그린란드
+사우스조지아
+아 조레스
+카보 베르데 섬
+그리니치 표준시
+더블린, 에딘버러, 리스본, 런던
+카사 블랑카
+몬로 비아
+베오그라드, 브라 티 슬라바, 부다페스트
+류블 랴나, 프라하
+사라예보, 스코 페
+바르샤바, 자그레브
+코펜하겐, 스톡홀름, 오슬로
+헬싱키
+마드리드, 파리
+암스테르담, 베를린, 브뤼셀
+로마, 비엔나, 베른
+서부 중앙 아프리카
+빌 뉴스, 부카레스트, Sofija
+카이로
+리가, 탈린
+민스크
+칼리닌그라드
+아테네
+예루살렘
+하라레, 프리토리아
+키예프
+모스크바, 상트 페테르부르크
+볼고그라드
+쿠웨이트, 리야드
+나이로비
+바그다드
+이스탄불
+테헤란
+아부 다비, 무스카트
+트빌리시, 예 레반
+이제 프 스크, 사마라
+바쿠
+카불
+예 카테 린 부르크
+이슬라마바드, 카라치, 타슈켄트
+콜카타, 첸나이
+뭄바이, 뉴 델리
+카트만두
+아스타나, 다카
+Sri Jayawardenepura
+알마티
+양곤
+방콕, 하노이, 자카르타
+노보시비르스크
+크라스 노야 르 스크
+베이징, 홍콩
+충칭, 우루무치
+쿠알라 룸푸르, 싱가포르
+타이페이
+퍼스
+울란바토르
+이르쿠츠크
+서울
+오사카, 삿포로, 도쿄
+야쿠 츠크
+다윈
+애들레이드
+캔버라, 멜버른, 시드니
+브리즈번
+호바트
+블라디보스토크
+괌, 포트 모르즈비
+솔로몬 아일랜드
+뉴 칼레도니아
+피지, 마샬 아일랜드
+마가 단
+오클랜드, 웰링턴
+누쿠 알로 파
+아나디리, 페트로파블롭스크캄차츠키
+쵸커다, 스레드네콜림스크
+사용가능한 업데이트 없음
+AP 모드에서, RT-AC88U는 인터넷 기능을 비활성화합니다.
+언인스톨 중
+온라인 업데이트가 사용 가능합니다.
+업그레이드 중…
+업로드 대역폭
+업로드 우선 순위
+보낸 데이터/초
+보낸 데이터
+iTunes 및 UPnP 미디어 서버를 설정합니다.
+<a id='upnp_link'>UPnP, iTunes</a>, <a id='ftp_link'>FTP</a> <a id='samba_link'>및 네트워크 장소(Samba) 설정</a>
+URL 키워드
+USB 애플리케이션을 확인하십시오.
+디스크를 확인하십시오.
+USB 디스크에 대한 보다 상세한 설정
+인터넷 연결 없음
+선택된 파티션 확인 중
+애플리케이션 준비 중
+실행 중인 애플리케이션 중단 중
+스왑 파일 중단 중
+스왑 파일 생성 중
+USB 모뎀을 사용할 수 없습니다.
+인터넷 연결에 실패
+스왑 파일 생성 실패
+애플리케이션 설치 실패
+USB 저장 장치 마운트 실패
+USB 저장 장치가 응답하지 않습니다.
+원격 서버가 응답하지 않습니다.
+애플리케이션 업그레이드 과정에서 알 수 없는 오류가 발생하였습니다.
+USB 저장 장치를 언마운트 또는 제거하는데 실패
+애플리케이션 업그레이드 실패. 올바르지 않은 파일 또는 전송 오류일 수 있습니다.
+HDD 최대 절전 사용
+USB 하드 디스크는 구성된 기간 동안 비활성 상태인 후 최대 절전 모드로 전환됩니다.
+절전 모드
+성능
+절전
+초기화 중, 기다리십시오.
+장치를 찾지 못했습니다.
+파티셔닝
+USB 디스크가 준비되었습니다.
+USB 설정
+USB 테터링
+USB 테터링을사용하려면다음단계를완료하십시오.
+USB를사용하여Android폰을ASUS라우터에연결합니다.
+[Android 폰]에연결할USB장치를선택하고[적용]를클릭합니다.
+Android 폰에서USB테더링을수동으로활성화합니다.
+USB 저장 장치에서 앱 언인스톨 중
+USB 기능을 사용하지 않습니다.
+<a href=\"http://dlcdnet.asus.com/pub/ASUS/LiveUpdate/Release/Wireless/Discovery.zip\" style=\"font-family:Lucida Console;text-decoration:underline;color:#FC0;\">Device Discovery Utility</a>를 설치하여 사용하면 무선 라우터의 IP 어드레스를 감지할 수 있습니다.
+사용자 이름
+사용자 이름과 암호
+사용자 정의 QoS 규칙 리스트로 부터, 네트워크 애플리케이션 또는 장치들을 다섯 수준으로 순위화 할 수 있습니다. 우선 순위 수준에 따라 QoS는 데이터 패킷을 보낼 때 다음과 같은 방법을 사용합니다. <ul><li>업스트림 네트워크 패킷의 순서를 변경, 즉 인터넷으로 보내는 순서를 참조</li><li>낮은 우선 순의 패킷은 높은 순위의 패킷 전송 확인을 위해 무시됨. 높은 순위의 업스트림 패킷은 높은 순위의 다운스트림 패킷을 의미</li><li>높은 우선 순위를 가지는 애플리케이션의 패킷이 없는 경우, 풀 전송 속도를 낮은 우선 순위의 패킷 전송에 할당</li></ul>
+<ul><li>QoS를 사용하도록 하고 업로드와 다운로드 비율 제한을 설정하십시오.</li></ul>
+전송된
+[전송된 칼럼]에서 네트워크 트래픽 제한(KB 단위)을 설정하여 특정 포트에 할당된 특정 서비스가 특정 우선 순위를 가지도록 합니다. 예를 들면, 두 개의 네트워크 클라이언트, PC1 과 PC2 가 있다면, 모두 인터넷을 접속하고 (포트 80 설정) PC 1이 다운로드 작업으로 인해 네트워크 트래픽 제한을 넘기는 경우 PC1 은 낮은 우선 순위를 부여받게 됩니다. 전송된 칼럼은 한 개의 세션에 대한 (나가고 들어오는 네트워크 트래픽) 업스트림과 다운 스트림 트래픽을 가리킵니다. 트래픽 제한을 설정하고 싶지 않다면, 공란으로 남겨주면 됩니다.
+QoS를 사용 가능하게 하고 사용자 정의 규칙을 정의하십시오.
+기본적으로 업로드 및 다운로드 대역폭에 대한 우선순위는 "낮음"입니다. 대역폭 우선순위 규정에 문제가 없을 경우 업로드 및 다운로드 대역폭은 둘 다 "낮음"입니다.
+유틸리티
+자습 비디오 찾기
+클릭하여 튜토리얼 동영상을 여십시오.
+목록 보기
+ASUS RT-AC88U 라우터는 클라이언트 장치 그룹에 따라 LAN 네트워크를 분류할 수 있는 태그 기반 VLAN 네트워크를 지원합니다. 장치를 서로 분리하기 위해 사용자는 각 VLAN 에 대해 다른 서브넷들을 함께 배치해야 합니다. VLAN 이 활성화된 경우, 각 이더넷 인터페이스에서 수신된 태그가 지정되지 않은 패킷은 아래 표에서 구성된 PVID 값에 따라 전달됩니다.
+새 서브넷
+태그가 지정되지 않음
+태그가 지정됨
+재정의
+이 값은 다음 값보다 커야 합니다.
+Client will use VPN to access
+Local network only
+Internet and local network
+브로드캐스트 지원
+LAN-VPN 클라이언트
+VPN 클라이언트-LAN
+양방향
+클라이언트 IP 어드레스
+* VPN 서버 설정과 충돌하는 경우:
+* 라우터의 DHCP IP 풀과 충돌하는 경우:
+* 라우터의 DHCP 정적 IP 어드레스와 충돌하는 경우:
+* 라우터의 LAN IP 어드레스와 충돌하는 경우:
+VPN 서버 활성화
+IPSec VPN 서버 활성화
+OpenVPN 서버 활성화
+PPTP VPN 서버 활성화
+OpenVPN 구성 파일 내보내기
+현재 인증 내보내기
+원래의 인증 가져오기
+서버 모드
+네트워크 장소(Samba) 지원
+클라이언트에 DNS 광고
+권한 부여 모드
+사용자 이름 / 암호 인증 전용
+추가 HMAC 인증(tls-auth)
+클라이언트 <-> 클라이언트 허용
+클라이언트 주소 풀
+특정 클라이언트만 허용
+압축
+IP/라우팅이 충돌했습니다
+사용자 지정 구성
+RT-AC88U 가 인증 기관 키로 .ovpn 을 자동으로 생성합니다. OpenVPN 서버에 연결된 모든 사용자에게 사용자 이름과 비밀번호과 함께 .ovpn 파일을 제공할 수 있습니다.
+OpenVPN 서버 설정은 다음으로 가십시오 고급 설정
+OpenVPN 서버의 기본 설정을 변경하여 특정 연결 유형에 대한 사용자 지정 OPVN 파일을 제공할 수 있습니다.
+If your WAN IP address is dynamic, please click <a href="http://router.asus.com/Advanced_ASUSDDNS_Content.asp" target="_blank" style="text-decoration:underline;">here</a> to set the DDNS.
+DHCP 에서 할당
+암호 암호화
+라우팅이 충돌했습니다! <p>고급 설정 페이지에서 IP 주소 설정을 확인하거나 시스템 로그에서 라우팅 테이블을 확인하십시오.
+자격 인증 / 서버 인증 / 서버 키 필드 오류입니다! <p>고급 설정 페이지에서 키 및 인증 내용을 확인하십시오.
+Diffle Hellman 매개변수 필드 오류입니다! <p>고급 설정 페이지에서 키 및 인증 내용을 확인하십시오.
+OpenVPN 서버 데몬 시작에 실패했습니다.  <p>고급 설정 페이지에서 장치 환경 또는 내용을 확인하십시오.
+나 만의 키를 사용하려면 노란색 링크를 클릭하여 설정을 변경합니다.
+OpenVPN 관련 오류 메시지는 <a style="font-weight: bolder;text-decoration:underline;" class="hyperlink" href="Main_LogStatus_Content.asp">시스템 로그</a>를 참조하십시오.
+OpenVPN 서버의고급설정을구성하기전에이러한고급설정옵션이클라이언트장치에서 OpenVPN 소프트웨어와호환되는지확인하십시오.
+OpenVPN 서버 설정을 초기화 하고 있습니다. VPN 클라이언트가 연결을 설정하기 전에 서버가 설정을 완료하는데 몇 분이 걸립니다.
+인터페이스 종류
+인증
+인증 권한
+Diffie Hellman 매개변수
+블록내용만 붙여넣기 합니다.
+블록. (그 두 라인 포함)
+제한: 필드당 3999 개 문자
+서버 인증
+만료일
+발행자
+발행받는 장치
+서버 키
+고정 키
+키 및 인증
+로컬 / 원격 끝점 주소
+수동으로 구성해야 합니다.
+키 & 인증 내용 변경.
+폴링 간격
+클라이언트에 LAN 푸시
+인터넷 트래픽을 리디렉션하기 위해 클라이언트 안내
+DNS 에 응답
+클라이언트 관리-특정 옵션
+VPN 서브넷 / 넷마스크
+TLS 재협상 시간
+CA 파일 가져오기
+.ovpn 파일 가져오기
+수동으로 CA 파일 가져오기 또는 .ovpn 파일을 편집합니다.
+무선 라우터가 현재 개인 WAN IP 주소(192.168.x.x, 10.x.x.x 또는 172.16.x.x)를 사용하고 있습니다. <a id='faq_port_forwarding' href='' target='_blank' style='font-weight:bolder;text-decoration:underline;color:#FC0;'>FAQ</a>를 참조해서 포트 포워딩을 설정하십시오.
+Pre-shared Key (Secret)
+Enter Pre-shared Key
+ASUSWRT 는 한 번에 한 개의 VPN 서버 연결만 지원합니다. \"OpenVPN 서버\"를 활성화한 경우 \"PPTP 서버\"는 자동으로 비활성화됩니다. VPN 서버를 비활성화하시겠습니까?
+IPSec 서버프로필
+프로필이름
+VPN 종류
+빠른선택
+VPN 프로필이름
+로컬공용인터페이스
+사전공유키
+가상IP
+단계1협상
+단계2협상
+IKE 버전
+Exchange 모드
+기본모드
+XAUTH
+데드피어감지
+DPD 검사간격
+참고:기본으로ASUS RT-AC88U는단계1과단계2의Diffie-Hellman(DH)키Exchange그룹을DH그룹2, 5, 14, 15, 16, 18을지원하는Auto(자동)모드로설정합니다.
+IKEv1 어그레시브모드를사용하는경우PSK에기반한인증해시가IPSec터널을구축하려는VPN클라이언트의초기패킷에대한응답으로전송됩니다.해시PSK는암호화되지않습니다.공격자는PSK를복구하기위해이에대해오프라인사전과무차별암호대입공격을시도할수있습니다.어그레시브모드사용을삼가십시오.
+로컬ID
+원격ID
+로컬개인서브넷
+로컬포트번호
+참고 : iOS 또는 MacOS 시스템의 경우 "Cisco IPSec"를 선택하십시오. Android 시스템의 경우 "IPSec / Xauth PSK" 를 선택하십시오.
+원격개인서브넷
+원격포트번호
+터널
+암호화
+해시
+IKE 키수명
+키수명
+재입력 시도 횟수
+이 옵션에서는 협상 재입력 시 입력을 시도할 수 있는 횟수(정수)를 지정합니다. 0을 지정할 경우 포기하지 않고 영구적으로 시도함을 의미합니다.
+원격게이트웨이종류
+고정IP주소
+원격게이트웨이
+일시중단
+다시시작
+Diffie-Hellman 그룹
+하드웨어 Crypto 오프로딩
+하드웨어 Crypto Engine을 사용하면 VPN 터널을 통한 처리량 성능을 상당히 높일 수 있습니다. 그러나 최대 VPN 터널 클라이언트 연결 수는 8개로 줄어듭니다.
+하드웨어 Crypto Engine을 비활성화하면 최대 VPN 터널 클라이언트 연결 수가 16개로 늘어납니다. 그러나 VPN 터널의 전송 성능이 CPU 리소스에 따라 달라집니다.
+IKE/ISAKMP 포트
+IKE/ISAKMP NAT-T 포트
+디버깅 활성화
+디버깅 활성화 모드에서는 IPSec VPN 연결의 자세한 로고를 모니터링할 수 있습니다. 마쳤으면 이 모드를 비활성화하고 디버그 로고를 시스템에서 지워야 합니다.
+VPN(가상사설망) 클라이언트는 종종 VPN 서버 연결에 사용하여 공용 네트워크에서 안전하게 비공개 리소스에 안전하게 액세스합니다.
+셋톱 박스, 스마트 TV, 블루레이 플레이어와 같은 일부 장치는 VPN 소프트웨어를 지원하지 않습니다.
+ASUSWRT VPN 기능은 각 장치에 VPN 소프트웨어를 설치하지 않고도 홈 네트워크에서 모든 장치에 액세스할 수 있는 VPN 액세스를 제공합니다.
+네트-투-네트클라이언트/피어
+IPSec VPN 클라이언트에서RT-AC88U를네트-투-네트IPSec서버/클라이언트에연결하거나,장치들을서로피어-투-피어방식으로직접연결할수있습니다.
+피어-투-피어네트워크를설명하는예로서2개의RT-AC88U를사용하겠습니다.먼저해당구성으로이페이지에서IPSec피어프로필을만든후나머지RT-AC88U에서또다른피어를만들어야합니다.
+VPN 연결을 시작하려면 다음 단계대로 합니다:
+프로필 추가
+VPN 연결 종류 선택
+VPN 공급자가 제공하는 VPN 인증 정보를 입력한 후 연결합니다.
+VPN 클라이언트
+PPPoE 연결로 VPN 클라이언트를 사용하는 경우 라우터가 자동으로 재부팅되면서  NAT Acceleration 이 비활성화됩니다. 계속하시겠습니까?
+장벽
+RT-AC88U 의이더넷 WAN 설정을구성합니다.
+루트에게 기본
+WAN을 사용할 수 없습니다.
+이더넷 케이블
+WAN 지수
+인터페이스
+WAN 인터페이스
+WAN IP
+IP 범용 설정
+IPv4 설정
+IP 버전
+RT-AC88U 는이더넷 WAN,모바일광대역또는 LAN 을통해 WAN 으로서의인터넷연결을구축합니다. WAN Interface (WAN 인터페이스)드롭다운목록에서인터넷연결의인터페이스를선택합니다. [듀얼 WAN] 탭에서듀얼 WAN 연결을활성화하고 WAN 인터페이스의우선순위를변경할수있습니다.
+PPP 인증
+PPP 설정
+WAN 설정으로 이동합니다.
+핫-스텐바이 모드활성화는 모바일 광대역을 가능하게 합니다. 활성화하시겠습니까?
+WAN 종류
+WAN 포트
+EAP 확인
+EAP 방법
+EAP-TLS
+802.1X 인증
+항상 사용(권장)
+필요 시 연결(다음 시간 동안 미 사용시
+종료)
+수동으로 연결
+Watch Dog 활성화
+Enable Ping to Internet
+TCP MSS 옵션
+바이트
+VLAN ID
+WAN 어그리게이션은 2개의 네트워크를 결합하여 WAN 속도를 최대 2Gbps까지 높일 수 있습니다. 라우터의 WAN 포트와 LAN 4 포트를 모뎀의 LAN 포트에 연결하십시오(사양이 동일한 2개의 케이블을 사용해야 함). <a id="wanAgg_faq" target="_blank" style="color:#FFCC00;text-decoration:underline;">WAN 어그리게이션 FAQ</a>
+WAN 어그리게이션 활성화
+라우터가 듀얼 WAN을 활성화했습니다. WAN 어그리게이션을 활성화하면 듀얼 WAN이 비활성화됩니다. 계속하시겠습니까?
+라우터가 WAN 어그리게이션을 활성화했습니다. 듀얼 WAN을 활성화하면 WAN 어그리게이션이 비활성화됩니다. 계속하시겠습니까?
+WAN 어그리게이션이 라우터의 LAN 4 포트를 사용 중입니다. IPTV를 WAN을 활성화하면 WAN 어그리게이션이 비활성화됩니다. 계속하시겠습니까?
+IPTV가 라우터의 LAN 4 포트를 사용 중입니다. WAN 어그리게이션을 활성화하면 IPTV가 비활성화됩니다. 계속하시겠습니까?
+라우터가 듀얼 WAN과 IPTV를 둘 다 활성화했습니다. WAN 어그리게이션을 활성화하면 포트 충돌을 방지하기 위해 듀얼과 IPTV가 비활성화됩니다. 계속하시겠습니까?
+사양이 동일한 2개의 케이블을 사용하여 라우터의 WAN 포트와 모델의 LAN 포트를 연결했는지 확인하십시오.
+사양이 동일한 2개의 케이블을 사용하여 라우터의 LAN 4 포트와 모델의 LAN 포트를 연결했는지 확인하십시오.
+WAN 어그리게이션을 활성화하려면 <a href="Advanced_WAN_Content.asp" style="color:#FFCC00;text-decoration:underline;">WAN 인터넷 연결 페이지로</a> 이동하십시오.
+WAN 어그리게이션 설정이 실패하면 아래 단계를 따라 다시 시도하십시오.
+케이블을 사용하여 모뎀의 LAN 포트를 라우터의 WAN 및 LAN 포트 4에 연결했는지 확인합니다.
+모뎀이 802.3ad를 활성화했는지 확인합니다.
+사양이 동일한 두 케이블을 사용했는지 확인합니다(기가비트 및 기가비트 또는 10/100 및 10/100Mbps).
+라우터를 재부팅합니다.
+위의 단계대로 수행해도 실패할 경우 이 문제를 <a href='https://www.asus.com/support/' target='_blank' style='color:#000;text-decoration:underline;'>ASUS 지원 사이트에</a> 보고하십시오.
+WAN 어그리게이션은 PPPoE, PPTP 및 L2TP와 같은 WAN 유형을 지원하지 않습니다. WAN 유형이 PPPoE, PPTP 또는 L2TP로 변경되면 WAN 어그리게이션이 자동으로 비활성화됩니다. 계속하시겠습니까?
+펌웨어 페이지에 액세스할 수 없습니다.
+화이트 리스트
+Enable this feature in Repeater mode to successfully extend certain hotspot (public Wi-Fi) network.
+Enable Wi-Fi Proxy
+Wi-Fi Proxy
+Wi-Fi 레이더
+설정에서Wi-Fi Radar매개변수를구성할수있습니다.
+로밍 차단 목록
+Wi-Fi 사이트조사
+Wi-Fi 사이트조사는사용자환경에서모든Wi-Fi네트워크를검색합니다.
+무선채널통계
+무선채널통계는주변의모든무선신호간섭과인사이트채널용량을표시합니다.
+고급문제해결
+고급문제해결에서는AMPDU(해당되는경우),글리치, Chanim및패킷대기행렬통계와같은카운터에대한인사이트를제공합니다.
+WiFi connection will be temporarily unavailable during the process.
+유선 인터페이스
+현재 제어 채널
+WEP 또는 TKIP 암호화를선택하면 WPS 기능이비활성화됩니다.계속하시겠습니까?
+SSID 를숨기면 WPS 기능이비활성화됩니다.계속하시겠습니까?
+인증방법으로오픈시스템(보안없음)을선택하시겠습니까?
+네트워크 키를 입력하십시오
+무선 라디오
+이 항목은 무선 클라이언트 인증에 대한 추가 변수를 RADIUS 서버를 통해 설정할 수 있도록 합니다. "인증 방법" 을 "무선 - 일반" 항목에서 설정하는 과정에서 "WPA-Enterprise / WPA2-Enterprise" 의 경우 필요합니다.
+무선 인증과 동적 WEP 키 도출을 위한 RADIUS 서버의 IP 어드레스
+서버 IP 어드레스
+RADIUS 서버 연결을 위한 암호
+연결 비밀
+RADIUS 서버 연결을 위한 UDP 포트 번호
+서버 포트
+이 필드는 무선 클라이언트의 인증 방법을 결정합니다.
+인증 방법
+양호한 무선 신호를 사용하려면 라우터 채널을 채널2로 설정합니다. 라우터 채널을 채널2로 설정하려면 (확인) 을 누르십시오. 그렇지 않을 경우 (취소) 를 누릅니다.
+현지 규정으로 인해 채널1은 양호한 무선 범위를 제공할 수 없습니다. 채널1을 사용하려면 (확인) 을 누르십시오. 그렇지 않을 경우 (취소) 를 누릅니다.
+양호한 무선 신호를 사용하려면 라우터 채널을 채널10로 설정합니다. 라우터 채널을 채널10로 설정하려면 (확인) 을 누르십시오. 그렇지 않을 경우 (취소) 를 누릅니다.
+현지 규정으로 인해 채널11은 양호한 무선 범위를 제공할 수 없습니다. 채널11을 사용하려면 (확인) 을 누르십시오. 그렇지 않을 경우 (취소) 를 누릅니다.
+무선 연결 동작을 위한 주파수 채널
+160 MHz 활성화
+더 넓은 채널 대역폭을 선택하면 보다 높은 전송 속도를 제공하게 됩니다.
+채널 대역폭
+이 필드는 무선 클라이언트가 지원해야 하는 기본 전송율을 나타냅니다.
+기본 전송율 설정:
+이 필드는 전송 비율을 선택합니다. [자동]이 최대 성능을 위해 권장됩니다.
+데이터 전송율(Mbps):
+브리지(혹은 WDS 라고 하는 무선 배포 시스템) 기능은 무선으로 RT-AC88U 을 액세스 지점으로 연결할 수 있습니다. WDS 는 반복기 모드로 간주될 수도 있습니다.
+이 기능은 [Open System/NONE, Open System/WEP] 보안 인증 방식만 지원합니다.
+해당 인증 방법을 설정하려면 먼저 무선 모드로서 Legacy (레거시) 를 선택하십시오.
+무선 신호를 확장하기 위해 WDS 를 활성화하려면 다음 단계대로 합니다:
+브리지( 또는 WDS - Wireless Distribution System 으로 불리는) 기능은 RT-AC88U가 AP에 무선으로 연결하게 해줍니다. WDS 는 리피터 모드로 간주될 수 있습니다. 그러나 이 방법은 AP 에 연결되는 기기들이 AP 의 원래 무선 속도의 절반만 사용하게 됩니다.
+이 기능은 오직 [Open System/NONE, Open System/WEP] 보안 인증 방법만 지원합니다.
+WDS 가 무선 신호를 확장하는 것을 확인하기 위해 다음의 단계를 따르십시오. :<ol><li> [ 오직 WDS ] 또는  [Hybrid] 모드를 선택하고 원격 AP 리스트에 AP의 MAC 어드레스를 추가.</li><li>이 무선 라우터와 연결하고자 하는 AP가 동일한 채널을 사용하는지 확인</li><li>원격 AP의 MAC 어드레스를 원격 AP 리스트에 입력하고 원격 AP의 WDS 관리 인터페이스를 열고 이 라우터의 MAC 어드레스를 입력:</li></ol>
+최적의 성능을 사용하려면 (고급 설정) > (무선) > (일반) 으로 가서 네트워크에서 모든 라우터에 같은 채널 대역폭, 제어 채널, 확장 채널을 할당하십시오.
+현재 자동 채널 대역폭을 사용하고 있습니다. <a style="font-size: 13px;font-family:Lucida Console;color:#FC0;text-decoration:underline;" href="/Advanced_Wireless_Content.asp?af=wl_bw">여기</a>를 클릭하여 수정합니다.
+현재 자동 채널을 사용하고 있습니다. <a style="font-size: 13px;font-family:Lucida Console;color:#FC0;text-decoration:underline;" href="/Advanced_Wireless_Content.asp?af=wl_channel">여기</a>를 클릭하여 수정합니다.
+무선 전문가 설정은 무선에 대한 추가 변수들을 입력하게 해줍니다. 그러나 기본값을 권장합니다.
+WPS(Wi-Fi 보호 설정)은 무선 네트워크를 쉽고 안전하게 구성합니다. PIN 코드와 WPS 버튼을 통해 여기에서 WPS를 구성할 수 있습니다.
+Auto select channel including channel 12, 13
+밴드 1 채널을포함한채널자동선택
+밴드 3 채널을포함한채널자동선택
+DFS 채널을포함한채널자동선택
+확장채널및제어채널결합, 대역은 40 MHz 로확장합니다
+확장 채널:
+Above
+Below
+802.11ax / Wi-Fi 6 모드
+If compatibility issue occurs when enabling 802.11ax / Wi-Fi 6 mode, please check: <a id="he_mode_faq_link">FAQ</a>
+멀티캐스트 전송율을 선택하십시오.
+멀티캐스트 전송율(Mbps)
+802.11ac Multi-User MIMO
+원격 AP 리스트
+네트워크 이름 또는 SSID는 무선 네트워크를 구별하는 유일한 이름입니다. WiFI 기기들은 자동으로 범위 안의 모든 네트워크를 감지합니다. 무선 연결에 식별 문자열로 최대 32자를 할당합니다.
+CE 규제를 준수하여, Tx 전류값은 100mW를 넘어산 안됩니다.
+Tx power adjustment for TPC(Transmit power control) and power saving.
+Tx 전력 조절
+Power Saving
+Fair
+Balance
+Good
+Performance
+WEP 키를 무선 상에서 데이터 전송에 사용
+WEP 키1:
+WEP 키2:
+WEP 키3:
+WEP 키4:
+WEP 암호화 사용으로 데이터 암호화
+WEP 암호화
+40MHz 공존 대역폭을 사용하여 무선 대역폭을 최대화 합니다. 무선 안정성과 관련 문제가 있을 경우, 기본값 (20MHz) 을 선택하십시오.
+사용
+사용안함
+WPA 보안을 사용하여 데이터 암호화
+IEEE 802.11h 지원
+802.11ac 빔형성
+802.11ax/ac 빔형성
+ack 비표시 최적화
+행에서 ack 의 최대 수를 최적화합니다.
+AMPDU 집계 최적화
+ampdu에서 mpdus의 최대 수를 최적화합니다.
+[AP만 가능] 을 선택하여 무선 브리지 기능을 비활성화합니다. [WDS 만 가능]을 선택하여 로컬 무선 기지국 연결을 비활성화합니다. [하이브리드] 를 선택하면 무선 브리지와 무선 기지국이 AP 에 접속하게끔 해줍니다.
+AP 모드
+AP 모드
+WDS 모드
+Hybrid
+WMM APSD( Automatic Power Save Delivery) 사용 또는 미사용
+WMM APSD 사용
+방송시간공정성
+Provide Airtime Fairness between multiple links
+무선 모드는 자동으로 설정해야 합니다.
+비콘 간격(Beacon Interval) 은 하나의 비콘과 다음 비콘 사이의 기간을 의미합니다. 기본값은 100 (단위는 밀리초, 또는 1/1000 초). 비콘 간격을 낮추면 불안정한 환경 또는 로킹 클라이언트에 대한 전송 성능은 향상되나 전력 소모가 많습니다.
+비콘 간격
+[예를 선택하면, 당신의 SSID가 무선 모바일 클라이언트에게 나타나지 않으며, AP의 SSID로만 ASUS 무선 라우터에 접속합니다.
+SSID 숨김
+Bluetooth Coexistence
+Enable/Disable Bluetooth Coexistence. Data rate 1Mbps and 2 Mbps are not allowed in Pre-emptive mode. TX Bursting is also not allowed in Pre-emptive mode.
+[예]를 선택하면, 원격 AP 리스트에 있는 다른 AP에 RT-AC88U가 접속합니다.
+리스트의 AP에 접속
+라우터의 PIN 코드를 클라이언트의 WPS 유틸리티에 입력하고 네트워크 이름과 보안설정을 구성하십시오.
+AP PIN 코드
+WMM DLS (Direct Link Setup) 사용 또는 미사용
+WMM DLS 사용
+DTIM(Delivery Traffic Indication Message) 는 비콘 패킷에 포함됩니다. DTIM 간격(1-255) 은 슬립 모드에서 클라이언트를 깨우는 시간을 의미합니다. 기본값은 3 입니다.
+DTIM(Delivery Traffic Indication Message) 는 비콘 패킷에 포함됩니다. DTIM 간격(1-255) 은 슬립 모드에서 클라이언트를 깨우는 시간을 의미합니다. 기본값은 1 입니다.
+DTIM 간격
+효과적인 멀티 캐스트 전달 활성화 (IGMP Snooping)
+이 옵션이 설정되면, 높은 간섭이 있는 환경에서 라우터의 성능이 향상되나 일부의 경우 연결 안정성이 낮아집니다.
+향상된 간섭 관리
+명시적 빔형성
+어댑터와 라우터 둘 다 빔형성 기술을 지원합니다. 이 기술은 장치에서 채널 추정 및 조종 방향 간에 서로 통신하여 다운로드 및 업링크 속도를 개선합니다.
+Fragmentation Threshold 는 들어오는 메시지(256 에서 2346 bytes)의 프레임 사이즈를 분할 기준으로 설정하는 것입니다. 만약 프레임 크기가 너무 크면, 큰 간섭이 전송 안정성에 영향을 주게 됩니다. 프레임 크기가 너무 작으면, 전송 효율을 떨어뜨립니다.
+Fragmentation Threshold
+하드웨어 Wi-Fi 오프로딩
+[사용]을 선택하면 Greenfield 를 사용하여 네트워크 내의 이전 표준들을 무시합니다.
+Greenfield 사용
+사용할 경우, IGMP 스누핑이 기기간 IGMP 통신을 모니터링 하여 무선 멀티캐스트 트래픽을 최적화합니다.
+IGMP 스누핑 사용
+암시적 빔형성
+빔형성을 지원하지 않는 기존 무선 네트워크 어댑터에 대해 라우터가 채널을 추정하여 조종 방향을 결정하여 다운로드 속도를 향상시킵니다.
+사용할 경우 무선 클라이언트들과 기기들이 서로 통신하지 못합니다. 이 기능은 네트워크 내에 항상 많은 게스트들이 있는 경우에만 사용하십시오.
+AP 고립 설정
+전송 전원에 대한 기능을 설정합니다. 최대값은
+이며 실제 전송 전원은 지역 규정을 충족하기 위해 동적으로 조정됩니다.
+보호된관리프레임
+사용할수있음
+필수
+802.11n 인터페이스의 무선 모드에 대한 옵션을 선택할 수 있는 항목입니다. <p>[Auto]: 802.11n, 802.11g, 802.11b 장치를 RT-AC88U 에 연결합니다.</p><p>[Legacy]: 802.11b/g/n 장치를 RT-AC88U에 연결하지만 802.11n 장치가 54Mbps 속도로만 실행됩니다. 더 많은 인증 방법 옵션을 불러오려면 Legacy 모드를 선택하십시오.</p><p>[N Only]: 성능은 최대이지만 802.11g 및 802.11b 장치를 사용자의 장치에 연결할 수 없습니다.</p><p>b/g 보호를 선택하면 11n 장치에 영향을 주지않고 b/g 장치를 RT-AC88U 에 연결하지만 라우터에 작업 부하가 증가됩니다.</p>
+802.11n 인터페이스의 무선 모드에 대한 옵션을 선택할 수 있는 항목입니다. <p>[Auto]: 802.11n, 802.11a 장치를 RT-AC88U 에 연결합니다.</p><p>[Legacy]: 802.11n/a 장치를 RT-AC88U에 연결하지만 802.11n 장치가 54Mbps 속도로만 실행됩니다. 더 많은 인증 방법 옵션을 불러오려면 Legacy 모드를 선택하십시오.</p><p>[N Only]: 성능은 최대이지만 802.11a 장치를 사용자의 장치에 연결할 수 없습니다.</p>
+802.11ac 인터페이스의 무선 모드에 대한 옵션을 선택할 수 있는 항목입니다. <p>[Auto]: 802.11ac, 802.11n, 802.11a 장치를 RT-AC88U 에 연결합니다.</p><p>[Legacy]: 802.11n/a 장치를 RT-AC88U 에 연결하지만 802.11n 장치가  54 Mbps 속도로만 실행됩니다. 더 많은 인증 방법 옵션을 불러오려면 Legacy 모드를 선택하십시오.</p><p>[N+AC]: 성능은 최대이지만 802.11a 장치를 사용자의 장치에 연결할 수 없습니다.</p>
+802.11ac 인터페이스의 무선 모드에 대한 옵션을 선택할 수 있는 항목입니다. <p>[Auto]: 802.11ac, 802.11n, 802.11a 장치를 RT-AC88U 에 연결합니다.</p><p>[N Only]: 802.11n 성능은 최대이지만 802.11ac, 802.11a 장치를 사용자의 장치에 연결할 수 없습니다.</p>
+802.11ac 인터페이스의 무선 모드에 대한 옵션을 선택할 수 있는 항목입니다. <p>[Auto]: 802.11ac, 802.11n, 802.11a 장치를 RT-AC88U 에 연결합니다.</p><p>[Legacy]: 802.11n/a 장치를 RT-AC88U 에 연결하지만 802.11n 장치가  54 Mbps 속도로만 실행됩니다. 더 많은 인증 방법 옵션을 불러오려면 Legacy 모드를 선택하십시오.</p><p>[N/AC mixed]: 성능은 최대이지만 802.11a 장치를 사용자의 장치에 연결할 수 없습니다.</p><p>[N Only]: 802.11n 성능은 최대이지만 802.11ac, 802.11a 장치를 사용자의 장치에 연결할 수 없습니다.</p>
+무선 모드
+b/g 보호
+Xbox 최적화됨
+Modulation Scheme
+[No-Acknowledgement] 은 MAC 수준에서의 인증 정책입니다. 사용하는 경우 보다 효율적인 대역폭 사용이 가능하나 노이즈가 많은 RF 환경에서는 에러율을 높일 수 있습니다.
+No-Acknowledgement 사용
+WEP 암호화를 선택하면, WEP 키를 자동으로 생성하기 위한 몇 단어를 입력해야 합니다.
+ASUS Passphrase:
+사용하게 되면 패킷 통합을 통해 네트워크의 전송 대역폭을 향상시킵니다.
+Packet Aggregation 사용
+이 필드는 8에서 63자리의 글자(문자, 숫자 또는 조합) 또는 64 진수의 암호를 사용하여 암호화 처리를 시작합니다. 공백으로 두는 경우 기본값 [00000000] 이 암호로 할당됩니다.
+WPA 사전공유키
+[예]를 선택하면 무선 기능을 사용합니다.
+무선 기능 사용
+이 필드는 무선 기능이 활성화된 날짜를 지정합니다.
+무선 사용 날짜
+이 필드는 무선 기능이 활성화된 시간 간격을 지정합니다.
+무선 기능 사용 날짜의 시간
+USB 3.0 인터페이스 감압하기
+이 기능을 활성화하면 2.4 GHz 대역에서 최고의 무선 성능이 보장됩니다. 이 기능을 비활성화하면 USB 3.0 포트의 전송 속도가 증가되고 2.4 GHz 무선 범위에 영향을 줄 수 있습니다.
+지역
+이 필드는 WPA 그룹 키가 변경되는 시간 간격(초 단위)을 지정합니다. [0] 을 입력하면 주기적인 키 변경이 필요하지 않습니다.
+네트워크 키 순환 간격
+Pressing the reset button resets the network name (SSID) and WPA encryption key.
+여러 개의 액세스 지점 또는 무선 반복기가 포함된 네트워크 구성에서는 무선 클라이언트가 자동으로 최적의 AP 에 연결되지 않을 수 있는데, 이는 기본 무선 라우터에 계속해서 연결되어 있기 때문입니다. 이 설정을 활성화하면 신호 강도가 지정 임계값 이하이고 더욱 강한 신호에 연결될 경우 클라이언트가 기본 무선 라우터에서 연결이 끊깁니다.
+신호 RTS(Request To Send)를 낮추면 노이즈나 사용자가 많은 환경에서 전송 효율을 높힙니다.
+RTS Threshold
+관리자로 하여금 언제 무선 네트워크의 전원을 내려 에너지를 절약하고 네트워크 보안을 유지할지 지정하게 해줍니다.
+무선 스케쥴러 사용
+정확한트래픽카운터활성화
+터보 QAM
+256-QAM (MCS 8/9)을 지원합니다.
+[사용]을 선택하면 TX Burst는 (AP에서 클라이언트 간) 기기들의 전송 속도를 향상 시킵니다.
+TX Bursting 사용
+범용 빔 형성기
+WMM (Wi-Fi Multimedia)를 사용하면 네트워크 상에서 멀티미디어 애플리케이션의 사용자 경험을 향상시킵니다.
+WMM 사용
+예를 선택하면 Wi-Fi 보호 설정(WPS)이 무선 네트워크 접속 과정을 단순화 시킵니다. WPS는 개방 시스템, WPA-Personal, WPA2-Personal의 인증을 지원합니다. 공유키, WPA-Enterprise, WPA2-Enterprise 및 RADIUS 는 지원하지 않습니다.
+WPS 사용
+푸시 버튼
+WPS를 먼저 꺼주십시오.
+WPS를 사용하기 전에 동작 밴드(2.4 GHz 또는 5 GHz) 를 선택하십시오. 동작 모드를 변경하고 싶다면 WPS 기능을 먼저 사용안함으로 설정하십시오.
+현재 밴드
+PIN(Personal Information Number)를 선택하면, 무선 연결을 구성하기 위해 숫자를 입력해야 합니다. PBC(Push Button Configuration) 을 선택하면 (이 페이지의 적용 버튼) 무선 연결 구성을 위해 버튼을 누르면 됩니다.
+WPS 방법:
+클라이언트의 PIN 코드인 8자리 숫자를 입력 <p>
+클라이언트 PIN 코드
+[자동]는 현재 게스트 네트워크 인증 방식(TKIP 또는 WEP)과 호환되지 않습니다. <a id="gn_link" href="/Guest_network.asp?af=wl_NOnly_note" target="_blank" style="color:#FFCC00;font-family:Lucida Console;text-decoration:underline;">게스트 네트워크</a>에 가서 인증 방법을 변경하십시오.
+WEP 또는 TKIP 암호화를 사용하는 자동 모드에서는 RT-AC88U는 최대 54Mbps 의 전송 속도를 지원합니다.
+WPA2-Personal으로변경하십시오.
+[N+AC] 는 현재  guest network (게스트 네트워크) 인증 방법(TKIP 또는 WEP)과 호환되지 않습니다. <a id="gn_link" href="/Guest_network.asp?af=wl_NOnly_note" target="_blank" style="color:#FFCC00;font-family:Lucida Console;text-decoration:underline;"> Guest Network (게스트 네트워크)</a>로 가서 인증 방법을 변경하십시오.
+[N only] 는 현재  guest network (게스트 네트워크) 인증 방법(TKIP 또는 WEP)과 호환되지 않습니다. <a id="gn_link" href="/Guest_network.asp?af=wl_NOnly_note" target="_blank" style="color:#FFCC00;font-family:Lucida Console;text-decoration:underline;"> Guest Network (게스트 네트워크)</a>로 가서 인증 방법을 변경하십시오.
+By enabling AX only mode, if devices do not support 802.11ax(WiFi 6), will not able to connect to this band.
+프리엠블(Preamble) 형식은 CRC(Cyclic Redundancy Check) 블록의 길이를 정의하여 무선 기기간의 전송 오류를 감지하는 기술입니다. 모든 무선 기기간 동일한 길이의 프리엠블 형식을 권장합니다. 높은 네트워크 트래픽 지역에서는 짧은 프리엠블을 사용하십시오. 구형 무선 기기들의 경우 긴 프리엠블을 사용하십시오.
+프리엠블 형식
+길게
+짧게
+이 페이지는 세부 무선 상태를 보여줍니다.
+WPA-PSK 키
+다음 두 가지 방법 중 하나로 WPS 클라이언트를 네트워크에 쉽게 연결할 수 있습니다.<ul><li>방법 1: 이 인터페이스의 WPS 버튼을 클릭한 후(또는 라우터의 실제 WPS 버튼을 누른 후), 클라이언트의 WLAN 어댑터의 WPS 버튼을 누르고 연결될 때까지 약 3분 동안 기다리십시오.</li><li>방법 2: 클라이언트 WPS 과정을 시작하여 클라이언트 PIN 코드를 받으십시오. 클라이언트 PIN 코드 필드에 클라이언트의 PIN 코드를 입력하고 Start(시작)를 클릭하십시오. 무선 클라이언트의 사용 설명서에서 무선 클라이언트가 WPS 기능을 지원하는지 확인하십시오. 무선 클라이언트가 WPS 기능을 지원하지 않으면, 무선 클라이언트를 수동으로 구성하고 동일한 네트워크 이름(SSID)을 설정하고, 보안 설정을 이 라우터로서 구성해야 합니다.</li></ul>
+Activate WPS
+WPS 버튼 작업
+무선 전환
+WPS 사용안함
+SSID 를 숨기면 WPS 기능을 사용할 수 없습니다.
+시작
+사용되지않음
+주: WPS 2.0 규정에 의해, WPS 기능은 라우터가 WPA 또는 TKIP 암호화를 사용하는 경우 사용안함으로 설정해야 함.
+WPS 는 당신이 설정한 인증 방법을 지원하지 않습니다. 다음으로 이동
+하여 수정한 후 WPS 를 사용하십시오.
+Amazon Wi-Fi 단순 설정
+Amazon Wi-Fi 단순 설정은 몇 가지 단계만으로 Wi-Fi 네트워크 및 Alexa 계정으로 지원되는 장치 연결을 도와줍니다. 이 기능을 활성화하면 지원되는 장치가 Amazon Wi-Fi Locker 에 저장된 Wi-Fi 자격 증명에 액세스하기 위해 사용할 수 있는 단순 설정 네트워크를 만들 수 있습니다.
+2.4GHz 또는 Amazon Wi-Fi 단순 설정 기능에서만 게스트 네트워크의 이차 세트를 설정할 수 있습니다.
+이 기능을 활성화하면 보다 정밀한 패킷 검사를 위해 NAT 가속이 꺼지고, 기본적으로 대역폭 제한기 모드와 같은 설정을 사용하는 트래픽 관리자의 QoS 기능이 켜집니다.
+Yandex.DNS
+Yandex.DNS allows to restrict access to malicious sites and adult content.
+To use the service, select default protection mode and assign individual modes to specific clients.
+Use Yandex.DNS
+yandex-en.png
+http://dns.yandex.com
+보호 모드
+Basic mode
+Standard DNS service without additional protection.
+안전 모드
+Protection from infected and fraudulent content sites.
+Family mode
+Protection from infected, fraudulent sites and blocking adult content.
+Use Safe mode as default mode.
+I want to use Yandex.DNS and agree to the <a class="link" href="http://yandex.com/legal/dns_termsofuse/" target="_blank">terms of use</a>.
+Clients are using Yandex.DNS regardless of the DNS setting.
+당신의 공유 폴더 구성은
+비활성화：0
+註：您正使用中華電信光世代，我們已幫您使用自動取得 IP 方式(DHCP)上網，若您想提高網路品質、取得公共 IP，建議改用 PPPoE 撥號上網。
+前往設定撥號連線( PPPoE )
+Page Setting
+Connecting to Facebook page...
+Facebook Wi-Fi lets customers check in to participating businesses on Facebook for free Wi-Fi access. When people check in to your Page, you can share offers and other announcements with them.
+Disclaimer:
+Term of use
+Please be noted to keep Facebook Wi-Fi enabled firmware stay up to date.
+Please be noted Facebook Wi-Fi service is provided by Facebook which will be terminated upon official announcement.
+Please be noted there will be a 1 year grace period upon termination where Facebook will continue supporting the service. After that period, this feature will cease to operate.
+Any non-certificated router is prohibited to use Facebook Wi-Fi enabled firmware.
+Unable to connect to Facebook page, please check your internet status.
+Enable Facebook Wi-Fi
+What is Facebook Wi-Fi?
+What benefit I can get by Facebook Wi-Fi?
+How to setup Facebook Wi-Fi?
+FAQs about Facebook Wi-Fi
+Facebook Page Settings
+Confugure Facebook page connection.
+Choose a Facebook page for this Wi-Fi network, and manage page settings here :
+All 2.4 GHz guest networks are used, if you want to use 2.4 GHz band for Facebook Wi-Fi, please remove one 2.4 GHz guest network<br>
+All 5 GHz guest networks are used, if you want to use 5 GHz band for Facebook Wi-Fi, please remove one 5 GHz guest network<br>
+All 5 GHz-2 guest networks are used, if you want to use 5 GHz band for Facebook Wi-Fi, please remove one 5 GHz-2 guest network
+All guest networks are used now, please remove at least one guest network then try to enable Facebook Wi-Fi again.
+배경
+미리보기
+Captive Portal
+종속포털은Wi-Fi리피터나미디어브리지와같은무선신호확장서비스를사용할수없습니다.
+종속포털에서안전하고사용자지정이가능한웹인증방법을사용하여게스트또는방문객네트워크를보호할수있습니다.게스트네트워크를보호하기위해액세스정책과계정설정을구성할수있습니다.팝업시작화면에로그인해야만게스트클라이언트가인터넷에액세스할수있습니다.
+종속포털활성화
+연결이벤트
+인증시간제한
+범위
+종속포털프로필
+시작시간
+수신된바이트수
+전송된바이트수
+표에서연결된클라이언트보기.
+설정이저장되지않습니다.종료하시겠습니까?
+클라이언트당최대다운로드속도
+클라이언트당최대업로드속도
+템플릿
+Editor(편집기)
+이미지
+색
+업로드할이미지를여기로끌어서놓기
+또는
+여기를클릭하여새이미지선택
+웹주소(URL):
+불투명도
+레이어
+글꼴스타일
+텍스트색
+사용자이름힌트텍스트
+비밀번호힌트텍스트
+입력텍스트색
+입력상자색
+서비스약관
+이것이대화상자가됩니다.
+제목
+대화상자색
+버튼라벨
+버튼색
+버튼텍스트색
+진행중인작업텍스트
+거부된텍스트
+왼쪽 창에서 웹 요소를 선택하십시오.
+배경 이미지
+배경 색상
+이상
+선택된 색상
+로컬
+구성
+연속 모드
+Apply and Enable
+액세스정책
+Account Setting(계정설정)은쉬운게스트계정구성으로서게스트네트워크보안을위해게스트계정데이터베이스를유지관리할수있습니다.연결된클라이언트는다음계정과비밀번호를입력하여로그인해야인터넷에액세스할수있습니다.
+종속포털인증을위해사용자이름과비밀번호를설정합니다.
+계정서버
+인증
+브랜드이름
+가운데
+유휴시간제한
+이미지크기
+랜딩페이지
+서비스약관추가
+권장해상도
+권장형식
+귀하의웹사이트로경로재지정
+새웹요소추가
+웹레이아웃영역위에Image(이미지), Text(텍스트), Authentication(인증), Terms of Service(서비스약관)등웹요소를추가할수있는4개의버튼이있습니다.
+Authentication(인증)과Terms of Service(서비스약관)은시작웹페이지당한번만추가할수있습니다.인증요소를삭제하면게스트가인터넷에액세스할때계정인증을수행하지않아도됩니다.
+요소편집영역
+편집영역에서는웹요소의콘텐트를편집할수있습니다.
+레이아웃영역에서웹요소를클릭하면선택한요소를편집할수있습니다.
+작품미리보기
+편집내용이제대로표시되는지확인하려면Preview(미리보기)버튼을눌러작업내용을미리볼수있습니다.
+디자인이완료되면Next(다음)버튼을클릭하여인증설정을계속진행합니다.
+디자인초기화
+Reset(초기화)버튼으로편집된웹디자인을기본값으로초기화하거나,만들어진프로필을편집할경우마지막저장한버전으로돌아갈수있습니다.
+템플릿사용
+사전구성된템플릿을사용하거나Custom(사용자지정)을선택하여처음부터새템플릿을만들수있습니다.
+웹 레이아웃 영역
+템플릿을선택한후웹레이아웃영역에서웹요소를이동하거나크기를조절할수있습니다.
+연결시간제한
+스플래시페이지
+줌
+서비스약관
+무료Wi-Fi는Wi-Fi리피터나미디어브리지와같은무선신호확장서비스를사용할수없습니다.
+무료Wi-Fi에서는사용자가게스트무선네트워크를쉽게만들고자신의브랜드를널리알릴수있습니다.게스트가무료Wi-Fit네트워크에성공적으로연결되면게스트에게팝업웹페이지가표시됩니다.
+경고:이미지크기가최대크기제한(10MB)을초과합니다.다른이미지를선택하십시오.
+경고:압축된이미지크기가최대크기제한(2MB)을초과합니다.다른이미지를선택하십시오.\n참고:가끔압축된 PNG 이미지가원래의크기보다훨씬크고크기제한을초과할때가있습니다.이럴경우다른이미지형식을선택하십시오.
+Extend(확장)
+이미지파일끌어서놓기또는파일선택
+비밀번호
+옵션:고유한비밀번호를추가합니다.
+시작웹페이지의이미지파일은비워둘수없습니다.
+환영합니다
+본인은 <span id='terms_service_hyperlink'>서비스 약관</span>을 읽었으며 이에 동의합니다.
+계속
+다중 VPN 연결
+여러 VPN 서버에동시에연결한후클라이언트장치를할당하여다른 VPN 터널에연결할수있습니다.셋톱박스,스마트 TV,블루레이플레이어와같은일부장치는 VPN 소프트웨어를지원하지않습니다.스마트폰이 VPN 이아니라인터넷에연결되어있는동안이기능으로 VPN 소프트웨어를설치하지않고도가정네트워크내에서이러한장치에 VPN 액세스를할수있습니다.
+게이머의경우 VPN 연결이 DDoS 공격에대응하여PC게임이나스트림이게임서버와연결이끊어지는것을방지해줍니다.또한 VPN 연결을구축하면간단히 IP 주소를게임서버가위치한지역으로변경하여게임서버에대한 ping 을개선할수있습니다.
+시작하려면아래단계를따르십시오.
+Server List(서버목록)옆의"+"버튼을클릭하여새VPN터널을추가합니다.
+Server List(서버목록)에서만든 VPN 연결을활성화합니다.
+Exception List(예외목록)옆의"+"버튼을클릭하고구성하려는온라인클라이언트를선택합니다.
+VPN 연결을클라이언트장치에할당하고 OK(확인)를클릭합니다.
+Exception List(예외목록)에서 VPN 정책을활성화하고페이지하단의 Apply(적용)를클릭합니다.
+Server List(서버목록)
+VPN 연결프로필을만들수있습니다.동시에활성화할수있는 VPN 연결의최대수는4개입니다.
+연결이름
+Activate(활성화)
+Editor(편집기)
+Exception List(예외목록)
+다른클라이언트장치가다른VPN터널에연결할수있도록VPN정책을예외목록에추가할수있습니다.
+예외목록에없는클라이언트장치는기본VPN터널에연결됩니다. VPN프로필이만들어지면기본VPN터널을설정할수있습니다.기본VPN터널의연결이끊어지거나비활성화되면예외목록에없는클라이언트장치는VPN이아니라인터넷에연결됩니다.
+프로필을편집하기전에이를비활성화하십시오.
+프로필을삭제하기전에이를비활성화하십시오.
+프로필이삭제되면VPN프로필에설정된모든정책예외가제거됩니다.프로필을삭제하시겠습니까?
+이프로필을삭제하시겠습니까?
+또한예외목록에서클라이언트의정책을삭제하면클라이언트의DHCP서버IP바인딩이삭제됩니다.이정책을삭제하시겠습니까?
+<a id="faq1" href="" target="_blank" style="font-weight:bolder;text-decoration:underline;">Multiple VPN Connection FAQ.</a>
+대상정책의기본WAN으로설정할수있습니다.
+Beta test only
+You can also select [Cancel], the device will automatically start downloading the update during the night time.
+케이블 모뎀 또는 고정 IP 주소가 있는 모뎀을 사용하는 경우, 다음을 수행하십시오.
+Once the new SSID is connected, go back to router.asus.com for more advanced settings.
+Disable Web Access from WAN will not allow you to control your router via $Apps$ from Internet. Do you want to continue?
+ASUS ROUTER APP
+Alexa enabled device or IFTTT
+개인정보 보호
+ASUS 고지(개인정보 보호 관련)
+IP를 배포하는 중...
+LED 밝기
+Wi-Fi 네트워크 목록
+근처의 Wi-Fi 네트워크를 검색하는 중...
+부스트 키
+다음 기능 중 하나를 부스트 키에 바인딩하십시오. 바인딩 기능이 활성화되면 부스트 키의 LED 가 켜집니다.
+Enable Game Boost
+Aura RGB
+Aura 동기 제어는 다른 ROG 장치로부터 get Aura 제어를 확보하는 데 사용되며, 비활성화된 경우 사용자 지정 Aura RGB 가 됩니다.
+Aura 셔플
+Aura 셔플에서 부스트 키를 눌러 Aura 조명 효과를 변경할 수 있습니다.
+브리딩
+혜성
+색 순환
+플래시
+반짝이는 요요
+무지개
+별이 빛나는 밤
+고정
+섬광
+웨이브
+게임 부스트
+Game Boost 에서 네트워크 트래픽을 분석하고 게임 패킷의 우선 순위를 지정하여 보다 나은 게임 경험을 제공할 수 있습니다.
+DFS 채널
+DFS 를 포함한 자동 채널 선택 기능을 사용하면 라우터가 5 GHz 채널을 추가함으로써 간섭을 줄이면서 더 큰 대역폭을 사용할 수 있습니다.
+GeForce Now
+GeForce Now 를 선택한 후 GeForce Now 게이밍 장치의 우선순위를 정하여 더 빠르고 재미있는 게임을 경험하십시오.
+LED On/Off
+The LED on/off control is used to turn off all LEDs includes Aura light.
+이벤트
+시스템이 다음 이벤트를 감지하여 다른 LED 효과를 트리거합니다.
+Game Boost(게임 부스트)를 활성화하면 빨간색 브리딩 효과를 사용하는 LED 바가 표시됩니다.
+트래픽 미터
+무지개 LED가 실시간 트래픽을 표시하는데, 현재의 인터넷 속도에 따라 색 조합이 변합니다.
+로그인 실패
+로그인에 실패하면 빨간색 브리딩 효과를 사용하는 LED 바가 표시됩니다.
+공격 차단
+시스템이 잠재적인 공격을 성공적으로 차단하면 빨간색 혜성 효과를 사용하는 LED 바가 표시됩니다.
+참고: 이벤트를 선택하면 시스템이 현재 감지된 이벤트에 따라 서로 다른 LED 효과를 표시합니다. 이 기능을 사용하는 동안에는 장치의 LED를 제어할 수 없습니다.
+网易 UU 加速器
+UU 路由器插件为三大主机（PS4、Switch、Xbox One）、PC 外服端游提供加速。可实现多设备同时加速，畅享全球联机超快感！
+하루종일
+시작 시간
+끝 시간
+모두 삭제
+모든 규칙을 삭제하시겠습니까?
+최대 규칙 수는 #MAXNUM개입니다.
+새 규칙을 추가하기 위해 사용되지 않는 규칙을 삭제할 수 있습니다.
+오프라인 일정
+5 GHz 대역폭에서 최대 2167 Mbps, 2.4 GHz 대역폭에서 최대 1000 Mbps의 속도로 4K 영상을 재생 할 수 있으며, PC, XBOX, Play station 을 부드럽게 이용 할 수 있습니다
+4 개의 강력한 안테나로 5400 sq feet(500 m²,140 평) 의 신호범위를 가집니다
+Aiprotection 은 Trend Micro 의  네트워크 보안 기능이 있습니다
+월등한 다운로드 및 게이밍 성능 또는 다중 사용자 연결 지원을 위한 높은 수준의 전류 사용
+VPN 서버를 사용하기 위해 다음과 같이 진행하십시오. <br>(1) PPTP VPN 서버를 활성화 하십시오. <br>(2) 클라이언트에 IP Pool를 설정하십시오.(최대 30개까지 클라이언트를 설정할 수 있습니다) <br>(3) VPN 클라이언트를 위해 사용자 이름과 암호를 설정하십시오.<br>(4) 컴퓨터 또는 모바일 기기에서 VPN 연결을 위한 어플리케이션을 실행하십시오.<br>(5)해당 어플리케이션에서 새로운 PPTP VPN 연결을 추가하십시오. VPN 서버 주소는 다음과 같습니다.
+VPN 서버는 오직 최대 30 개 클라이언트만 허용합니다!
+최대 30 클라이언트
